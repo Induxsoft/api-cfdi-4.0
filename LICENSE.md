@@ -20,6 +20,9 @@ El ensamblado BouncyCastle.Crypto.dll se distribuye bajo los términos de su pro
 ## Devkron
 Los ensamblados de Devkron Language (.Net framework 4.5) se distribuyen bajo los términos de su propia licencia (APACHE 2.0): https://devkron.org
 
+## FastJSON
+El Ensamblado fastJSON.dll se distribuye bajo licencia MIT: https://github.com/mgholam/fastJSON
+
 -------------
 
 ### ¿Dudas?
