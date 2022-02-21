@@ -1,5 +1,5 @@
 # API CFDI 4.0
-La API está formada por un subconjunto de servicios Web de la plataforma de Induxsoft y ensamblados .Net Framework 4.5 (redistribuibles).
+La API está formada por un subconjunto de servicios Web de la plataforma de Induxsoft que pueden ser consumidos por cualquier lenguaje de programación y ensamblados .Net Framework 4.5 (redistribuibles) útiles para desarrolladores de C# o VB.Net
 
 ## Servicios Web
 * [Convenio de solicitud/respuesta HTTP](https://github.com/Induxsoft/ws-api-doc#consideraciones-generales)
@@ -11,5 +11,5 @@ La API está formada por un subconjunto de servicios Web de la plataforma de Ind
 * [Obtener el acuse de cancelación](https://github.com/Induxsoft/ws-api-doc/blob/main/factudesk/acuse-cancelacion.md)
 
 ## Ensamblados .Net Framework 4.5
-* [Componentes redistribuibles] ()
-* [Ejemplos]()
+* [Componentes redistribuibles](.Net%20Framework%204.5/bin)
+
