@@ -17,8 +17,8 @@ namespace ejemplo.cfdi40.ingreso
 
            /*Establecer su clave de licencia*/
 
-           //Comprobante.NIC = "Su NIC (Número de Identificación de Cliente)";
-          // Comprobante.Licencia = "Su clave de licencia";
+           Comprobante.NIC = "Su NIC (Número de Identificación de Cliente)";
+           Comprobante.Licencia = "Su clave de licencia";
 
 
             // Establecer ubicación de los XSLT del SAT
