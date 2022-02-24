@@ -23,7 +23,6 @@ namespace ejemplo.cfdi40.ingreso
             */
 
             // Establecer ubicación de los XSLT del SAT
-            //Ruta establecida por defecto 
             Comprobante.XSLT_CadenaOriginal = @"..\..\..\..\..\..\Recursos\xslt\cadenaoriginal.xslt";
 
             try
@@ -109,29 +108,33 @@ namespace ejemplo.cfdi40.ingreso
 
 
                 //Establecer certificado del emisor
-                //Ruta establecida por defecto
                 cfdi.UbicacionCertificado = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\cacx7605101p8.cer";
                 cfdi.UbicacionClavePrivada = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\Claveprivada_FIEL_CACX7605101P8_20190528_152826.key";
                 cfdi.ContrasenaClavePrivada = "12345678a";
 
                 //Establecer Cuenta de Timbrado Induxsoft (CTI) y contraseña
-                cfdi.CuentaTimbradoInduxsoft = "xipova";
+                cfdi.CuentaTimbradoInduxsoft = "xipova";  // Cuenta de pruebas, no obtiene un TFD válido
                 cfdi.ContrasenaCuentaTimbradoInduxsoft = "123456";
                 /*
                     Para únicamente sellar, invoque al método Sellar, requerirá haber indicado una clave de licencia.
                     cfdi.Sellar();
                 */
 
+                // El método Timbrar() realiza el sellado y obtención del TFD del SAT; 
                 //  El método timbrar puede invocarse sin establecer una clave de licencia
                 var res = cfdi.Timbrar();
 
 
-                string xml = Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString()));
-                System.IO.File.WriteAllText( res["uuid"].ToString() + ".xml", xml);
+                string archivo = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), res["uuid"].ToString() + ".xml");
+
+                System.IO.File.WriteAllText(archivo, Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString())));
+
+                //Intentar abrir el xml con el programa predeterminado
+                System.Diagnostics.Process.Start(archivo);
                 //
 
                 Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
-
+                Console.WriteLine("El CFDI está en: " + archivo);
             }
             catch(Exception ex)
             {
