@@ -38,6 +38,10 @@
     <Reference Include="BouncyCastle.Crypto">
       <HintPath>..\..\..\bin\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="Devkron, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Devkron.exe</HintPath>
+    </Reference>
     <Reference Include="Devkron.Serialize">
       <HintPath>..\..\..\bin\Devkron.Serialize.dll</HintPath>
     </Reference>
