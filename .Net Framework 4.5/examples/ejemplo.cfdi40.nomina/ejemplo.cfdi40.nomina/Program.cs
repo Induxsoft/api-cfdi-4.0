@@ -93,7 +93,7 @@ namespace ejemplo.cfdi40.nomina
                 nomina.Receptor.RiesgoPuesto = "1";
                 nomina.Receptor.SalarioDiarioIntegrado = 0.20m;
 
-                //Datos de persepción del nodo percepciones de la nómina
+                //Datos de percepción del nodo percepciones de la nómina
                 induxsoft.cfdi.v40.Complementos.nomina12.Percepcion percepcion = new induxsoft.cfdi.v40.Complementos.nomina12.Percepcion();
                 percepcion.Clave = "001";
                 percepcion.Concepto = "Sueldo Ordinario";
@@ -101,7 +101,7 @@ namespace ejemplo.cfdi40.nomina
                 percepcion.ImporteGravado = 3.3m;
                 percepcion.TipoPercepcion = "001";
 
-                //Se agrega la persepción como nodo al nodo persepciones de la nómina
+                //Se agrega la percepción como nodo al nodo percepciones de la nómina
                 nomina.Percepciones.Add(percepcion);
 
                 //Datos de percepciones de la nómina
