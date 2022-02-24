@@ -39,14 +39,18 @@
       <HintPath>..\..\..\bin\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="Devkron.Serialize">
-      <HintPath>..\..\..\..\..\..\cfdiv33 Respaldo\complementos\induxsoft.cfdi.v33.complementos.CartaPorte\bin\Debug\Devkron.Serialize.dll</HintPath>
+      <HintPath>..\..\..\bin\Devkron.Serialize.dll</HintPath>
     </Reference>
     <Reference Include="Devkron.WebClient">
       <HintPath>..\..\..\..\..\cfdiv33\complementos\induxsoft.cfdi.v33.complementos20.CartaPorte20\ref\Devkron.WebClient.dll</HintPath>
     </Reference>
+    <Reference Include="fastJSON, Version=2.1.0.0, Culture=neutral, PublicKeyToken=6b75a806b86095cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\fastJSON.dll</HintPath>
+    </Reference>
     <Reference Include="induxsoft.cfdi.v40, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\induxsoft.cfdi.v40.dll</HintPath>
+      <HintPath>..\..\..\bin\induxsoft.cfdi.v40.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

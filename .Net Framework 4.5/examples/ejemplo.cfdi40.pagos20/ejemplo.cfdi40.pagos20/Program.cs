@@ -20,9 +20,14 @@ namespace ejemplo.cfdi40.pagos20
             */
 
             //Establecer la ruta del certificado,clave y contraseña del certificado
+            /*
             string cerfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\cacx7605101p8.cer"; ;
             string keyfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\Claveprivada_FIEL_CACX7605101P8_20190528_152826.key"; ;
             string cerpwd = "12345678a";
+            */
+            string cerfile = @"D:\CSD_IDS1402204R4_20160714142951\Ids2020\00001000000504485894.cer"; 
+            string keyfile = @"D:\CSD_IDS1402204R4_20160714142951\Ids2020\CSD_Matriz_IDS1402204R4_20200714_175453.key"; ;
+            string cerpwd = "Istocolmo123=";
 
             // Establecer ubicación de los XSLT del SAT
             string xslt = @"..\..\..\..\..\..\Recursos\xslt\cadenaoriginal.xslt";
@@ -37,14 +42,14 @@ namespace ejemplo.cfdi40.pagos20
                 cfdi.UbicacionCertificado = cerfile;
                 cfdi.UbicacionClavePrivada = keyfile;
                 cfdi.ContrasenaClavePrivada = cerpwd;
-                cfdi.CuentaTimbradoInduxsoft = "xipova";
+                cfdi.CuentaTimbradoInduxsoft = "201652";
                 cfdi.ContrasenaCuentaTimbradoInduxsoft = "123456";
                 //Llenar datos del CFDI
                 cfdi.Serie = "F";
                 cfdi.Folio = "12948";
                 cfdi.Moneda = "XXX";
                 cfdi.Fecha = DateTime.Now;
-                cfdi.NoCertificado = "30001000000400002335";
+                cfdi.NoCertificado = "00001000000403117961";
                 cfdi.SubTotal=0;
                 cfdi.TipoDeComprobante = "P";
                 cfdi.LugarExpedicion = "29039";
@@ -52,13 +57,13 @@ namespace ejemplo.cfdi40.pagos20
                 cfdi.Total=0;
 
                 //Llenar datos del emisor
-                cfdi.Emisor.Rfc = "CACX7605101P8";
+                cfdi.Emisor.Rfc = "IDS1402204R4";
                 cfdi.Emisor.RegimenFiscal = "601";
-                cfdi.Emisor.Nombre = "XOCHILT CASAS CHAVEZ";
+                cfdi.Emisor.Nombre = "INDUXSOFT DATA SERVICES S DE RL DE CV";
 
                 //Llenar datos del receptor
-                cfdi.Receptor.Rfc = "JES900109Q90";
-                cfdi.Receptor.Nombre = "JIMENEZ ESTRADA SALAS A A";
+                cfdi.Receptor.Rfc = "SIC150828HX3";
+                cfdi.Receptor.Nombre = "SOLUCIONES DE IMAGEN Y CALIDAD EMPRESARIAL DE MEXICO";
                 cfdi.Receptor.UsoCFDI = "G01";
                 cfdi.Receptor.RegimenFiscalReceptor = "601";
                 cfdi.Receptor.DomicilioFiscalReceptor = "29039";
@@ -102,7 +107,7 @@ namespace ejemplo.cfdi40.pagos20
                 doctoRel.NumParcialidad = 1;
                 //comprobante relacionado
                 //colocar el uuid del comprobante a relacionar
-                doctoRel.IdDocumento = "XXXX6908719f5911470caae7ed455ae685ed";
+                doctoRel.IdDocumento = "e5eb5dcb-b759-464f-b9a1-e9599742985e";
                 doctoRel.ObjetoImpDR = "02";
 
                 //estos nodos deben existir solamente si el objetoImpDr es 02 de lo contrario no
