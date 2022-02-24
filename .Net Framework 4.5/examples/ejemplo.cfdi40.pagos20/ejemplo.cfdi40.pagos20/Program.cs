@@ -20,9 +20,12 @@ namespace ejemplo.cfdi40.pagos20
             */
 
             //Establecer la ruta del certificado,clave y contraseña del certificado
+
             string cerfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\cacx7605101p8.cer"; ;
             string keyfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\Claveprivada_FIEL_CACX7605101P8_20190528_152826.key"; ;
             string cerpwd = "12345678a";
+
+
 
             // Establecer ubicación de los XSLT del SAT
             string xslt = @"..\..\..\..\..\..\Recursos\xslt\cadenaoriginal.xslt";
@@ -37,14 +40,15 @@ namespace ejemplo.cfdi40.pagos20
                 cfdi.UbicacionCertificado = cerfile;
                 cfdi.UbicacionClavePrivada = keyfile;
                 cfdi.ContrasenaClavePrivada = cerpwd;
-                cfdi.CuentaTimbradoInduxsoft = "xipova";
+                //Establecer Cuenta de Timbrado Induxsoft (CTI) y contraseña
+                cfdi.CuentaTimbradoInduxsoft = "xipova";// Cuenta de pruebas, no obtiene un TFD válido
                 cfdi.ContrasenaCuentaTimbradoInduxsoft = "123456";
                 //Llenar datos del CFDI
                 cfdi.Serie = "F";
                 cfdi.Folio = "12948";
                 cfdi.Moneda = "XXX";
                 cfdi.Fecha = DateTime.Now;
-                cfdi.NoCertificado = "30001000000400002335";
+                cfdi.NoCertificado = "30001000000400002300";
                 cfdi.SubTotal=0;
                 cfdi.TipoDeComprobante = "P";
                 cfdi.LugarExpedicion = "29039";
@@ -57,8 +61,8 @@ namespace ejemplo.cfdi40.pagos20
                 cfdi.Emisor.Nombre = "XOCHILT CASAS CHAVEZ";
 
                 //Llenar datos del receptor
-                cfdi.Receptor.Rfc = "JES900109Q90";
-                cfdi.Receptor.Nombre = "JIMENEZ ESTRADA SALAS A A";
+                cfdi.Receptor.Rfc = "LAMP931125IX9";
+                cfdi.Receptor.Nombre = "PABLO LARA AGUILAR";
                 cfdi.Receptor.UsoCFDI = "G01";
                 cfdi.Receptor.RegimenFiscalReceptor = "601";
                 cfdi.Receptor.DomicilioFiscalReceptor = "29039";
@@ -102,7 +106,7 @@ namespace ejemplo.cfdi40.pagos20
                 doctoRel.NumParcialidad = 1;
                 //comprobante relacionado
                 //colocar el uuid del comprobante a relacionar
-                doctoRel.IdDocumento = "XXXX6908719f5911470caae7ed455ae685ed";
+                doctoRel.IdDocumento = "XXXX760ba62af4094b5caeea4213a816bca7";
                 doctoRel.ObjetoImpDR = "02";
 
                 //estos nodos deben existir solamente si el objetoImpDr es 02 de lo contrario no
@@ -140,11 +144,13 @@ namespace ejemplo.cfdi40.pagos20
                 */
                 //El método timbrar puede invocarse sin establecer una clave de licencia
                 var res = cfdi.Timbrar();
-                Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
                 //guardar el xml
-                string ruta = @"..\..\..\..\..\..\.Net Framework 4.5\examples\ejemplo.cfdi40.pagos20\" + res["uuid"].ToString() + ".xml";
-                System.IO.File.WriteAllText(ruta, Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString())));
+                string archivo = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), res["uuid"].ToString() + ".xml");
 
+                System.IO.File.WriteAllText(archivo, Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString())));
+                System.Diagnostics.Process.Start(archivo);
+                Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
+                Console.WriteLine("El CFDI está en: " + archivo);
             }
             catch (Exception ex)
             {

@@ -13,6 +13,7 @@ namespace ejemplo.cfdi40.nomina
     {
         static void Main(string[] args)
         {
+            
             /*Establecer su clave de licencia
 
             Comprobante.NIC = "Su NIC (Número de Identificación de Cliente)";
@@ -64,7 +65,7 @@ namespace ejemplo.cfdi40.nomina
                 c.ValorUnitario = 3.3m;
                 c.Importe = 3.3m;
                 c.Descuento = 0.6m;
-
+                
                 //Se agrega el concepto como nodo al nodo conceptos
                 cfdi.Conceptos.Add(c);
 
@@ -92,7 +93,7 @@ namespace ejemplo.cfdi40.nomina
                 nomina.Receptor.RiesgoPuesto = "1";
                 nomina.Receptor.SalarioDiarioIntegrado = 0.20m;
 
-                //Datos de persepción del nodo percepciones de la nómina
+                //Datos de percepción del nodo percepciones de la nómina
                 induxsoft.cfdi.v40.Complementos.nomina12.Percepcion percepcion = new induxsoft.cfdi.v40.Complementos.nomina12.Percepcion();
                 percepcion.Clave = "001";
                 percepcion.Concepto = "Sueldo Ordinario";
@@ -100,7 +101,7 @@ namespace ejemplo.cfdi40.nomina
                 percepcion.ImporteGravado = 3.3m;
                 percepcion.TipoPercepcion = "001";
 
-                //Se agrega la persepción como nodo al nodo persepciones de la nómina
+                //Se agrega la percepción como nodo al nodo percepciones de la nómina
                 nomina.Percepciones.Add(percepcion);
 
                 //Datos de percepciones de la nómina
@@ -146,7 +147,7 @@ namespace ejemplo.cfdi40.nomina
                 cfdi.ContrasenaClavePrivada = "12345678a";
 
                 //Establecer Cuenta de Timbrado Induxsoft (CTI) y contraseña
-                cfdi.CuentaTimbradoInduxsoft = "xipova";
+                cfdi.CuentaTimbradoInduxsoft = "xipova";    // Cuenta de pruebas, no obtiene un TFD válido
                 cfdi.ContrasenaCuentaTimbradoInduxsoft = "123456";
 
                 /*
@@ -154,12 +155,21 @@ namespace ejemplo.cfdi40.nomina
                 cfdi.Sellar();
                 */
 
-                //El método timbrar puede invocarse sin establecer una clave de licencia
+                // El método Timbrar() realiza el sellado y obtención del TFD del SAT; 
+                // puede invocarse sin establecer una clave de licencia
 
                 var res = cfdi.Timbrar();
-                Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
 
-                System.IO.File.WriteAllText($"../../../{res["uuid"]}.xml", Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString())));
+
+                string archivo = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), res["uuid"].ToString()+".xml");
+
+                System.IO.File.WriteAllText(archivo, Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString())));
+
+                //Intentar abrir el xml con el programa predeterminado
+                System.Diagnostics.Process.Start(archivo);
+
+                Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
+                Console.WriteLine("El CFDI está en: " + archivo);
             }
             catch (Exception ex)
             {
