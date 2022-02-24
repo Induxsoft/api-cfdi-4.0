@@ -15,11 +15,12 @@ namespace ejemplo.cfdi40.ingreso
         {
 
 
-           /*Establecer su clave de licencia*/
+           /*Establecer su clave de licencia
 
            Comprobante.NIC = "Su NIC (Número de Identificación de Cliente)";
            Comprobante.Licencia = "Su clave de licencia";
-
+            
+            */
 
             // Establecer ubicación de los XSLT del SAT
             //Ruta establecida por defecto 
@@ -49,46 +50,63 @@ namespace ejemplo.cfdi40.ingreso
                 cfdi.Folio = "118";
                 cfdi.Fecha = DateTime.Now;
                 cfdi.FormaPago = "01";
-                cfdi.NoCertificado = "00001000000504485894";
+                cfdi.NoCertificado = "30001000000400002300";
                 cfdi.CondicionesDePago = "Inmediato";
-                cfdi.SetAttribute("SubTotal", "1.16");
+                cfdi.MetodoPago = "PUE";
                 cfdi.Moneda = "MXN";
                 cfdi.TipoDeComprobante = "I";
-                cfdi.MetodoPago = "PUE";
+                cfdi.Total = 1.16M;
+                cfdi.Descuento = 0;
+                cfdi.SubTotal = 1;
                 cfdi.Exportacion = "01";
-                cfdi.SetAttribute("Total", "1.16");
-                cfdi.SetAttribute("LugarExpedicion", "29039");
+                cfdi.LugarExpedicion =  "29039";
 
                 //Se crea un concepto
                 Concepto c = cfdi.CreateElement<Concepto>();
 
                 //Datos del concepto
-                c.SetAttribute("Descuento", "0.00");
-                c.SetAttribute("ObjetoImp", "02");
-                c.SetAttribute("Importe", "1.00");
-                c.SetAttribute("ValorUnitario", "1.00");
-                c.SetAttribute("Descripcion ", "OBJETO DE PRUEBAS");
-                c.SetAttribute("Unidad ", "pza");
-                c.SetAttribute("Cantidad", "1");
-                c.SetAttribute("NoIdentificacion", "E5C86D3FA5");
-                c.SetAttribute("ClaveUnidad", "H87");
-                c.SetAttribute("ClaveProdServ", "01010101");
+                c.Descuento = 0;
+                c.ObjetoImp="02";
+                c.Importe= 1;
+                c.ValorUnitario= 1;
+                c.Descripcion= "Concepto de desarrollo";
+                c.Unidad= "pza";
+                c.Cantidad= 1;
+                c.NoIdentificacion= "E5C86D3FA5";
+                c.ClaveUnidad="H87";
+                c.ClaveProdServ="01010101";
 
-                // Se agrega el concepto como nodo al nodo conceptos
+                //Se crea el impuesto del concepto
+                TrasladoConcepto tc = cfdi.CreateElement<TrasladoConcepto>();
+                tc.Importe = 0.16M;
+                tc.Base = 1;
+                tc.TasaOCuota = 0.160000M;
+                tc.TipoFactor = "Tasa";
+                tc.Impuesto = "002";
+
+                // se agrega el impuesto al concepto
+                c.ImpuestosConcepto.TransladosConcepto.Add(tc);
+
+                //Se agrega el concepto al nodo Conceptos
                 cfdi.Conceptos.Add(c);
-                
+
+
+
                 //Se crean los impuestos
                 Traslado t = cfdi.CreateElement<Traslado>();
                 //Nodo de impuesto
-                t.SetAttribute("importe  ", "0.16");
-                t.SetAttribute("Base ", "1.00");
-                t.SetAttribute("TasaOCuota ", "0.160000");
-                t.SetAttribute("TipoFactor ", "Tasa");
-                t.SetAttribute("Impuesto ", "002");
-                
-                Impuestos i = cfdi.CreateElement<Impuestos>();
-                i.SetAttribute("TotalImpuestosTrasladados","0.16");
-                i.SetAttribute("TotalImpuestosRetenidos", "0.00");
+                t.Importe = 0.16M;
+                t.Base = 1;
+                t.TasaOCuota = 0.160000M;
+                t.TipoFactor = "Tasa";
+                t.Impuesto = "002";
+
+                //Se agregan el impuesto trasladado al los impestos
+                cfdi.Impuestos.Traslados.Add(t);
+
+                //Datos de totales de impuesto
+                cfdi.Impuestos.TotalImpuestosTrasladados = 0.16M;
+
 
                 //Establecer certificado del emisor
                 //Ruta establecida por defecto
@@ -99,10 +117,18 @@ namespace ejemplo.cfdi40.ingreso
                 //Establecer Cuenta de Timbrado Induxsoft (CTI) y contraseña
                 cfdi.CuentaTimbradoInduxsoft = "xipova";
                 cfdi.ContrasenaCuentaTimbradoInduxsoft = "123456";
-                
+                /*
+                    Para únicamente sellar, invoque al método Sellar, requerirá haber indicado una clave de licencia.
+                    cfdi.Sellar();
+                */
+
+                //  El método timbrar puede invocarse sin establecer una clave de licencia
                 var res = cfdi.Timbrar();
-                string xm64 = res["xml"].ToString();
-                System.IO.File.WriteAllText("C:/temp/CFDi40.xml", xm64);
+
+
+                string xml = Encoding.UTF8.GetString(Convert.FromBase64String(res["xml"].ToString()));
+                System.IO.File.WriteAllText( res["uuid"].ToString() + ".xml", xml);
+                //
 
                 Console.WriteLine("El UUID del comprobante timbrado es: " + res["uuid"].ToString());
 
