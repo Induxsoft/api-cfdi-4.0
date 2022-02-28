@@ -33,7 +33,7 @@ namespace ejemplo.cfdi40.nomina
                 cfdi.Serie = "F";
                 cfdi.Folio = "12948";
                 cfdi.Fecha = DateTime.Now;
-                cfdi.NoCertificado = "30001000000400002300";
+                cfdi.NoCertificado = "30001000000400002335";
                 cfdi.Moneda = "MXN";
                 cfdi.SubTotal = 3.3m;
                 cfdi.Descuento = 0.6m;
