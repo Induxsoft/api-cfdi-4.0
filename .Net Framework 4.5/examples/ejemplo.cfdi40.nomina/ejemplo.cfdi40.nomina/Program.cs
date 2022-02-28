@@ -142,8 +142,8 @@ namespace ejemplo.cfdi40.nomina
                 cfdi.Complemento.Add(nomina);
 
                 //Establecer certificado del emisor
-                cfdi.UbicacionCertificado = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\cacx7605101p8.cer";
-                cfdi.UbicacionClavePrivada = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\Claveprivada_FIEL_CACX7605101P8_20190528_152826.key";
+                cfdi.UbicacionCertificado = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\1\30001000000400002335.cer";
+                cfdi.UbicacionClavePrivada = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\1\CSD_XOCHILT_CASAS_CHAVEZ_CACX7605101P8_20190528_173544.key";
                 cfdi.ContrasenaClavePrivada = "12345678a";
 
                 //Establecer Cuenta de Timbrado Induxsoft (CTI) y contraseña
