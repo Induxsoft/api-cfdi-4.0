@@ -21,8 +21,8 @@ namespace ejemplo.cfdi40.pagos20
 
             //Establecer la ruta del certificado,clave y contraseña del certificado
 
-            string cerfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\cacx7605101p8.cer"; ;
-            string keyfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\Claveprivada_FIEL_CACX7605101P8_20190528_152826.key"; ;
+            string cerfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\1\30001000000400002335.cer"; 
+            string keyfile = @"..\..\..\..\..\..\Recursos\CSD-Pruebas\RFC-PAC-SC\Personas Fisicas\FIEL_CACX7605101P8_20190528152826\1\CSD_XOCHILT_CASAS_CHAVEZ_CACX7605101P8_20190528_173544.key"; 
             string cerpwd = "12345678a";
 
 
@@ -48,7 +48,7 @@ namespace ejemplo.cfdi40.pagos20
                 cfdi.Folio = "12948";
                 cfdi.Moneda = "XXX";
                 cfdi.Fecha = DateTime.Now;
-                cfdi.NoCertificado = "30001000000400002300";
+                cfdi.NoCertificado = "30001000000400002335";
                 cfdi.SubTotal=0;
                 cfdi.TipoDeComprobante = "P";
                 cfdi.LugarExpedicion = "29039";
