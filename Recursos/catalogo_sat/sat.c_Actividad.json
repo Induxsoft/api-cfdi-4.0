@@ -1,0 +1,22 @@
+[
+  {
+    "clave": "01",
+    "valor": "Exploración"
+  },
+  {
+    "clave": "02",
+    "valor": "Evaluación"
+  },
+  {
+    "clave": "03",
+    "valor": "Desarrollo"
+  },
+  {
+    "clave": "04",
+    "valor": "Producción"
+  },
+  {
+    "clave": "05",
+    "valor": "Abandono"
+  }
+]

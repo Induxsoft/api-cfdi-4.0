@@ -1,0 +1,110 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Enero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Febrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Marzo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Abril",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Mayo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Junio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "Julio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "Agosto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "Septiembre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "valor": "Octubre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "valor": "Noviembre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "valor": "Diciembre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "valor": "Enero-Febrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "valor": "Marzo-Abril",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "valor": "Mayo-Junio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "valor": "Julio-Agosto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "valor": "Septiembre-Octubre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "valor": "Noviembre-Diciembre",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  }
+]

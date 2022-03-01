@@ -1,0 +1,1484 @@
+﻿[
+  {
+    "clave": "AF",
+    "valor": "AFGANISTAN (EMIRATO ISLAMICO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AL",
+    "valor": "ALBANIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DE",
+    "valor": "ALEMANIA (REPUBLICA FEDERAL DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AD",
+    "valor": "ANDORRA (PRINCIPADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AO",
+    "valor": "ANGOLA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AI",
+    "valor": "ANGUILA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AQ",
+    "valor": "ANTARTIDA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AG",
+    "valor": "ANTIGUA Y BARBUDA (COMUNIDAD BRITANICA DE NACIONES)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AN",
+    "valor": "ANTILLAS NEERLANDESAS (TERRITORIO HOLANDES DE ULTRAMAR)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SA",
+    "valor": "ARABIA SAUDITA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DZ",
+    "valor": "ARGELIA (REPUBLICA DEMOCRATICA Y POPULAR DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AR",
+    "valor": "ARGENTINA (REPUBLICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AM",
+    "valor": "ARMENIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AW",
+    "valor": "ARUBA (TERRITORIO HOLANDES DE ULTRAMAR)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AU",
+    "valor": "AUSTRALIA (COMUNIDAD DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AT",
+    "valor": "AUSTRIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AZ",
+    "valor": "AZERBAIJAN (REPUBLICA AZERBAIJANI)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BS",
+    "valor": "BAHAMAS (COMUNIDAD DE LAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BH",
+    "valor": "BAHREIN (ESTADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BD",
+    "valor": "BANGLADESH (REPUBLICA POPULAR DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BB",
+    "valor": "BARBADOS (COMUNIDAD BRITANICA DE NACIONES)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BE",
+    "valor": "BELGICA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BZ",
+    "valor": "BELICE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BJ",
+    "valor": "BENIN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BM",
+    "valor": "BERMUDAS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BY",
+    "valor": "BIELORRUSIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BO",
+    "valor": "BOLIVIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BA",
+    "valor": "BOSNIA Y HERZEGOVINA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BW",
+    "valor": "BOTSWANA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BR",
+    "valor": "BRASIL (REPUBLICA FEDERATIVA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BN",
+    "valor": "BRUNEI (ESTADO DE) (RESIDENCIA DE PAZ)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BG",
+    "valor": "BULGARIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BF",
+    "valor": "BURKINA FASO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BI",
+    "valor": "BURUNDI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BT",
+    "valor": "BUTAN (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CV",
+    "valor": "CABO VERDE (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TD",
+    "valor": "CHAD (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KY",
+    "valor": "CAIMAN (ISLAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KH",
+    "valor": "CAMBOYA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CM",
+    "valor": "CAMERUN (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CA",
+    "valor": "CANADA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CL",
+    "valor": "CHILE (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CN",
+    "valor": "CHINA (REPUBLICA POPULAR)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CY",
+    "valor": "CHIPRE (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VA",
+    "valor": "CIUDAD DEL VATICANO (ESTADO DE LA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CC",
+    "valor": "COCOS (KEELING, ISLAS AUSTRALIANAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CO",
+    "valor": "COLOMBIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KM",
+    "valor": "COMORAS (ISLAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CG",
+    "valor": "CONGO (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CK",
+    "valor": "COOK (ISLAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KP",
+    "valor": "COREA (REPUBLICA POPULAR DEMOCRATICA DE) (COREA DEL NORTE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KR",
+    "valor": "COREA (REPUBLICA DE) (COREA DEL SUR)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CI",
+    "valor": "COSTA DE MARFIL (REPUBLICA DE LA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CR",
+    "valor": "COSTA RICA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HR",
+    "valor": "CROACIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CU",
+    "valor": "CUBA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DK",
+    "valor": "DINAMARCA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DJ",
+    "valor": "DJIBOUTI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DM",
+    "valor": "DOMINICA (COMUNIDAD DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "EC",
+    "valor": "ECUADOR (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "EG",
+    "valor": "EGIPTO (REPUBLICA ARABE DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SV",
+    "valor": "EL SALVADOR (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AE",
+    "valor": "EMIRATOS ARABES UNIDOS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ER",
+    "valor": "ERITREA (ESTADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SI",
+    "valor": "ESLOVENIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ES",
+    "valor": "ESPAÑA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FM",
+    "valor": "ESTADO FEDERADO DE MICRONESIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "US",
+    "valor": "ESTADOS UNIDOS DE AMERICA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "EE",
+    "valor": "ESTONIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ET",
+    "valor": "ETIOPIA (REPUBLICA DEMOCRATICA FEDERAL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FJ",
+    "valor": "FIDJI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PH",
+    "valor": "FILIPINAS (REPUBLICA DE LAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FI",
+    "valor": "FINLANDIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FR",
+    "valor": "FRANCIA (REPUBLICA FRANCESA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GA",
+    "valor": "GABONESA (REPUBLICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GM",
+    "valor": "GAMBIA (REPUBLICA DE LA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GE",
+    "valor": "GEORGIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GH",
+    "valor": "GHANA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GI",
+    "valor": "GIBRALTAR (R.U.)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GD",
+    "valor": "GRANADA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GR",
+    "valor": "GRECIA (REPUBLICA HELENICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GL",
+    "valor": "GROENLANDIA (DINAMARCA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GP",
+    "valor": "GUADALUPE (DEPARTAMENTO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GU",
+    "valor": "GUAM (E.U.A.)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GT",
+    "valor": "GUATEMALA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GG",
+    "valor": "GUERNSEY",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GW",
+    "valor": "GUINEA-BISSAU (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GQ",
+    "valor": "GUINEA ECUATORIAL (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GN",
+    "valor": "GUINEA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GF",
+    "valor": "GUYANA FRANCESA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GY",
+    "valor": "GUYANA (REPUBLICA COOPERATIVA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HT",
+    "valor": "HAITI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HN",
+    "valor": "HONDURAS (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HK",
+    "valor": "HONG KONG (REGION ADMINISTRATIVA ESPECIAL DE LA REPUBLICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HU",
+    "valor": "HUNGRIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IN",
+    "valor": "INDIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ID",
+    "valor": "INDONESIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IQ",
+    "valor": "IRAK (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IR",
+    "valor": "IRAN (REPUBLICA ISLAMICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IE",
+    "valor": "IRLANDA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IS",
+    "valor": "ISLANDIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BV",
+    "valor": "ISLA BOUVET",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IM",
+    "valor": "ISLA DE MAN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AX",
+    "valor": "ISLAS ALAND",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FO",
+    "valor": "ISLAS FEROE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GS",
+    "valor": "ISLAS GEORGIA Y SANDWICH DEL SUR",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "HM",
+    "valor": "ISLAS HEARD Y MCDONALD",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FK",
+    "valor": "ISLAS MALVINAS (R.U.)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MP",
+    "valor": "ISLAS MARIANAS SEPTENTRIONALES",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MH",
+    "valor": "ISLAS MARSHALL",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "UM",
+    "valor": "ISLAS MENORES DE ULTRAMAR DE ESTADOS UNIDOS DE AMERICA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SB",
+    "valor": "ISLAS SALOMON (COMUNIDAD BRITANICA DE NACIONES)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SJ",
+    "valor": "ISLAS SVALBARD Y JAN MAYEN (NORUEGA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TK",
+    "valor": "ISLAS TOKELAU",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "WF",
+    "valor": "ISLAS WALLIS Y FUTUNA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IL",
+    "valor": "ISRAEL (ESTADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IT",
+    "valor": "ITALIA (REPUBLICA ITALIANA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "JM",
+    "valor": "JAMAICA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "JP",
+    "valor": "JAPON",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "JE",
+    "valor": "JERSEY",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "JO",
+    "valor": "JORDANIA (REINO HACHEMITA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KZ",
+    "valor": "KAZAKHSTAN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KE",
+    "valor": "KENYA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KI",
+    "valor": "KIRIBATI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KW",
+    "valor": "KUWAIT (ESTADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KG",
+    "valor": "KYRGYZSTAN (REPUBLICA KIRGYZIA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LS",
+    "valor": "LESOTHO (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LV",
+    "valor": "LETONIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LB",
+    "valor": "LIBANO (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LR",
+    "valor": "LIBERIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LY",
+    "valor": "LIBIA (JAMAHIRIYA LIBIA ARABE POPULAR SOCIALISTA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LI",
+    "valor": "LIECHTENSTEIN (PRINCIPADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LT",
+    "valor": "LITUANIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LU",
+    "valor": "LUXEMBURGO (GRAN DUCADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MO",
+    "valor": "MACAO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MK",
+    "valor": "MACEDONIA (ANTIGUA REPUBLICA YUGOSLAVA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MG",
+    "valor": "MADAGASCAR (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MY",
+    "valor": "MALASIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MW",
+    "valor": "MALAWI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MV",
+    "valor": "MALDIVAS (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ML",
+    "valor": "MALI (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MT",
+    "valor": "MALTA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MA",
+    "valor": "MARRUECOS (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MQ",
+    "valor": "MARTINICA (DEPARTAMENTO DE) (FRANCIA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MU",
+    "valor": "MAURICIO (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MR",
+    "valor": "MAURITANIA (REPUBLICA ISLAMICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "YT",
+    "valor": "MAYOTTE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MX",
+    "valor": "MEXICO (ESTADOS UNIDOS MEXICANOS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MD",
+    "valor": "MOLDAVIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MC",
+    "valor": "MONACO (PRINCIPADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MN",
+    "valor": "MONGOLIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MS",
+    "valor": "MONSERRAT (ISLA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ME",
+    "valor": "MONTENEGRO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MZ",
+    "valor": "MOZAMBIQUE (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MM",
+    "valor": "MYANMAR (UNION DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NA",
+    "valor": "NAMIBIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NR",
+    "valor": "NAURU",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CX",
+    "valor": "NAVIDAD (CHRISTMAS) (ISLAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NP",
+    "valor": "NEPAL (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NI",
+    "valor": "NICARAGUA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NE",
+    "valor": "NIGER (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NG",
+    "valor": "NIGERIA (REPUBLICA FEDERAL DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NU",
+    "valor": "NIVE (ISLA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NF",
+    "valor": "NORFOLK (ISLA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NO",
+    "valor": "NORUEGA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NC",
+    "valor": "NUEVA CALEDONIA (TERRITORIO FRANCES DE ULTRAMAR)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NZ",
+    "valor": "NUEVA ZELANDIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "OM",
+    "valor": "OMAN (SULTANATO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PIK",
+    "valor": "PACIFICO, ISLAS DEL (ADMON. E.U.A.)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "NL",
+    "valor": "PAISES BAJOS (REINO DE LOS) (HOLANDA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PK",
+    "valor": "PAKISTAN (REPUBLICA ISLAMICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PW",
+    "valor": "PALAU (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PS",
+    "valor": "PALESTINA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PA",
+    "valor": "PANAMA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PG",
+    "valor": "PAPUA NUEVA GUINEA (ESTADO INDEPENDIENTE DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PY",
+    "valor": "PARAGUAY (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PE",
+    "valor": "PERU (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PN",
+    "valor": "PITCAIRNS (ISLAS DEPENDENCIA BRITANICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PF",
+    "valor": "POLINESIA FRANCESA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PL",
+    "valor": "POLONIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PT",
+    "valor": "PORTUGAL (REPUBLICA PORTUGUESA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PR",
+    "valor": "PUERTO RICO (ESTADO LIBRE ASOCIADO DE LA COMUNIDAD DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "QA",
+    "valor": "QATAR (ESTADO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "GB",
+    "valor": "REINO UNIDO DE LA GRAN BRETAÑA E IRLANDA DEL NORTE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CZ",
+    "valor": "REPUBLICA CHECA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CF",
+    "valor": "REPUBLICA CENTROAFRICANA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LA",
+    "valor": "REPUBLICA DEMOCRATICA POPULAR LAOS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "RS",
+    "valor": "REPUBLICA DE SERBIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DO",
+    "valor": "REPUBLICA DOMINICANA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SK",
+    "valor": "REPUBLICA ESLOVACA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CD",
+    "valor": "REPUBLICA POPULAR DEL CONGO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "RW",
+    "valor": "REPUBLICA RUANDESA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "RE",
+    "valor": "REUNION (DEPARTAMENTO DE LA) (FRANCIA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "RO",
+    "valor": "RUMANIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "RU",
+    "valor": "RUSIA (FEDERACION RUSA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "EH",
+    "valor": "SAHARA OCCIDENTAL (REPUBLICA ARABE SAHARAVI DEMOCRATICA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "WS",
+    "valor": "SAMOA (ESTADO INDEPENDIENTE DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "AS",
+    "valor": "SAMOA AMERICANA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "BL",
+    "valor": "SAN BARTOLOME",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "KN",
+    "valor": "SAN CRISTOBAL Y NIEVES (FEDERACION DE) (SAN KITTS-NEVIS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SM",
+    "valor": "SAN MARINO (SERENISIMA REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "MF",
+    "valor": "SAN MARTIN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "PM",
+    "valor": "SAN PEDRO Y MIQUELON",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VC",
+    "valor": "SAN VICENTE Y LAS GRANADINAS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SH",
+    "valor": "SANTA ELENA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LC",
+    "valor": "SANTA LUCIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ST",
+    "valor": "SANTO TOME Y PRINCIPE (REPUBLICA DEMOCRATICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SN",
+    "valor": "SENEGAL (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SC",
+    "valor": "SEYCHELLES (REPUBLICA DE LAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SL",
+    "valor": "SIERRA LEONA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SG",
+    "valor": "SINGAPUR (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SY",
+    "valor": "SIRIA (REPUBLICA ARABE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SO",
+    "valor": "SOMALIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "LK",
+    "valor": "SRI LANKA (REPUBLICA DEMOCRATICA SOCIALISTA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ZA",
+    "valor": "SUDAFRICA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SD",
+    "valor": "SUDAN (REPUBLICA DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SE",
+    "valor": "SUECIA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CH",
+    "valor": "SUIZA (CONFEDERACION)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SR",
+    "valor": "SURINAME (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "SZ",
+    "valor": "SWAZILANDIA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TJ",
+    "valor": "TADJIKISTAN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TH",
+    "valor": "TAILANDIA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TW",
+    "valor": "TAIWAN (REPUBLICA DE CHINA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TZ",
+    "valor": "TANZANIA (REPUBLICA UNIDA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "IO",
+    "valor": "TERRITORIOS BRITANICOS DEL OCEANO INDICO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TF",
+    "valor": "TERRITORIOS FRANCESES, AUSTRALES Y ANTARTICOS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TL",
+    "valor": "TIMOR ORIENTAL",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TG",
+    "valor": "TOGO (REPUBLICA TOGOLESA)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TO",
+    "valor": "TONGA (REINO DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TT",
+    "valor": "TRINIDAD Y TOBAGO (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TN",
+    "valor": "TUNEZ (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TC",
+    "valor": "TURCAS Y CAICOS (ISLAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TM",
+    "valor": "TURKMENISTAN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TR",
+    "valor": "TURQUIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "TV",
+    "valor": "TUVALU (COMUNIDAD BRITANICA DE NACIONES)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "UA",
+    "valor": "UCRANIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "UG",
+    "valor": "UGANDA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "UY",
+    "valor": "URUGUAY (REPUBLICA ORIENTAL DEL)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "UZ",
+    "valor": "UZBEJISTAN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VU",
+    "valor": "VANUATU",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VE",
+    "valor": "VENEZUELA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VN",
+    "valor": "VIETNAM (REPUBLICA SOCIALISTA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VG",
+    "valor": "VIRGENES. ISLAS (BRITANICAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "VI",
+    "valor": "VIRGENES. ISLAS (NORTEAMERICANAS)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "YE",
+    "valor": "YEMEN (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ZM",
+    "valor": "ZAMBIA (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "ZW",
+    "valor": "ZIMBABWE (REPUBLICA DE)",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

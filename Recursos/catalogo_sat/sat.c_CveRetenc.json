@@ -1,0 +1,198 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Servicios profesionales.",
+    "nombrecomplemento": "En caso de operaciones realizadas con extranjeros, se deberá incorporar el Complemento denominado \"Pagos a Extranjeros\".",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Regalías por derechos de autor.",
+    "nombrecomplemento": "En caso de operaciones realizadas con extranjeros, se deberá incorporar el Complemento denominado \"Pagos a Extranjeros\".",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Autotransporte terrestre de carga.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Servicios prestados por comisionistas.",
+    "nombrecomplemento": "En caso de operaciones realizadas con extranjeros, se deberá incorporar el Complemento denominado \"Pagos a Extranjeros\".",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Arrendamiento.",
+    "nombrecomplemento": "En caso de operaciones realizadas con extranjeros, se deberá incorporar el Complemento denominado \"Pagos a Extranjeros\".",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Enajenación de acciones.",
+    "nombrecomplemento": "Enajenación de Acciones.",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "Enajenación de bienes objeto de la LIEPS, a través de mediadores, agentes, representantes, corredores, consignatarios o distribuidores.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "Enajenación de bienes inmuebles consignada en escritura pública.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "Enajenación de otros bienes, no consignada en escritura pública.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "Adquisición de desperdicios industriales.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 11,
+    "valor": "Adquisición de bienes consignada en escritura pública.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 12,
+    "valor": "Adquisición de otros bienes, no consignada en escritura pública.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 13,
+    "valor": "Otros retiros de AFORE.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 14,
+    "valor": "Dividendos o utilidades distribuidas.",
+    "nombrecomplemento": "Dividendos",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 15,
+    "valor": "Remanente distribuible.",
+    "nombrecomplemento": "Dividendos",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 16,
+    "valor": "Intereses.",
+    "nombrecomplemento": "Intereses",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 17,
+    "valor": "Arrendamiento en fideicomiso.",
+    "nombrecomplemento": "Arrendamiento en fideicomiso",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 18,
+    "valor": "Pagos realizados a favor de residentes en el extranjero.",
+    "nombrecomplemento": "Pagos a Extranjeros",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 19,
+    "valor": "Enajenación de acciones u operaciones en bolsa de valores.",
+    "nombrecomplemento": "Enajenación de Acciones",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 20,
+    "valor": "Obtención de premios.",
+    "nombrecomplemento": "Premios",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 21,
+    "valor": "Fideicomisos que no realizan actividades empresariales.",
+    "nombrecomplemento": "Fideicomiso no Empresarial",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 22,
+    "valor": "Planes personales de retiro.",
+    "nombrecomplemento": "Planes de Retiro",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 23,
+    "valor": "Intereses reales deducibles por créditos hipotecarios.",
+    "nombrecomplemento": "Intereses Hipotecarios",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 24,
+    "valor": "Operaciones Financieras Derivadas de Capital.",
+    "nombrecomplemento": "Operaciones con Derivados",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 25,
+    "valor": "Otro tipo de retenciones.",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2015-05-22",
+    "fechafin": ""
+  },
+  {
+    "clave": 26,
+    "valor": "Servicios mediante Plataformas Tecnológicas",
+    "nombrecomplemento": "Servicios mediante Plataformas Tecnológicas",
+    "fechaini": "2019-06-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 27,
+    "valor": "Sector Financiero",
+    "nombrecomplemento": "Sector Financiero- Sólo se incorpora este complemento cuando las entidades integrantes del sistema financiero actúen en su carácter de fiduciarias.",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 28,
+    "valor": "Pagos y retenciones a Contribuyentes del RIF",
+    "nombrecomplemento": "Sin complemento",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

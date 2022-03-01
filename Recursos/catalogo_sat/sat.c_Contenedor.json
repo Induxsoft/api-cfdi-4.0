@@ -1,0 +1,22 @@
+[{
+        "clave": "TC01",
+        "tipo": "20'",
+        "valor": "Contenedor de 6.1 Mts de longitud",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC02",
+        "tipo": "40'",
+        "valor": "Contenedor de 12.2 Mts de longitud",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC03",
+        "tipo": "45'",
+        "valor": "Contenedor de 13.7 Mts de longitud",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC04",
+        "tipo": "48'",
+        "valor": "Contenedor de 14.6 Mts de longitud",
+        "fechainicio": "2021-06-01"
+    }
+]

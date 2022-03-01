@@ -1,0 +1,122 @@
+[{
+        "clave": "CTR001",
+        "valor": "Caballete",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR002",
+        "valor": "Caja",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR003",
+        "valor": "Caja Abierta",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR004",
+        "valor": "Caja Cerrada",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR005",
+        "valor": "Caja De Recolección Con Cargador Frontal",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR006",
+        "valor": "Caja Refrigerada",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR007",
+        "valor": "Caja Seca",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR008",
+        "valor": "Caja Transferencia",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR009",
+        "valor": "Cama Baja o Cuello Ganso",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR010",
+        "valor": "Chasis Portacontenedor",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR011",
+        "valor": "Convencional De Chasis",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR012",
+        "valor": "Equipo Especial",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR013",
+        "valor": "Estacas",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR014",
+        "valor": "Góndola Madrina",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR015",
+        "valor": "Grúa Industrial",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR016",
+        "valor": "Grúa ",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR017",
+        "valor": "Integral",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR018",
+        "valor": "Jaula",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR019",
+        "valor": "Media Redila",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR020",
+        "valor": "Pallet o Celdillas",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR021",
+        "valor": "Plataforma",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR022",
+        "valor": "Plataforma Con Grúa",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR023",
+        "valor": "Plataforma Encortinada",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR024",
+        "valor": "Redilas",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR025",
+        "valor": "Refrigerador",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR026",
+        "valor": "Revolvedora",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR027",
+        "valor": "Semicaja",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR028",
+        "valor": "Tanque",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR029",
+        "valor": "Tolva",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CTR031",
+        "valor": "Volteo",
+        "fechainicio": "2021-06-01"
+    }
+]

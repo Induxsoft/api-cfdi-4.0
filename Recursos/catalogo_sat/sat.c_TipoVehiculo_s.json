@@ -1,0 +1,26 @@
+[
+  {
+    "clave": "01",
+    "valor": "Tractocamiones tipo quinta rueda."
+  },
+  {
+    "clave": "02",
+    "valor": "Camiones unitarios de 2 ejes con peso bruto vehicular mínimo de 11,794 k"
+  },
+  {
+    "clave": "03",
+    "valor": "Camiones unitarios de 3 ejes con peso bruto vehicular mínimo de 14,500 k"
+  },
+  {
+    "clave": "04",
+    "valor": "Autobuses integrales con capacidad de más de 30 asientos."
+  },
+  {
+    "clave": "05",
+    "valor": "Autobuses convencionales con capacidad de más de 30 asientos."
+  },
+  {
+    "clave": "06",
+    "valor": "Vehículos destinados al transporte de personas de 15 pasajeros o más, con una antiguedad de más de 8 años."
+  }
+]

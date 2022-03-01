@@ -1,0 +1,22 @@
+[
+  {
+    "clave": 1,
+    "valor": "Gasolina menor a 92 octanos"
+  },
+  {
+    "clave": 2,
+    "valor": "Gasolina mayor o igual a 92 octanos"
+  },
+  {
+    "clave": 3,
+    "valor": "Diesel"
+  },
+  {
+    "clave": 4,
+    "valor": "Diesel Marino"
+  },
+  {
+    "clave": 5,
+    "valor": "Otros"
+  }
+]

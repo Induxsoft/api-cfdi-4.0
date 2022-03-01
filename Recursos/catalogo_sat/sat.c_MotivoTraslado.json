@@ -1,0 +1,26 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Envío de mercancias facturadas con anterioridad"
+  },
+  {
+    "clave": "02",
+    "valor": "Reubicación de mercancías propias"
+  },
+  {
+    "clave": "03",
+    "valor": "Envío de mercancías objeto de contrato de consignación"
+  },
+  {
+    "clave": "04",
+    "valor": "Envío de mercancías para posterior enajenación"
+  },
+  {
+    "clave": "05",
+    "valor": "Envío de mercancías propiedad de terceros"
+  },
+  {
+    "clave": 99,
+    "valor": "Otros"
+  }
+]

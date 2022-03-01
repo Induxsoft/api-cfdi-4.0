@@ -1,0 +1,29 @@
+[
+  {
+    "clave": "001",
+    "valor": "ISR",
+    "retencion": "Si",
+    "traslado": "No",
+    "Localofederal": "Federal",
+    "fechainicio": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "002",
+    "valor": "IVA",
+    "retencion": "Si",
+    "traslado": "Si",
+    "Localofederal": "Federal",
+    "fechainicio": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "003",
+    "valor": "IEPS",
+    "retencion": "Si",
+    "traslado": "Si",
+    "Localofederal": "Federal",
+    "fechainicio": "2022-01-01",
+    "fechafin": ""
+  }
+]

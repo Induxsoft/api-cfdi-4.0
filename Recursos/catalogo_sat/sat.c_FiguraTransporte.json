@@ -1,0 +1,14 @@
+﻿[{
+        "clave": "1",
+        "valor": "Operador",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "2",
+        "valor": "Propietario",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "3",
+        "valor": "Arrendador",
+        "fechainicio": "2021-12-01"
+    }
+]

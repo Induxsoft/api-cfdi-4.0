@@ -1,0 +1,80 @@
+﻿[
+  {
+    "clave": "02",
+    "valor": "Sueldos (Incluye ingresos señalados en la fracción I del artículo 94 de LISR)",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Jubilados",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Pensionados",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Asimilados Miembros Sociedades Cooperativas Produccion",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Asimilados Integrantes Sociedades Asociaciones Civiles",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "Asimilados Miembros consejos",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "Asimilados comisionistas",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "Asimilados Honorarios",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "Asimilados acciones",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 11,
+    "valor": "Asimilados otros",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 12,
+    "valor": "Jubilados o Pensionados",
+    "fechaini": "2017-03-27",
+    "fechafin": ""
+  },
+  {
+    "clave": 13,
+    "valor": "Indemnización o Separación",
+    "fechaini": "2018-10-15",
+    "fechafin": ""
+  },
+  {
+    "clave": 99,
+    "valor": "Otro Regimen",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  }
+]

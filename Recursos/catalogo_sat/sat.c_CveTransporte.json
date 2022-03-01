@@ -1,0 +1,26 @@
+[
+  {
+    "clave": "01",
+    "valor": "Autotransporte",
+    "fechaini": "2021-12-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Transporte Marítimo",
+    "fechaini": "2021-12-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Transporte Aéreo",
+    "fechaini": "2021-12-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Transporte Ferroviario",
+    "fechaini": "2021-12-01",
+    "fechafin": ""
+  }
+]

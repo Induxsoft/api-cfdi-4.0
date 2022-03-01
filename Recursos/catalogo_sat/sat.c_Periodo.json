@@ -1,0 +1,74 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Enero",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Febrero",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Marzo",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Abril",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Mayo",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Junio",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "Julio",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "Agosto",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "Septiembre",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "Octubre",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 11,
+    "valor": "Noviembre",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 12,
+    "valor": "Diciembre",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

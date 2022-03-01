@@ -1,0 +1,211 @@
+﻿[
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0",
+    "impuesto": "IVA",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "No",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.16",
+    "impuesto": "IVA",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "No",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Rango",
+    "valor-min": "0",
+    "valor": "0.16",
+    "impuesto": "IVA",
+    "clave": "Tasa",
+    "traslado": "No",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.08",
+    "impuesto": "IVA Crédito aplicado del 50%",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "No",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.265",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.3",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.53",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.5",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "1.6",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.304",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.25",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.09",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.08",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.07",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.06",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0.03",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "No",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Fijo",
+    "valor-min": "",
+    "valor": "0",
+    "impuesto": "IEPS",
+    "clave": "Tasa",
+    "traslado": "Sí",
+    "retencion": "No",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Rango",
+    "valor-min": "0",
+    "valor": "59.1449",
+    "impuesto": "IEPS",
+    "clave": "Cuota",
+    "traslado": "Sí",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "rango": "Rango",
+    "valor-min": "0",
+    "valor": "0.35",
+    "impuesto": "ISR",
+    "clave": "Tasa",
+    "traslado": "No",
+    "retencion": "Sí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  }
+]

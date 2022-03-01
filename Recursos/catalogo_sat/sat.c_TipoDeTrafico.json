@@ -1,0 +1,14 @@
+﻿[{
+        "clave": "TT01",
+        "valor": "Tráfico local",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TT02",
+        "valor": "Tráfico interlineal remitido",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TT03",
+        "valor": "Tráfico interlineal recibido",
+        "fechainicio": "2021-12-01"
+    }
+]

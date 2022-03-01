@@ -1,0 +1,33 @@
+﻿[{
+        "clave": "I",
+        "valor": "Ingreso",
+        "valormáximo": "999999999999999999.999999",
+        "fechainicio": "2022-01-01",
+        "fechafin": ""
+    }, {
+        "clave": "E",
+        "valor": "Egreso",
+        "valormáximo": "999999999999999999.999999",
+        "fechainicio": "2022-01-01",
+        "fechafin": ""
+    }, {
+        "clave": "T",
+        "valor": "Traslado",
+        "valormáximo": "0",
+        "fechainicio": "2022-01-01",
+        "fechafin": ""
+    }, {
+        "clave": "N",
+        "valor": "Nómina",
+        "valormáximo": {"NS":"999999999999999999.999999","NdS":"999999999999999999.999999"},
+
+        "fechainicio": "2022-01-01",
+        "fechafin": ""
+    }, {
+        "clave": "P",
+        "valor": "Pago",
+        "valormáximo": "999999999999999999.999999",
+        "fechainicio": "2022-01-01",
+        "fechafin": ""
+    }
+]

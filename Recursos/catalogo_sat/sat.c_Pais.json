@@ -1,0 +1,2002 @@
+[
+  {
+    "clave": "AFG",
+    "valor": "Afganistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ALA",
+    "valor": "Islas Åland",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ALB",
+    "valor": "Albania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "DEU",
+    "valor": "Alemania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "AND",
+    "valor": "Andorra",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "AGO",
+    "valor": "Angola",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "AIA",
+    "valor": "Anguila",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ATA",
+    "valor": "Antártida",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ATG",
+    "valor": "Antigua y Barbuda",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SAU",
+    "valor": "Arabia Saudita",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "DZA",
+    "valor": "Argelia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ARG",
+    "valor": "Argentina",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ARM",
+    "valor": "Armenia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ABW",
+    "valor": "Aruba",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "AUS",
+    "valor": "Australia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "AUT",
+    "valor": "Austria",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "AZE",
+    "valor": "Azerbaiyán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BHS",
+    "valor": "Bahamas (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BGD",
+    "valor": "Bangladés",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BRB",
+    "valor": "Barbados",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BHR",
+    "valor": "Baréin",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BEL",
+    "valor": "Bélgica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "BLZ",
+    "valor": "Belice",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BEN",
+    "valor": "Benín",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BMU",
+    "valor": "Bermudas",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BLR",
+    "valor": "Bielorrusia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MMR",
+    "valor": "Myanmar",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BOL",
+    "valor": "Bolivia, Estado Plurinacional de",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BIH",
+    "valor": "Bosnia y Herzegovina",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BWA",
+    "valor": "Botsuana",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BRA",
+    "valor": "Brasil",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BRN",
+    "valor": "Brunéi Darussalam",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BGR",
+    "valor": "Bulgaria",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "BFA",
+    "valor": "Burkina Faso",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BDI",
+    "valor": "Burundi",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BTN",
+    "valor": "Bután",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CPV",
+    "valor": "Cabo Verde",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KHM",
+    "valor": "Camboya",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CMR",
+    "valor": "Camerún",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CAN",
+    "valor": "Canadá",
+    "formato": "[A-Z][0-9][A-Z] [0-9][A-Z][0-9]",
+    "registroidentidad": "[0-9]{9}",
+    "validacion": "",
+    "agrupaciones": "TLCAN"
+  },
+  {
+    "clave": "QAT",
+    "valor": "Catar",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BES",
+    "valor": "Bonaire, San Eustaquio y Saba",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TCD",
+    "valor": "Chad",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CHL",
+    "valor": "Chile",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CHN",
+    "valor": "China",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CYP",
+    "valor": "Chipre",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "COL",
+    "valor": "Colombia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "COM",
+    "valor": "Comoras",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PRK",
+    "valor": "Corea (la República Democrática Popular de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KOR",
+    "valor": "Corea (la República de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CIV",
+    "valor": "Côte d'Ivoire",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CRI",
+    "valor": "Costa Rica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HRV",
+    "valor": "Croacia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "CUB",
+    "valor": "Cuba",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CUW",
+    "valor": "Curaçao",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "DNK",
+    "valor": "Dinamarca",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "DMA",
+    "valor": "Dominica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ECU",
+    "valor": "Ecuador",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "EGY",
+    "valor": "Egipto",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SLV",
+    "valor": "El Salvador",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ARE",
+    "valor": "Emiratos Árabes Unidos (Los)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ERI",
+    "valor": "Eritrea",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SVK",
+    "valor": "Eslovaquia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "SVN",
+    "valor": "Eslovenia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "ESP",
+    "valor": "España",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "USA",
+    "valor": "Estados Unidos (los)",
+    "formato": "[0-9]{5}(-[0-9]{4})?",
+    "registroidentidad": "[0-9]{9}",
+    "validacion": "",
+    "agrupaciones": "TLCAN"
+  },
+  {
+    "clave": "EST",
+    "valor": "Estonia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "ETH",
+    "valor": "Etiopía",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PHL",
+    "valor": "Filipinas (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "FIN",
+    "valor": "Finlandia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "FJI",
+    "valor": "Fiyi",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "FRA",
+    "valor": "Francia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "GAB",
+    "valor": "Gabón",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GMB",
+    "valor": "Gambia (La)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GEO",
+    "valor": "Georgia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GHA",
+    "valor": "Ghana",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GIB",
+    "valor": "Gibraltar",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GRD",
+    "valor": "Granada",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GRC",
+    "valor": "Grecia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "GRL",
+    "valor": "Groenlandia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GLP",
+    "valor": "Guadalupe",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GUM",
+    "valor": "Guam",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GTM",
+    "valor": "Guatemala",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GUF",
+    "valor": "Guayana Francesa",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GGY",
+    "valor": "Guernsey",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GIN",
+    "valor": "Guinea",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GNB",
+    "valor": "Guinea-Bisáu",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GNQ",
+    "valor": "Guinea Ecuatorial",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GUY",
+    "valor": "Guyana",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HTI",
+    "valor": "Haití",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HND",
+    "valor": "Honduras",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HKG",
+    "valor": "Hong Kong",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HUN",
+    "valor": "Hungría",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "IND",
+    "valor": "India",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IDN",
+    "valor": "Indonesia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IRQ",
+    "valor": "Irak",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IRN",
+    "valor": "Irán (la República Islámica de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IRL",
+    "valor": "Irlanda",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "BVT",
+    "valor": "Isla Bouvet",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IMN",
+    "valor": "Isla de Man",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CXR",
+    "valor": "Isla de Navidad",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NFK",
+    "valor": "Isla Norfolk",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ISL",
+    "valor": "Islandia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CYM",
+    "valor": "Islas Caimán (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CCK",
+    "valor": "Islas Cocos (Keeling)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "COK",
+    "valor": "Islas Cook (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "FRO",
+    "valor": "Islas Feroe (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SGS",
+    "valor": "Georgia del sur y las islas sandwich del sur",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "HMD",
+    "valor": "Isla Heard e Islas McDonald",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "FLK",
+    "valor": "Islas Malvinas [Falkland] (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MNP",
+    "valor": "Islas Marianas del Norte (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MHL",
+    "valor": "Islas Marshall (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PCN",
+    "valor": "Pitcairn",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SLB",
+    "valor": "Islas Salomón (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TCA",
+    "valor": "Islas Turcas y Caicos (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "UMI",
+    "valor": "Islas de Ultramar Menores de Estados Unidos (las)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VGB",
+    "valor": "Islas Vírgenes (Británicas)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VIR",
+    "valor": "Islas Vírgenes (EE.UU.)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ISR",
+    "valor": "Israel",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ITA",
+    "valor": "Italia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "JAM",
+    "valor": "Jamaica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "JPN",
+    "valor": "Japón",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "JEY",
+    "valor": "Jersey",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "JOR",
+    "valor": "Jordania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KAZ",
+    "valor": "Kazajistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KEN",
+    "valor": "Kenia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KGZ",
+    "valor": "Kirguistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KIR",
+    "valor": "Kiribati",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KWT",
+    "valor": "Kuwait",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LAO",
+    "valor": "Lao, (la) República Democrática Popular",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LSO",
+    "valor": "Lesoto",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LVA",
+    "valor": "Letonia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "LBN",
+    "valor": "Líbano",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LBR",
+    "valor": "Liberia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LBY",
+    "valor": "Libia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LIE",
+    "valor": "Liechtenstein",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LTU",
+    "valor": "Lituania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "LUX",
+    "valor": "Luxemburgo",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "MAC",
+    "valor": "Macao",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MDG",
+    "valor": "Madagascar",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MYS",
+    "valor": "Malasia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MWI",
+    "valor": "Malaui",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MDV",
+    "valor": "Maldivas",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MLI",
+    "valor": "Malí",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MLT",
+    "valor": "Malta",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "MAR",
+    "valor": "Marruecos",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MTQ",
+    "valor": "Martinica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MUS",
+    "valor": "Mauricio",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MRT",
+    "valor": "Mauritania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MYT",
+    "valor": "Mayotte",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MEX",
+    "valor": "México",
+    "formato": "[0-9]{5}",
+    "registroidentidad": "[A-Z&Ñ]{3,4}[0-9]{2}(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])[A-Z0-9]{2}[0\n-9A]",
+    "validacion": "Lista del SAT",
+    "agrupaciones": "TLCAN"
+  },
+  {
+    "clave": "FSM",
+    "valor": "Micronesia (los Estados Federados de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MDA",
+    "valor": "Moldavia (la República de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MCO",
+    "valor": "Mónaco",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MNG",
+    "valor": "Mongolia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MNE",
+    "valor": "Montenegro",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MSR",
+    "valor": "Montserrat",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MOZ",
+    "valor": "Mozambique",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NAM",
+    "valor": "Namibia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NRU",
+    "valor": "Nauru",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NPL",
+    "valor": "Nepal",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NIC",
+    "valor": "Nicaragua",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NER",
+    "valor": "Níger (el)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NGA",
+    "valor": "Nigeria",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NIU",
+    "valor": "Niue",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NOR",
+    "valor": "Noruega",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NCL",
+    "valor": "Nueva Caledonia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NZL",
+    "valor": "Nueva Zelanda",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "OMN",
+    "valor": "Omán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "NLD",
+    "valor": "Países Bajos (los)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "PAK",
+    "valor": "Pakistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PLW",
+    "valor": "Palaos",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PSE",
+    "valor": "Palestina, Estado de",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PAN",
+    "valor": "Panamá",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PNG",
+    "valor": "Papúa Nueva Guinea",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PRY",
+    "valor": "Paraguay",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PER",
+    "valor": "Perú",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "PYF",
+    "valor": "Polinesia Francesa",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "POL",
+    "valor": "Polonia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "PRT",
+    "valor": "Portugal",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "PRI",
+    "valor": "Puerto Rico",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "GBR",
+    "valor": "Reino Unido (el)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "CAF",
+    "valor": "República Centroafricana (la)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "CZE",
+    "valor": "República Checa (la)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "MKD",
+    "valor": "Macedonia (la antigua República Yugoslava de)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "COG",
+    "valor": "Congo",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "COD",
+    "valor": "Congo (la República Democrática del)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "DOM",
+    "valor": "República Dominicana (la)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "REU",
+    "valor": "Reunión",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "RWA",
+    "valor": "Ruanda",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ROU",
+    "valor": "Rumania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "RUS",
+    "valor": "Rusia, (la) Federación de",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ESH",
+    "valor": "Sahara Occidental",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "WSM",
+    "valor": "Samoa",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ASM",
+    "valor": "Samoa Americana",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "BLM",
+    "valor": "San Bartolomé",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "KNA",
+    "valor": "San Cristóbal y Nieves",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SMR",
+    "valor": "San Marino",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "MAF",
+    "valor": "San Martín (parte francesa)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SPM",
+    "valor": "San Pedro y Miquelón",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VCT",
+    "valor": "San Vicente y las Granadinas",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SHN",
+    "valor": "Santa Helena, Ascensión y Tristán de Acuña",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LCA",
+    "valor": "Santa Lucía",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "STP",
+    "valor": "Santo Tomé y Príncipe",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SEN",
+    "valor": "Senegal",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SRB",
+    "valor": "Serbia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SYC",
+    "valor": "Seychelles",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SLE",
+    "valor": "Sierra leona",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SGP",
+    "valor": "Singapur",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SXM",
+    "valor": "Sint Maarten (parte holandesa)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SYR",
+    "valor": "Siria, (la) República Árabe",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SOM",
+    "valor": "Somalia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "LKA",
+    "valor": "Sri Lanka",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SWZ",
+    "valor": "Suazilandia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ZAF",
+    "valor": "Sudáfrica",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SDN",
+    "valor": "Sudán (el)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SSD",
+    "valor": "Sudán del Sur",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SWE",
+    "valor": "Suecia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": "Unión Europea"
+  },
+  {
+    "clave": "CHE",
+    "valor": "Suiza",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SUR",
+    "valor": "Surinam",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "SJM",
+    "valor": "Svalbard y Jan Mayen",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "THA",
+    "valor": "Tailandia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TWN",
+    "valor": "Taiwán (Provincia de China)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TZA",
+    "valor": "Tanzania, República Unida de",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TJK",
+    "valor": "Tayikistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "IOT",
+    "valor": "Territorio Británico del Océano Índico (el)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ATF",
+    "valor": "Territorios Australes Franceses (los)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TLS",
+    "valor": "Timor-Leste",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TGO",
+    "valor": "Togo",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TKL",
+    "valor": "Tokelau",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TON",
+    "valor": "Tonga",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TTO",
+    "valor": "Trinidad y Tobago",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TUN",
+    "valor": "Túnez",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TKM",
+    "valor": "Turkmenistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TUR",
+    "valor": "Turquía",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "TUV",
+    "valor": "Tuvalu",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "UKR",
+    "valor": "Ucrania",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "UGA",
+    "valor": "Uganda",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "URY",
+    "valor": "Uruguay",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "UZB",
+    "valor": "Uzbekistán",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VUT",
+    "valor": "Vanuatu",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VAT",
+    "valor": "Santa Sede[Estado de la Ciudad del Vaticano] (la)",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VEN",
+    "valor": "Venezuela, República Bolivariana de",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "VNM",
+    "valor": "Viet Nam",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "WLF",
+    "valor": "Wallis y Futuna",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "YEM",
+    "valor": "Yemen",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "DJI",
+    "valor": "Yibuti",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ZMB",
+    "valor": "Zambia",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ZWE",
+    "valor": "Zimbabue",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  },
+  {
+    "clave": "ZZZ",
+    "valor": "Países no declarados",
+    "formato": "",
+    "registroidentidad": "",
+    "validacion": "",
+    "agrupaciones": ""
+  }
+]

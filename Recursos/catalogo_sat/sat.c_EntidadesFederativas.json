@@ -1,0 +1,194 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "AGUASCALIENTES",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "BAJA CALIFORNIA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "BAJA CALIFORNIA SUR",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "CAMPECHE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "COAHUILA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "COLIMA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "CHIAPAS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "CHIHUAHUA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "CIUDAD DE MEXICO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "DURANGO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 11,
+    "valor": "GUANAJUATO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 12,
+    "valor": "GUERRERO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 13,
+    "valor": "HIDALGO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 14,
+    "valor": "JALISCO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 15,
+    "valor": "MEXICO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 16,
+    "valor": "MICHOACAN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 17,
+    "valor": "MORELOS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 18,
+    "valor": "NAYARIT",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 19,
+    "valor": "NUEVO LEON",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 20,
+    "valor": "OAXACA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 21,
+    "valor": "PUEBLA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 22,
+    "valor": "QUERETARO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 23,
+    "valor": "QUINTANA ROO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 24,
+    "valor": "SAN LUIS POTOSI",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 25,
+    "valor": "SINALOA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 26,
+    "valor": "SONORA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 27,
+    "valor": "TABASCO",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 28,
+    "valor": "TAMAULIPAS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 29,
+    "valor": "TLAXCALA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 30,
+    "valor": "VERACRUZ",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 31,
+    "valor": "YUCATAN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 32,
+    "valor": "ZACATECAS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

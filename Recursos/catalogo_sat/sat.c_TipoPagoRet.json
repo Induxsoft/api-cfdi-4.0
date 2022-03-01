@@ -1,0 +1,30 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Pago definitivo IVA",
+    "Tipoimpuesto": "002",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Pago definitivo IEPS",
+    "Tipoimpuesto": "003",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Pago definitivo ISR Plataformas",
+    "Tipoimpuesto": "001",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Pago provisional ISR",
+    "Tipoimpuesto": "001",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

@@ -1,0 +1,56 @@
+﻿[
+  {
+    "clave": 1,
+    "valor": "Artistas, deportistas y espectáculos públicos",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 2,
+    "valor": "Otras personas físicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 3,
+    "valor": "Persona moral",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 4,
+    "valor": "Fideicomiso",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 5,
+    "valor": "Asociación en participación",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 6,
+    "valor": "Organizaciones Internacionales o de gobierno",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 7,
+    "valor": "Organizaciones exentas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 8,
+    "valor": "Agentes pagadores",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 9,
+    "valor": "Otros",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

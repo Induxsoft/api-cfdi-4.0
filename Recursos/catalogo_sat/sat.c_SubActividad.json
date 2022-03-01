@@ -1,0 +1,197 @@
+[
+  {
+    "clave": "001",
+    "valor": "General",
+    "actividad": "01"
+  },
+  {
+    "clave": "002",
+    "valor": "Geofísica",
+    "actividad": "01"
+  },
+  {
+    "clave": "003",
+    "valor": "Geología",
+    "actividad": "01"
+  },
+  {
+    "clave": "004",
+    "valor": "Perforación de Pozos",
+    "actividad": "01"
+  },
+  {
+    "clave": "005",
+    "valor": "Ingeniería de Yacimientos",
+    "actividad": "01"
+  },
+  {
+    "clave": "006",
+    "valor": "Otras Ingenierías",
+    "actividad": "01"
+  },
+  {
+    "clave": "007",
+    "valor": "Seguridad, Salud y Medio Ambiente",
+    "actividad": "01"
+  },
+  {
+    "clave": "008",
+    "valor": "General",
+    "actividad": "02"
+  },
+  {
+    "clave": "009",
+    "valor": "Geofísica",
+    "actividad": "02"
+  },
+  {
+    "clave": "010",
+    "valor": "Geología",
+    "actividad": "02"
+  },
+  {
+    "clave": "011",
+    "valor": "Pruebas de Producción",
+    "actividad": "02"
+  },
+  {
+    "clave": "012",
+    "valor": "Ingeniería de Yacimientos",
+    "actividad": "02https://csvjson.com/csv2json#"
+  },
+  {
+    "clave": "013",
+    "valor": "Otras Ingenierías",
+    "actividad": "02"
+  },
+  {
+    "clave": "014",
+    "valor": "Perforación de Pozos",
+    "actividad": "02"
+  },
+  {
+    "clave": "015",
+    "valor": "Seguridad, Salud y Medio Ambiente",
+    "actividad": "02"
+  },
+  {
+    "clave": "016",
+    "valor": "General",
+    "actividad": "03"
+  },
+  {
+    "clave": "017",
+    "valor": "Geofísica",
+    "actividad": "03"
+  },
+  {
+    "clave": "018",
+    "valor": "Geología",
+    "actividad": "03"
+  },
+  {
+    "clave": "019",
+    "valor": "Perforación de Pozos",
+    "actividad": "03"
+  },
+  {
+    "clave": "020",
+    "valor": "Pruebas de Producción",
+    "actividad": "03"
+  },
+  {
+    "clave": "021",
+    "valor": "Ingeniería de Yacimientos",
+    "actividad": "03"
+  },
+  {
+    "clave": "022",
+    "valor": "Intervención de Pozos",
+    "actividad": "03"
+  },
+  {
+    "clave": "023",
+    "valor": "Otras Ingenierías",
+    "actividad": "03"
+  },
+  {
+    "clave": "024",
+    "valor": "Construcción Instalaciones",
+    "actividad": "03"
+  },
+  {
+    "clave": "025",
+    "valor": "Seguridad, Salud y Medio Ambiente",
+    "actividad": "03"
+  },
+  {
+    "clave": "026",
+    "valor": "General",
+    "actividad": "04"
+  },
+  {
+    "clave": "027",
+    "valor": "Geología",
+    "actividad": "04"
+  },
+  {
+    "clave": "028",
+    "valor": "Pruebas de Producción",
+    "actividad": "04"
+  },
+  {
+    "clave": "029",
+    "valor": "Ingeniería de Yacimientos",
+    "actividad": "04"
+  },
+  {
+    "clave": "030",
+    "valor": "Otras Ingenierías",
+    "actividad": "04"
+  },
+  {
+    "clave": "031",
+    "valor": "Construcción Instalaciones",
+    "actividad": "04"
+  },
+  {
+    "clave": "032",
+    "valor": "Intervención de Pozos",
+    "actividad": "04"
+  },
+  {
+    "clave": "033",
+    "valor": "operación de instalaciones de producción",
+    "actividad": "04"
+  },
+  {
+    "clave": "034",
+    "valor": "Ductos",
+    "actividad": "04"
+  },
+  {
+    "clave": "035",
+    "valor": "Seguridad, Salud y Medio Ambiente",
+    "actividad": "04"
+  },
+  {
+    "clave": "036",
+    "valor": "General",
+    "actividad": "05"
+  },
+  {
+    "clave": "037",
+    "valor": "Otras Ingenierías",
+    "actividad": "05"
+  },
+  {
+    "clave": "038",
+    "valor": "Desmantela-miento de Instalaciones",
+    "actividad": "05"
+  },
+  {
+    "clave": "039",
+    "valor": "Seguridad, Salud y Medio Ambiente",
+    "actividad": "05"
+  }
+]

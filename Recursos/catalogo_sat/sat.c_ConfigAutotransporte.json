@@ -1,0 +1,138 @@
+﻿[
+  {
+    "clave": "VL",
+    "valor": "Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el eje trasero)"
+  },
+  {
+    "clave": "C2",
+    "valor": "Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje trasero)"
+  },
+  {
+    "clave": "C3",
+    "valor": "Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos ejes traseros)"
+  },
+  {
+    "clave": "C2R2",
+    "valor": "Camión-Remolque (6 llantas en el camión y 8 llantas en remolque)"
+  },
+  {
+    "clave": "C3R2",
+    "valor": "Camión-Remolque (10 llantas en el camión y 8 llantas en remolque)"
+  },
+  {
+    "clave": "C2R3",
+    "valor": "Camión-Remolque (6 llantas en el camión y 12 llantas en remolque)"
+  },
+  {
+    "clave": "C3R3",
+    "valor": "Camión-Remolque (10 llantas en el camión y 12 llantas en remolque)"
+  },
+  {
+    "clave": "T2S1",
+    "valor": "Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T2S2",
+    "valor": "Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T2S3",
+    "valor": "Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T3S1",
+    "valor": "Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T3S2",
+    "valor": "Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T3S3",
+    "valor": "Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el semirremolque)"
+  },
+  {
+    "clave": "T2S1R2",
+    "valor": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)"
+  },
+  {
+    "clave": "T2S2R2",
+    "valor": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)"
+  },
+  {
+    "clave": "T2S1R3",
+    "valor": "Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)"
+  },
+  {
+    "clave": "T3S1R2",
+    "valor": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 8 llantas en el remolque)"
+  },
+  {
+    "clave": "T3S1R3",
+    "valor": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 llantas en el semirremolque y 12 llantas en el remolque)"
+  },
+  {
+    "clave": "T3S2R2",
+    "valor": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 8 llantas en el remolque)"
+  },
+  {
+    "clave": "T3S2R3",
+    "valor": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 12 llantas en el remolque)"
+  },
+  {
+    "clave": "T3S2R4",
+    "valor": "Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 llantas en el semirremolque y 16 llantas en el remolque)"
+  },
+  {
+    "clave": "T2S2S2",
+    "valor": "Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)"
+  },
+  {
+    "clave": "T3S2S2",
+    "valor": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)"
+  },
+  {
+    "clave": "T3S3S2",
+    "valor": "Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 llantas en el semirremolque delantero y 8 llantas en el semirremolque trasero)"
+  },
+  {
+    "clave": "OTROEVGP",
+    "valor": "Especializado de carga Voluminosa y/o Gran Peso"
+  },
+  {
+    "clave": "OTROSG",
+    "valor": "Servicio de Grúas"
+  },
+  {
+    "clave": "GPLUTA",
+    "valor": "Grúa de Pluma Tipo A"
+  },
+  {
+    "clave": "GPLUTB",
+    "valor": "Grúa de Pluma Tipo B"
+  },
+  {
+    "clave": "GPLUTC",
+    "valor": "Grúa de Pluma Tipo C"
+  },
+  {
+    "clave": "GPLUTD",
+    "valor": "Grúa de Pluma Tipo D"
+  },
+  {
+    "clave": "GPLATA",
+    "valor": "Grúa de Plataforma Tipo A"
+  },
+  {
+    "clave": "GPLATB",
+    "valor": "Grúa de Plataforma Tipo B"
+  },
+  {
+    "clave": "GPLATC",
+    "valor": "Grúa de Plataforma Tipo C"
+  },
+  {
+    "clave": "GPLATD",
+    "valor": "Grúa de Plataforma Tipo D"
+  }
+]

@@ -1,0 +1,17 @@
+[{
+        "clave": "TS01",
+        "valor": "Carros Ferroviarios",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TS02",
+        "valor": "Carros Ferroviarios intermodal",
+        "contenedor": "1",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TS03",
+        "valor": "Tren unitario de carros ferroviarios",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }
+]

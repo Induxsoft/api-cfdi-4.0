@@ -1,0 +1,140 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "KILO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "GRAMO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "METRO LINEAL",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "METRO CUADRADO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "METRO CUBICO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "PIEZA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "CABEZA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "LITRO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "PAR",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "KILOWATT",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 11,
+    "valor": "MILLAR",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 12,
+    "valor": "JUEGO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 13,
+    "valor": "KILOWATT/HORA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 14,
+    "valor": "TONELADA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 15,
+    "valor": "BARRIL",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 16,
+    "valor": "GRAMO NETO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 17,
+    "valor": "DECENAS",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 18,
+    "valor": "CIENTOS",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 19,
+    "valor": "DOCENAS",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 20,
+    "valor": "CAJA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 21,
+    "valor": "BOTELLA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 22,
+    "valor": "CARAT",
+    "fechaini": "2021-01-11",
+    "fechafin": ""
+  },
+  {
+    "clave": 99,
+    "valor": "SERVICIO",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  }
+]

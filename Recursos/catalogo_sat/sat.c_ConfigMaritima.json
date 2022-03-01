@@ -1,0 +1,58 @@
+﻿[{
+        "clave": "B01",
+        "valor": "Abastecedor",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B02",
+        "valor": "Barcaza",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B03",
+        "valor": "Granelero",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B04",
+        "valor": "Porta Contenedor",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B05",
+        "valor": "Draga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B06",
+        "valor": "Pesquero",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B07",
+        "valor": "Carga General",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B08",
+        "valor": "Quimiqueros",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B09",
+        "valor": "Transbordadores",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B10",
+        "valor": "Carga RoRo",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B11",
+        "valor": "Investigación",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B12",
+        "valor": "Tanquero",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B13",
+        "valor": "Gasero",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "B14",
+        "valor": "Remolcador",
+        "fechainicio": "2021-06-01"
+    }
+]

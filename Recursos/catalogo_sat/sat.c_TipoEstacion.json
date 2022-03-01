@@ -1,0 +1,23 @@
+[
+  {
+    "clave": "01",
+    "valor": "Origen Nacional",
+    "cvetransporte": "02, 03 y 04",
+    "fechaini": "2021-06-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Intermedia",
+    "cvetransporte": "02, 03 y 04",
+    "fechaini": "2021-06-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Destino Final Nacional",
+    "cvetransporte": "02, 03 y 04",
+    "fechaini": "2021-06-01",
+    "fechafin": ""
+  }
+]

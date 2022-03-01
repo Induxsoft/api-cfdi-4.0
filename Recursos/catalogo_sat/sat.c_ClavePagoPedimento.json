@@ -1,0 +1,82 @@
+[
+  {
+    "clave": "00",
+    "valor": "EFECTIVO."
+  },
+  {
+    "clave": "02",
+    "valor": "FIANZA."
+  },
+  {
+    "clave": "04",
+    "valor": "DEPOSITO EN CUENTA ADUANERA."
+  },
+  {
+    "clave": "05",
+    "valor": "TEMPORAL NO SUJETA A IMPUESTOS."
+  },
+  {
+    "clave": "06",
+    "valor": "PENDIENTE DE PAGO."
+  },
+  {
+    "clave": "07",
+    "valor": "CARGO A PARTIDA PRESUPUESTAL GOBIERNO FEDERAL."
+  },
+  {
+    "clave": "08",
+    "valor": "FRANQUICIA."
+  },
+  {
+    "clave": "09",
+    "valor": "EXENTO DE PAGO."
+  },
+  {
+    "clave": 10,
+    "valor": "CERTIFICADOS ESPECIALES DE TESORERIA PUBLICO."
+  },
+  {
+    "clave": 11,
+    "valor": "CERTIFICADOS ESPECIALES DE TESORERIA PRIVADO."
+  },
+  {
+    "clave": 12,
+    "valor": "COMPENSACION."
+  },
+  {
+    "clave": 13,
+    "valor": "PAGO YA EFECTUADO."
+  },
+  {
+    "clave": 14,
+    "valor": "CONDONACIONES."
+  },
+  {
+    "clave": 15,
+    "valor": "CUENTAS ADUANERAS DE GARANTIA POR PRECIOS ESTIMADOS"
+  },
+  {
+    "clave": 16,
+    "valor": "ACREDITAMIENTO."
+  },
+  {
+    "clave": 18,
+    "valor": "ESTIMULO FISCAL."
+  },
+  {
+    "clave": 19,
+    "valor": "OTROS MEDIOS DE GARANTIA."
+  },
+  {
+    "clave": 20,
+    "valor": "PAGO CONFORME AL ARTICULO 7 DE LA LEY DE INGRESOS DE LA FEDERACION, VIGENTE."
+  },
+  {
+    "clave": 21,
+    "valor": "CRÉDITO EN IVA E IEPS."
+  },
+  {
+    "clave": 22,
+    "valor": "GARANTÍA EN IVA E IEPS."
+  }
+]

@@ -1,0 +1,37 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Semanal",
+    "complementousa": "Servicios Plataformas Tecnológicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Mensual",
+    "complementousa": "Servicios Plataformas Tecnológicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Diario",
+    "complementousa": "Servicios Plataformas Tecnológicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Quincenal",
+    "complementousa": "Servicios Plataformas Tecnológicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Otro",
+    "complementousa": "Servicios Plataformas Tecnológicas",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

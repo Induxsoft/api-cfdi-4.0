@@ -1,0 +1,212 @@
+﻿[{
+        "Rango o Fijo": "",
+        "c_TasaOCuota": "Valor mínimo",
+        "": "Valor máximo",
+        "Impuesto": "",
+        "Factor": "",
+        "Traslado": "",
+        "Retención": "",
+        "Fecha inicio de vigencia": "",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.000000 ",
+        "Impuesto": "IVA",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "No",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.160000 ",
+        "Impuesto": "IVA",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "No",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Rango",
+        "c_TasaOCuota": "0.000000 ",
+        "": "0.160000 ",
+        "Impuesto": "IVA",
+        "Factor": "Tasa",
+        "Traslado": "No",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.080000 ",
+        "Impuesto": "IVA Crédito aplicado del 50%",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "No",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.265000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.300000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.530000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.500000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "1.600000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.304000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.250000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.090000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.080000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.070000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.060000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.030000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "No",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Fijo",
+        "c_TasaOCuota": "",
+        "": "0.000000 ",
+        "Impuesto": "IEPS",
+        "Factor": "Tasa",
+        "Traslado": "Sí",
+        "Retención": "No",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Rango",
+        "c_TasaOCuota": "0.000000 ",
+        "": "59.144900 ",
+        "Impuesto": "IEPS",
+        "Factor": "Cuota",
+        "Traslado": "Sí",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "Rango",
+        "c_TasaOCuota": "0.000000 ",
+        "": "0.350000 ",
+        "Impuesto": "ISR",
+        "Factor": "Tasa",
+        "Traslado": "No",
+        "Retención": "Sí",
+        "Fecha inicio de vigencia": "01/01/2022",
+        "Fecha fin de vigencia": ""
+    }, {
+        "Rango o Fijo": "",
+        "c_TasaOCuota": "",
+        "": "",
+        "Impuesto": "",
+        "Factor": "",
+        "Traslado": "",
+        "Retención": "",
+        "Fecha inicio de vigencia": "",
+        "Fecha fin de vigencia": ""
+    }
+]

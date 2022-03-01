@@ -1,0 +1,828 @@
+﻿[{
+        "clave": "CDP001",
+        "valor": "D-1",
+        "entre": "Torreón (Km. DA-251+000) ",
+        "hasta": "Villa Juárez (Km. DA-238+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP002",
+        "valor": "D-1",
+        "entre": "Torreón (Km. DA-251+000)",
+        "hasta": "Villa Juárez (Km. DA-238+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP003",
+        "valor": "DPL-1",
+        "entre": "Mariscala (Km. A-263+922)",
+        "hasta": "Guadalajara (Km. I-259+500)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP004",
+        "valor": "DPL-1",
+        "entre": "Mariscala (Km. A-263+922)",
+        "hasta": "Guadalajara (Km. I-259+500) Así como en el tramo comprendido entre los kilómetros T-1763+960 y T-1760+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP005",
+        "valor": "DPL-2",
+        "entre": "Viborillas (Km. BC-8+756)",
+        "hasta": "Encantada (Km.B-892+875)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP006",
+        "valor": "DPL-2",
+        "entre": "Viborillas (Km. BC-8+756)",
+        "hasta": "Encantada (Km. B-892+875)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP007",
+        "valor": "IT-1",
+        "entre": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+        "hasta": "Salina Cruz (Km. Z-303+304)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP008",
+        "valor": "IT-2",
+        "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+        "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP009",
+        "valor": "IT-3",
+        "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+        "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP010",
+        "valor": "IT-4",
+        "entre": "Lagunas (Z-212+000)",
+        "hasta": "Conexión Dto. Arriaga (Km. Z-254+200)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP011",
+        "valor": "IT-5",
+        "entre": "Salina Cruz (Km. Z-303+304)",
+        "hasta": "Conexión Dto. Arriaga (Km. Z-254+600",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP012",
+        "valor": "IT-6",
+        "entre": "Conexión Dto. Arriaga (Km. Z-254+600)",
+        "hasta": "Ixtepec (KM. Z-257+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP013",
+        "valor": "IT-7",
+        "entre": "Medias Aguas  (Km. Z-95 y 928 = G-299+869)",
+        "hasta": "Salina Cruz (Km. Z-303+304)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP014",
+        "valor": "N-1",
+        "entre": "Topo Grande (Km. M-528+000)",
+        "hasta": "Patio Monterrey Carga-Cerro La Silla (Km. M-500+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP015",
+        "valor": "N-1",
+        "entre": "Topo Grande (Km. M-528+000)",
+        "hasta": "Patio Monterrey Carga -Cerro La Silla (Km. M-500+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP016",
+        "valor": "N-10",
+        "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+        "hasta": "Lechería (Km. Juárez 24+000 / Morelos 24+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP017",
+        "valor": "N-10",
+        "entre": "Buenavista (Km. Juárez-1+000 = Morelos-1+000)",
+        "hasta": "Lechería (Km. Juárez-24+000 = Morelos 24+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP018",
+        "valor": "N-11",
+        "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+        "hasta": "Cortavía Juárez-45+712 = Morelos-45+712",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP019",
+        "valor": "N-11",
+        "entre": "Buenavista (Km. Juárez-1+100 / Morelos-1+100)",
+        "hasta": "Cortavía Juárez-45+712 = Morelos -45+712",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP020",
+        "valor": "N-12",
+        "entre": "Tramos que se requieran para que los trenes uti.icen el patio de San Lorenzo",
+        "hasta": "Patio de San Lorenzo",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP021",
+        "valor": "N-12",
+        "entre": "Tramos que se requieran para que los trenes uti.icen el patio de San Lorenzo",
+        "hasta": "Patio de San Lorenzo",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP022",
+        "valor": "N-13",
+        "entre": "Lechería (Juárez -19+415 = Morelos-19+549)",
+        "hasta": "Buenavista (Km. Juárez-1+000 = Morelos-1+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP023",
+        "valor": "N-14",
+        "entre": "Buenavista (Km. Juárez 1+000 = Morelos-1+000)",
+        "hasta": "Terminal de Valle de México  (Km. Juárez-10+470 = Morelos-10+596)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP024",
+        "valor": "N-15",
+        "entre": "Kms. V-217+026 = VB-189+027",
+        "hasta": "V-219+100",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP025",
+        "valor": "N-15",
+        "entre": "Kms. V-217+026 = VB-189+027",
+        "hasta": "Km. V-219+100",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP026",
+        "valor": "N-17",
+        "entre": "San Juan del Río (Km. AL -0+000)",
+        "hasta": "San Nicolás (Km. AL-11+245 = B-213+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP027",
+        "valor": "N-17",
+        "entre": "San Juan del Río (Km. AL -0+000)",
+        "hasta": "San Nicolás (Km. AL-11+245 = B-213+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP028",
+        "valor": "N-18",
+        "entre": "La Griega (Km. B-251+535 = Morelos 227+438) ",
+        "hasta": "Huehuetoca (Km. Juárez -43+724 / Morelos -43+724)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP029",
+        "valor": "N-18",
+        "entre": "La Griega (Km. B-251+535 = Morelos 227+438) ",
+        "hasta": "Huehuetoca (Km. Juárez -43+724 / Morelos -43+724)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP030",
+        "valor": "N-2",
+        "entre": "Apodaca (Km. F-17+000)",
+        "hasta": "Conexión  Distrito Matamoros (Km. F-0+000 = B-1029+026 ) - Km. B-1027+080",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP031",
+        "valor": "N-2",
+        "entre": "Apodaca (Km. F-17+000)",
+        "hasta": "Conexión Distrito Matamoros (Km. F-0+000 = B1029+026) -kilómetro  B-1027+080",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP032",
+        "valor": "N-20",
+        "entre": "Santa Fé (v-454+600)",
+        "hasta": "Jalapa (V-338+600)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP033",
+        "valor": "N-3",
+        "entre": "Monterrey Carga Km. B-1027+060",
+        "hasta": "Leona Km. B-1009+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP034",
+        "valor": "N-3",
+        "entre": "Monterrey Carga, Km. B-1027+060",
+        "hasta": "Leona, Km. B-1009+000",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP035",
+        "valor": "N-4",
+        "entre": "Tampico (Km. L-665+000)",
+        "hasta": "Árbol Grande (Km. L-672+419 = M-4+128)- Doña Cecilia (Km. L-674+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP036",
+        "valor": "N-4",
+        "entre": "Tampico (Km. L-665+000)",
+        "hasta": "Árbol Grande (Km. L-672+419 = M-4+128)- Doña Cecilia (Km L-674+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP037",
+        "valor": "N-5",
+        "entre": "Ramos Arizpe (Km. B-929+007 = R-424+650)",
+        "hasta": "Encantada (Km.B-892+875)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP038",
+        "valor": "N-5",
+        "entre": "Ramos Arizpe Km. B-929+007 = R-424+650",
+        "hasta": "Encantada (Km. B-892+875)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP039",
+        "valor": "N-6",
+        "entre": "Vías Juárez y Morelos  de la doble vía electrificada entre la  La Griega (Km. Morelos -227+438 = B-251+535)",
+        "hasta": "Mariscala (Km. B-285+922 = A-263+922)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP040",
+        "valor": "N-6",
+        "entre": "Vías Juárez y  Morelos  de la doble vía electrificada entre  La Griega (Km. Morelos -227+438 = B-251+535) ",
+        "hasta": "Mariscala (Km. B-285+922 = A-263+922) ",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP041",
+        "valor": "N-6",
+        "entre": "Vía Juárez del Km. B-265+078.35 = J-240+817.73",
+        "hasta": "Km. B-285 + 861 = JM-262+094.30",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP042",
+        "valor": "N-7",
+        "entre": "Celaya (Km. NB-68+692)",
+        "hasta": "Escobedo (Km. B-315+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP043",
+        "valor": "N-7",
+        "entre": "Celaya (Km. NB-68+692 ",
+        "hasta": "Escobedo (Km. B-315+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP044",
+        "valor": "N-8",
+        "entre": "Teotihuacán (Km. VS-0+695)",
+        "hasta": "Empalme Línea \"V\" (Km. 18+781 = VK-24+883)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP045",
+        "valor": "N-8",
+        "entre": "Teotihuacán (Km. VS-0+695)",
+        "hasta": "Empalme línea \"V\" (Km. V-18+781 = VK-24+883)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP046",
+        "valor": "N-9",
+        "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+        "hasta": "Huehuetoca (Juárez -43+724 / Morelos -43+724)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP047",
+        "valor": "N-9",
+        "entre": "Buenavista (Km. Juárez 1+000 / Morelos 1+000)",
+        "hasta": "Huehueteca (Juárez-43+724 / Morelos-43+724)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP048",
+        "valor": "PN-1",
+        "entre": "Tabaloapa",
+        "hasta": "Chihuahua",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP049",
+        "valor": "PN-10",
+        "entre": "Árbol Grande (Km. M-4+128 = L-672+419)",
+        "hasta": "Altamira (Km. M-27+571)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP050",
+        "valor": "PN-10",
+        "entre": "Árbol Grande (Km. M-4+128 = L-672+419)",
+        "hasta": "Altamira (Km. M-27+571)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP051",
+        "valor": "PN-11",
+        "entre": "Arellano (Km. A-574+000)",
+        "hasta": "Chicalote (Km. L-14+320 = A-599+320)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP052",
+        "valor": "PN-11",
+        "entre": "Arellano (Km. A-574+000)",
+        "hasta": "Chicalote (Km. L-14+320 = A-599+320)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP053",
+        "valor": "PN-12",
+        "entre": "Viborillas (Km. BC-8+756)",
+        "hasta": "Huehuetoca (Km. B-49+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP054",
+        "valor": "PN-12",
+        "entre": "Viborillas (Km. BC-8+756)",
+        "hasta": "Huehuetoca (Km. B-49+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP055",
+        "valor": "PN-13",
+        "entre": "Sabinas (Km. R-115+000)",
+        "hasta": "Ciudad Frontera (Km. R-240+443)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP056",
+        "valor": "PN-13",
+        "entre": "Sabinas (Km. R-115+000)",
+        "hasta": "Ciudad Frontera (Km. R-240+443)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP057",
+        "valor": "PN-14",
+        "entre": "Línea  Divisoria Nogales, Son. - Nogales, AZ. (Km. TA-0+000 al  TA-0+500, Y T-0+000) ",
+        "hasta": "Nogales (Km. T-8+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP058",
+        "valor": "PN-14",
+        "entre": "kilómetros TA-O+000 al TA-0+500",
+        "hasta": "kilómetros T-0+000 (Línea divisoria Nogales, Son.-Nogales, Az.)  al  T-8+000 (Nogales)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP059",
+        "valor": "PN-15",
+        "entre": "Nogales",
+        "hasta": "Guaymas",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP060",
+        "valor": "PN-15",
+        "entre": "Nogales   ",
+        "hasta": "Guaymas ",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP061",
+        "valor": "PN-17",
+        "entre": "Torreón (A-1131+750)",
+        "hasta": "Escalón (A-1298+130 = RD-338+174)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP062",
+        "valor": "PN-17",
+        "entre": "Torreón (A1131+750)",
+        "hasta": "Escalón (A-1298+130 = RD-338+174",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP063",
+        "valor": "PN-2",
+        "entre": "Chihuahua (Km. A-1615+000)",
+        "hasta": "Ciudad Juárez (Km. A-1974+406 puente internacional Ferrocarril Burlington Northern / Santa Fe).",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP064",
+        "valor": "PN-5",
+        "entre": "T-741+000",
+        "hasta": "T-741+650",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP065",
+        "valor": "PN-7",
+        "entre": "Pedro  C. Morales (Km. M-477+000)",
+        "hasta": "Cerro La Silla (Km. M-500+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP066",
+        "valor": "PN-7",
+        "entre": "Pedro C Morales (Km. M-477+000)",
+        "hasta": "Cerro la Silla (Km. M-500+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP067",
+        "valor": "PN-8",
+        "entre": "Topo Grande (Km. M-528+000)",
+        "hasta": "Chipinque (Km. M-552+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP068",
+        "valor": "PN-8",
+        "entre": "Topo Grande (Km. M-528+000)",
+        "hasta": "Chipinque (Km. M-552+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP069",
+        "valor": "PN-9",
+        "entre": "Celaya (Km. A-289+503)",
+        "hasta": "Silao (Km. A-385+000 Y AE-7+000) ",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP070",
+        "valor": "PN-9",
+        "entre": "Celaya (Km. A-289+513)",
+        "hasta": "Silao (Km. A-378+000 y AE-7+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP071",
+        "valor": "S-1",
+        "entre": "Santa Fé (Km. V-454+600)",
+        "hasta": "Patio de Veracruz (Km. V-470+100 y S-418+800)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP072",
+        "valor": "S-1",
+        "entre": "Santa Fé (Km. V-454+600)",
+        "hasta": "Veracruz (Km. V-470+100 y S-419+288)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP073",
+        "valor": "S-2",
+        "entre": "Medias Aguas (Km. Z-95+928 = G-299+869) ",
+        "hasta": "Coatzacoalcos (Km. Z-4+709 y FA-0+000 al FA-8+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP074",
+        "valor": "S-2",
+        "entre": "Medias Aguas  (Km. Z-95+928 = G-299+869)",
+        "hasta": "Coatzacoalcos (Km. Z-4+709 y FA-0+000 al FA-8+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP075",
+        "valor": "S-3",
+        "entre": "Coatzacoalcos (Km. FA-8+000)",
+        "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP076",
+        "valor": "S-3",
+        "entre": "Coatzacoalcos (FA-8+000)",
+        "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP077",
+        "valor": "S-5",
+        "entre": "El Chapo (Km. FA-18+000)",
+        "hasta": "Coatzacoalcos (Km. FA-0+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP078",
+        "valor": "S-5",
+        "entre": "Chapo (Km. FA-18+000)",
+        "hasta": "Coatzacoalcos (Km. FA-0+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP079",
+        "valor": "S-6",
+        "entre": "Coatzacoalcos (Km. FA-0+000)",
+        "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP080",
+        "valor": "S-6",
+        "entre": "Coatzacoalcos (Km. FA-0+000)",
+        "hasta": "Medias Aguas (Km. Z-95+928 = G-299+869)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP081",
+        "valor": "S-7",
+        "entre": "Sánchez (Km. E-150+000)",
+        "hasta": "Puebla (Km. VB-109+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP082",
+        "valor": "S-7",
+        "entre": "Sánchez (Km. E-150+000)",
+        "hasta": "Puebla (VB-109+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP083",
+        "valor": "S-8",
+        "entre": "Empalme Distrito de Atencingo (Km. VB-101+000)",
+        "hasta": "Puebla (Km. VB-109+946)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP084",
+        "valor": "S-8",
+        "entre": "Empalme distrito de Atencingo (Km. VB-101+000)",
+        "hasta": "Puebla (Km. VB-109+946)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP085",
+        "valor": "S-9",
+        "entre": "Tres Valles (Km. G-133+565)",
+        "hasta": "Tierra Blanca (Km G-93+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP086",
+        "valor": "SUR -1=S-4",
+        "entre": "Puebla (Km. VB-109+000)",
+        "hasta": "Oriental (Km. VB-189+027 = V-217+026)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP087",
+        "valor": "SUR-1",
+        "entre": "Puebla (Km. VB-109+000)",
+        "hasta": "Oriental (km. VB-189+027 = V-217+026)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP088",
+        "valor": "SUR-2",
+        "entre": "Xoxtla (Km. VB-85+500)",
+        "hasta": "Empalme distrito de Atencingo  (Km. VB-101+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP089",
+        "valor": "SUR-2",
+        "entre": "Xoxtla (Km. VB-85+500)",
+        "hasta": "Empalme distrito de Atencingo (Km. VB-101+000) ",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP090",
+        "valor": "SUR-3",
+        "entre": "San lorenzo (Km. VB-000+600)  ",
+        "hasta": "Puerto Seco, Puebla",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP091",
+        "valor": "TVM-1",
+        "entre": "Lechería (Km. H-0+295 = B-21+020)",
+        "hasta": "Teotihuacán (Km. VS-0+695)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP092",
+        "valor": "TVM-1",
+        "entre": "Lechería( Km. H-0+295 = B-21+020)",
+        "hasta": "Teotihuacán (Km. VS-0+695)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP093",
+        "valor": "TVM-10",
+        "entre": "Km. S-13+100 = VK-0+000",
+        "hasta": "Km. VK-27+000 ",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP094",
+        "valor": "TVM-10",
+        "entre": "S-13+100 = VK -0+000",
+        "hasta": "VK-27+000",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP095",
+        "valor": "TVM-11",
+        "entre": "S-0+000 = A-12+386",
+        "hasta": "VK-27+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP096",
+        "valor": "TVM-11",
+        "entre": "S-0+000 = A-12+386",
+        "hasta": "VK-27+000",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP097",
+        "valor": "TVM-12",
+        "entre": "Km. A-2+576 y B-7+715",
+        "hasta": "Km. A-21+500  y B-24+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP098",
+        "valor": "TVM-12",
+        "entre": "A-2+576",
+        "hasta": "A-21+500",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP099",
+        "valor": "TVM-13",
+        "entre": "Jaltocán (Km. H-18+800)",
+        "hasta": "Pantaco (Km. B-7+715 y A-2+576)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP100",
+        "valor": "TVM-13",
+        "entre": "Jaltocán (Km. H-18+800)",
+        "hasta": "Pantaco (Km. B-7+715 y A-2+576)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP101",
+        "valor": "TVM-14",
+        "entre": "Huehuetoca (Km. A-47+000) ",
+        "hasta": "Lechería (Km. A-21+500)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP102",
+        "valor": "TVM-2",
+        "entre": "Terminal de Valle de México (Km. A-12+386 = S-0+000)",
+        "hasta": "Teotihuacán (Km. S-43+483)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP103",
+        "valor": "TVM-2",
+        "entre": "Terminal del Valle de México (Km. A-12+386 = S-0+000)",
+        "hasta": "Teotihuacán (Km. S-43+483)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP104",
+        "valor": "TVM-3",
+        "entre": "Kilómetros VK-24+883 = V-18+781",
+        "hasta": "Los Reyes (Km. VK-27+000)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP105",
+        "valor": "TVM-3",
+        "entre": "Kilómetros VK-24+883 = V-18+781",
+        "hasta": "Los Reyes  (Km. VK-27+000)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP106",
+        "valor": "TVM-4",
+        "entre": "Naucalpan (Km. N-11+000)",
+        "hasta": "Pantaco (Km. A-4+138)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP107",
+        "valor": "TVM-4",
+        "entre": "Naucalpan (Km. N-11+000)",
+        "hasta": "Pantaco (Km. A-4+138)",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP108",
+        "valor": "TVM-5",
+        "entre": "Kilómetros N-1+095",
+        "hasta": "N-2+438 = CNA -0+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP109",
+        "valor": "TVM-5",
+        "entre": "N-1+095",
+        "hasta": "N-2+438 = CNA -0+000",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP110",
+        "valor": "TVM-6",
+        "entre": "A-2+576 ",
+        "hasta": "A-43+969",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP111",
+        "valor": "TVM-6",
+        "entre": "A-2+576",
+        "hasta": "A-43+969",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP112",
+        "valor": "TVM-7",
+        "entre": "A-2+576",
+        "hasta": "A-44+000",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP113",
+        "valor": "TVM-7",
+        "entre": "A-2+576",
+        "hasta": "A-43+969",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP114",
+        "valor": "TVM-8",
+        "entre": "Km. H-0+295 = B-21+020",
+        "hasta": " Km. S-47+616",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP115",
+        "valor": "TVM-8",
+        "entre": "H-0+295 = B-21+020",
+        "hasta": "S-47+616",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP116",
+        "valor": "TVM-9",
+        "entre": "S-0+000 = A-12+386",
+        "hasta": "S-47+616 (Teotihuacán)",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP117",
+        "valor": "TVM-9",
+        "entre": "S-0+000 = A-12+386",
+        "hasta": "S-43+483",
+        "otorga_recibe": "Otorga",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CDP118",
+        "valor": "TEMP-1",
+        "entre": "Arellano (Km. A-574+000)",
+        "hasta": "Silao ",
+        "otorga_recibe": "Recibe",
+        "fechainicio": "2021-06-01"
+    }
+]

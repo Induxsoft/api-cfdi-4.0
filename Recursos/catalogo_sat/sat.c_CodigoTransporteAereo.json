@@ -1,0 +1,1122 @@
+[{
+        "clave": "CA001",
+        "nacionalidad": "Asiáticas",
+        "valor": "All Nippon Airways LTD",
+        "designador": "ANA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA002",
+        "nacionalidad": "Asiáticas",
+        "valor": "Cathay Pacific Airways Limited",
+        "designador": "CPA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA003",
+        "nacionalidad": "Asiáticas",
+        "valor": "China Southern Airlines",
+        "designador": "CSN",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA004",
+        "nacionalidad": "Asiáticas",
+        "valor": "Emirates",
+        "designador": "UAE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA005",
+        "nacionalidad": "Asiáticas",
+        "valor": "Hainan Airlines",
+        "designador": "CHH",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA006",
+        "nacionalidad": "Asiáticas",
+        "valor": "Korean Air",
+        "designador": "KAL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA007",
+        "nacionalidad": "Asiáticas",
+        "valor": "Qatar Airlines ",
+        "designador": "QTR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA008",
+        "nacionalidad": "Canadienses",
+        "valor": "Air Canada",
+        "designador": "ACA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA009",
+        "nacionalidad": "Canadienses",
+        "valor": "Air Transat (Transat A. T.)",
+        "designador": "TSC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA010",
+        "nacionalidad": "Canadienses",
+        "valor": "Canjet (Imp Group Limited/Canjet Airlines)",
+        "designador": "CJA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA011",
+        "nacionalidad": "Canadienses",
+        "valor": "Cargojet Airways Ltd",
+        "designador": "CJT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA012",
+        "nacionalidad": "Canadienses",
+        "valor": "Flair Airlines",
+        "designador": "FLE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA013",
+        "nacionalidad": "Canadienses",
+        "valor": "Jazz  Air  LP",
+        "designador": "JZA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA014",
+        "nacionalidad": "Canadienses",
+        "valor": "Sunwing (Sunwing Airlines)",
+        "designador": "SWG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA015",
+        "nacionalidad": "Canadienses",
+        "valor": "Swoop Airlines",
+        "designador": "WSW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA016",
+        "nacionalidad": "Canadienses",
+        "valor": "West Jet (Westjet Airlines Ltd)",
+        "designador": "WJA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA017",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Aerolíneas Argentinas",
+        "designador": "ARG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA018",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Aerorepública",
+        "designador": "RPB",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA019",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Avianca (Aerovías Del Continente Americano)",
+        "designador": "AVA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA020",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Copa (Compañía Panameña De Aviación)",
+        "designador": "CMP",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA021",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Cubana (Cubana De Aviación)",
+        "designador": "CUB",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA022",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "DHL De Guatemala (DHL De Guatemala)",
+        "designador": "JOS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA023",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "GOL Linhas Aéreas",
+        "designador": "GLO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA024",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Lacsa (Líneas Aéreas Costarricences)",
+        "designador": "LRC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA025",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "LAN Cargo",
+        "designador": "LCO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA026",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Lan Chile Airlines (Línea Aérea Nacional De Chile)",
+        "designador": "LAN",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA027",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Lan Colombia",
+        "designador": "ARE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA028",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Lanperu",
+        "designador": "LPE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA029",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Taca (Taca International Airlines)",
+        "designador": "TAI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA030",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Taca Peru (Trans American Airlines)",
+        "designador": "TPU",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA031",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Tam Linhas Aereas",
+        "designador": "TAM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA032",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Tampa (Tampa Cargo)",
+        "designador": "TPA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA033",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Transcarga International Airways",
+        "designador": "TIW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA034",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Tropic Air Limited",
+        "designador": "TOS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA035",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Viva Air Colombia",
+        "designador": "VVC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA036",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "Volaris Costa Rica",
+        "designador": "VOC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA037",
+        "nacionalidad": "Centro y Sudamericanas",
+        "valor": "VRG Linhas Aereas, S.A.",
+        "designador": "VRN",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA038",
+        "nacionalidad": "El Caribe",
+        "valor": "BahamasAir Holdings LTD",
+        "designador": "BHS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA039",
+        "nacionalidad": "Estadounidenses",
+        "valor": "21 Air",
+        "designador": "UBA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA040",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Abx (Abx Air)",
+        "designador": "ABX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA041",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Alaska Airlines",
+        "designador": "ASA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA042",
+        "nacionalidad": "Estadounidenses",
+        "valor": "American Airlines",
+        "designador": "AAL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA043",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Amerijet International",
+        "designador": "AJT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA044",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Ameristar Air Cargo",
+        "designador": "AJI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA045",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Atlas Air",
+        "designador": "GTI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA046",
+        "nacionalidad": "Estadounidenses",
+        "valor": "BOSTON MAINE",
+        "designador": "CXS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA047",
+        "nacionalidad": "Estadounidenses",
+        "valor": "C&M AIRWAYS",
+        "designador": "RWG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA048",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Caribbean Sun Airlines",
+        "designador": "WAL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA049",
+        "nacionalidad": "Estadounidenses",
+        "valor": "CENTURION",
+        "designador": "CWC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA050",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Compass Airlines",
+        "designador": "CPZ",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA051",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Continental Express (Express Jet)",
+        "designador": "ASQ",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA052",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Delta Airlines",
+        "designador": "DAL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA053",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Delux Public Air Charter Inc",
+        "designador": "JSX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA054",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Envoy Air, Inc",
+        "designador": "ENY",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA055",
+        "nacionalidad": "Estadounidenses",
+        "valor": "FALCON AIR EXPRESS",
+        "designador": "FAO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA056",
+        "nacionalidad": "Estadounidenses",
+        "valor": "FEDEX (Federal Express)",
+        "designador": "FDX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA057",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Florida West",
+        "designador": "FWL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA058",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Frontier",
+        "designador": "FFT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA059",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Gulf & Caribbean Cargo",
+        "designador": "TSU",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA060",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Horizont Air (Horizont Air Industries)",
+        "designador": "QXE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA061",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Interjet West Inc",
+        "designador": "IJW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA062",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Jet Blue Air (Jet Blue Airways Corporation)",
+        "designador": "JBU",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA063",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Kalitta (Kalitta Charters II)",
+        "designador": "KII",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA064",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Kalitta Air",
+        "designador": "CKS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA065",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Key Air Llc.",
+        "designador": "KEY",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA066",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Mesa Airlines (Mesa Airlines, Inc.)",
+        "designador": "ASH",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA067",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Miami Air  (Miami Air International Inc)",
+        "designador": "BSK",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA068",
+        "nacionalidad": "Estadounidenses",
+        "valor": "MN Airlines",
+        "designador": "SCX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA069",
+        "nacionalidad": "Estadounidenses",
+        "valor": "National Air Cargo Group. Inc.(National Airlines)",
+        "designador": "NCR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA070",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Northern Air Cargo Inc.",
+        "designador": "NAC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA071",
+        "nacionalidad": "Estadounidenses",
+        "valor": "ORANGE AIR LLC",
+        "designador": "ORN",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA072",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Republic Airlines",
+        "designador": "RPA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA073",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Sky Lease I, Inc",
+        "designador": "KYE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA074",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Skywest Airlines",
+        "designador": "SKW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA075",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Southwest Airlines",
+        "designador": "SWA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA076",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Spirit Airlines",
+        "designador": "NKS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA077",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Sun Country",
+        "designador": "SCX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA078",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Swift Air",
+        "designador": "SWK",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA079",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Tatonduk Outfitters Limited DBA Everts Air Cargo",
+        "designador": "VTS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA080",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Tem Enterprises",
+        "designador": "CXP",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA081",
+        "nacionalidad": "Estadounidenses",
+        "valor": "U.S.A. Jet Airlines",
+        "designador": "JUS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA082",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Ultimate Jet Charter",
+        "designador": "UJC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA083",
+        "nacionalidad": "Estadounidenses",
+        "valor": "United Airlines, Inc.",
+        "designador": "UAL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA084",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Ups (United Parcel Service)",
+        "designador": "UPS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA085",
+        "nacionalidad": "Estadounidenses",
+        "valor": "US Air (U.S. Airways)",
+        "designador": "AWE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA086",
+        "nacionalidad": "Estadounidenses",
+        "valor": "Virgin America, Inc",
+        "designador": "VRD",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA087",
+        "nacionalidad": "Europeas",
+        "valor": "Eurowings GMBH.",
+        "designador": "EWG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA088",
+        "nacionalidad": "Europeas",
+        "valor": "Air Atlanta Icelandic",
+        "designador": "ABD",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA089",
+        "nacionalidad": "Europeas",
+        "valor": "Air Berlín",
+        "designador": "VER",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA090",
+        "nacionalidad": "Europeas",
+        "valor": "Air Europa (Air España)",
+        "designador": "AEA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA091",
+        "nacionalidad": "Europeas",
+        "valor": "Air France (Société Air France)",
+        "designador": "AFR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA092",
+        "nacionalidad": "Europeas",
+        "valor": "Alitalia",
+        "designador": "AZA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA093",
+        "nacionalidad": "Europeas",
+        "valor": "Antonov Company (Aerolíneas Antonov)",
+        "designador": "ADB",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA094",
+        "nacionalidad": "Europeas",
+        "valor": "Azur Air",
+        "designador": "AZV",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA095",
+        "nacionalidad": "Europeas",
+        "valor": "Blue Panorama",
+        "designador": "BPA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA096",
+        "nacionalidad": "Europeas",
+        "valor": "British Airways",
+        "designador": "BAW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA097",
+        "nacionalidad": "Europeas",
+        "valor": "C.A.L. Cargo Airlines",
+        "designador": "ICL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA098",
+        "nacionalidad": "Europeas",
+        "valor": "CargoLogicAir",
+        "designador": "CLA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA099",
+        "nacionalidad": "Europeas",
+        "valor": "Cargolux Airlines",
+        "designador": "CLX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA100",
+        "nacionalidad": "Europeas",
+        "valor": "Cargolux Italia S. P. A.",
+        "designador": "ICV",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA101",
+        "nacionalidad": "Europeas",
+        "valor": "Corsair (Corse Air Int.)",
+        "designador": "CRL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA102",
+        "nacionalidad": "Europeas",
+        "valor": "Edelweiss (Edelweiss Air Ag) Air Ag",
+        "designador": "EDW",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA103",
+        "nacionalidad": "Europeas",
+        "valor": "Evelop Airlines",
+        "designador": "EVE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA104",
+        "nacionalidad": "Europeas",
+        "valor": "Finn Air",
+        "designador": "FIN",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA105",
+        "nacionalidad": "Europeas",
+        "valor": "Flugleidir Hf. D/B/A Icelandair",
+        "designador": "ICE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA106",
+        "nacionalidad": "Europeas",
+        "valor": "Hi-Fly Transportes Aereos",
+        "designador": "HFY",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA107",
+        "nacionalidad": "Europeas",
+        "valor": "Iberia (Iberia Líneas Aéreas De España)",
+        "designador": "IBE",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA108",
+        "nacionalidad": "Europeas",
+        "valor": "IKAR LLC.",
+        "designador": "KAR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA109",
+        "nacionalidad": "Europeas",
+        "valor": "K L M (Royal Dutch Airlines)",
+        "designador": "KLM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA110",
+        "nacionalidad": "Europeas",
+        "valor": "Lufthansa (Deutsche Lufthansa Ag)",
+        "designador": "DLH",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA111",
+        "nacionalidad": "Europeas",
+        "valor": "Lufthansa Cargo Ag",
+        "designador": "GEC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA112",
+        "nacionalidad": "Europeas",
+        "valor": "Martin Air (Martin Air Holland N.V)",
+        "designador": "MPH",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA113",
+        "nacionalidad": "Europeas",
+        "valor": "Neos Air (Neos S.P.A.)",
+        "designador": "NOS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA114",
+        "nacionalidad": "Europeas",
+        "valor": "Nordwind",
+        "designador": "NWS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA115",
+        "nacionalidad": "Europeas",
+        "valor": "Norwegian Air Shuttle ",
+        "designador": "NAX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA116",
+        "nacionalidad": "Europeas",
+        "valor": "NOVA AIRLINES",
+        "designador": "NVR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA117",
+        "nacionalidad": "Europeas",
+        "valor": "Orbest",
+        "designador": "OBS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA118",
+        "nacionalidad": "Europeas",
+        "valor": "Polskie Linie Lotnicze",
+        "designador": "LOT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA119",
+        "nacionalidad": "Europeas",
+        "valor": "Privilege Style",
+        "designador": "PVG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA120",
+        "nacionalidad": "Europeas",
+        "valor": "Pullmantur",
+        "designador": "PLM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA121",
+        "nacionalidad": "Europeas",
+        "valor": "Royal Flight",
+        "designador": "ABG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA122",
+        "nacionalidad": "Europeas",
+        "valor": "SATA International  Servicios de Transportes Aereos, s.a.",
+        "designador": "RZO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA123",
+        "nacionalidad": "Europeas",
+        "valor": "Scandinavia (Thomas Cook Airlines Scandinavia )",
+        "designador": "VKG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA124",
+        "nacionalidad": "Europeas",
+        "valor": "Thomas Cook (Thomas Cook Ltd)",
+        "designador": "TCX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA125",
+        "nacionalidad": "Europeas",
+        "valor": "Thomson Airways (Thomson Airways Ltd) Ltd",
+        "designador": "TOM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA126",
+        "nacionalidad": "Europeas",
+        "valor": "Thomson Fly Limited",
+        "designador": "TOM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA127",
+        "nacionalidad": "Europeas",
+        "valor": "Titan Airways",
+        "designador": "AWC",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA128",
+        "nacionalidad": "Europeas",
+        "valor": "Transaero Airlines",
+        "designador": "TSO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA129",
+        "nacionalidad": "Europeas",
+        "valor": "TRAVEL SERVICE",
+        "designador": "TVL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA130",
+        "nacionalidad": "Europeas",
+        "valor": "TUI Airways",
+        "designador": "TOM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA131",
+        "nacionalidad": "Europeas",
+        "valor": "Tui Belgium",
+        "designador": "JAF",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA132",
+        "nacionalidad": "Europeas",
+        "valor": "Tui Nederland",
+        "designador": "TFL",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA133",
+        "nacionalidad": "Europeas",
+        "valor": "TUIFLY GMBH",
+        "designador": "TUI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA134",
+        "nacionalidad": "Europeas",
+        "valor": "Tuifly Nordic",
+        "designador": "BLX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA135",
+        "nacionalidad": "Europeas",
+        "valor": "Turkish Airlines",
+        "designador": "THY",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA136",
+        "nacionalidad": "Europeas",
+        "valor": "Virgin Atlantic Airways, Limited",
+        "designador": "VIR",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA137",
+        "nacionalidad": "Europeas",
+        "valor": "Wamos Air, S.A.",
+        "designador": "PLM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA138",
+        "nacionalidad": "Europeas",
+        "valor": "White Airways",
+        "designador": "WHT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA139",
+        "nacionalidad": "Europeas",
+        "valor": "Xl Airways (Xl Airways France)",
+        "designador": "SEU",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA140",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aéreo Calafia",
+        "designador": "CFV",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA141",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aerolíneas Damojh (Global Air )",
+        "designador": "DMJ",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA142",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aeromar",
+        "designador": "TAO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA143",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aeroméxico (Aerovías De México)",
+        "designador": "AMX",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA144",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aeroméxico Connect (Aerolitoral)",
+        "designador": "SLI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA145",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aeronaves TSM",
+        "designador": "VTM",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA146",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aeroservicios de La Costa",
+        "designador": "TAA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA147",
+        "nacionalidad": "Mexicanas",
+        "valor": "Aerounión (Aerotransportes De Carga Union)",
+        "designador": "TNO",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA148",
+        "nacionalidad": "Mexicanas",
+        "valor": "Estafeta (Carga Aérea)",
+        "designador": "ESF",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA149",
+        "nacionalidad": "Mexicanas",
+        "valor": "Interjet (Abc Aerolíneas)",
+        "designador": "AIJ",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA150",
+        "nacionalidad": "Mexicanas",
+        "valor": "Magnicharters (Grupo Aéreo Monterrey)",
+        "designador": "GMT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA151",
+        "nacionalidad": "Mexicanas",
+        "valor": "Mas Air (Más De Carga)",
+        "designador": "MAA",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA152",
+        "nacionalidad": "Mexicanas",
+        "valor": "MCS Aerocarga De México, S.A De C.V.",
+        "designador": "MCS",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA153",
+        "nacionalidad": "Mexicanas",
+        "valor": "Servicios Integrales De Aviacion, S.A. De C.V.",
+        "designador": "NTG",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA154",
+        "nacionalidad": "Mexicanas",
+        "valor": "Transportes Aéreos Regionales (TAR)",
+        "designador": "LCT",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA155",
+        "nacionalidad": "Mexicanas",
+        "valor": "Vivaaerobus (Aeroenlaces)",
+        "designador": "VIV",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA156",
+        "nacionalidad": "Mexicanas",
+        "valor": "Volaris (Concesionaria Vuela Cia De Aviación)",
+        "designador": "VOI",
+        "fechainicio": "2021-06-01",
+        "fechafin": ""
+    }, {
+        "clave": "CA157",
+        "nacionalidad": "Mexicanas",
+        "valor": "Servicio de Taxi Aéreo",
+        "designador": "NA",
+        "fechainicio": "2021-11-22",
+        "fechafin": ""
+    }, {
+        "clave": "CA158",
+        "nacionalidad": "Extranjeras",
+        "valor": "Servicio de Taxi Aéreo",
+        "designador": "NA",
+        "fechainicio": "2021-11-22",
+        "fechafin": ""
+    }, {
+        "clave": "CA159",
+        "nacionalidad": "Mexicanas",
+        "valor": "Servicios Privados No Comerciales",
+        "designador": "NA",
+        "fechainicio": "2021-11-22",
+        "fechafin": ""
+    }, {
+        "clave": "CA160",
+        "nacionalidad": "Extranjeras",
+        "valor": "Servicios Privados No Comerciales",
+        "designador": "NA",
+        "fechainicio": "2021-11-22",
+        "fechafin": ""
+    }
+]

@@ -1,0 +1,4650 @@
+﻿[
+  {
+    "clave": "01",
+    "estado": "AGU",
+    "valor": "Aguascalientes",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "BCN",
+    "valor": "Ensenada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "BCS",
+    "valor": "Ciudad Constitución",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "CAM",
+    "valor": "San Francisco de Campeche",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "COA",
+    "valor": "Ciudad Acuña",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "COL",
+    "valor": "Colima",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "CHH",
+    "valor": "Santa Rosalía de Camargo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "CHP",
+    "valor": "Comitán de Domínguez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "DUR",
+    "valor": "Victoria de Durango",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "GRO",
+    "valor": "Acapulco de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "GUA",
+    "valor": "Acámbaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "HID",
+    "valor": "Actopan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "JAL",
+    "valor": "Ameca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "MEX",
+    "valor": "Ciudad Adolfo López Mateos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "MIC",
+    "valor": "Apatzingán de la Constitución",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "MOR",
+    "valor": "Cuautla (Cuautla de Morelos)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "NAY",
+    "valor": "Santiago Ixcuintla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "NLE",
+    "valor": "Ciudad Apodaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "OAX",
+    "valor": "Juchitán (Juchitán de Zaragoza)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "PUE",
+    "valor": "Atlixco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "QUE",
+    "valor": "Querétaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "ROO",
+    "valor": "Cancún",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "SIN",
+    "valor": "Los Mochis",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "SLP",
+    "valor": "Ciudad Valles",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "SON",
+    "valor": "San Luis Río Colorado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "TAB",
+    "valor": "Cárdenas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "TAM",
+    "valor": "Altamira",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "TLA",
+    "valor": "Apizaco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "VER",
+    "valor": "Acayucan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "YUC",
+    "valor": "Mérida",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "01",
+    "estado": "ZAC",
+    "valor": "Fresnillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "AGU",
+    "valor": "Calvillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "BCN",
+    "valor": "Mexicali",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "BCS",
+    "valor": "La Paz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "CAM",
+    "valor": "Ciudad del Carmen",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "COA",
+    "valor": "Frontera",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "COL",
+    "valor": "Manzanillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "CHH",
+    "valor": "Chihuahua",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "CHP",
+    "valor": "San Cristóbal de las Casas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "DUR",
+    "valor": "Gómez Palacio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "GRO",
+    "valor": "Chilpancingo de los Bravo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "GUA",
+    "valor": "San miguel de Allende",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "HID",
+    "valor": "Apan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "JAL",
+    "valor": "Ciudad Guzmán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "MEX",
+    "valor": "Chimalhuacán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "MIC",
+    "valor": "Los Reyes de Salgado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "MOR",
+    "valor": "Cuernavaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "NAY",
+    "valor": "Tepic",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "NLE",
+    "valor": "San Pedro Garza García",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "OAX",
+    "valor": "Oaxaca de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "PUE",
+    "valor": "Izúcar de Matamoros",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "QUE",
+    "valor": "San Juan del Rio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "ROO",
+    "valor": "Cozumel",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "SIN",
+    "valor": "Culiacán Rosales",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "SLP",
+    "valor": "Ébano",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "SON",
+    "valor": "Agua Prieta",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "TAB",
+    "valor": "Villahermosa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "TAM",
+    "valor": "Ciudad Camargo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "TLA",
+    "valor": "Villa Vicente Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "VER",
+    "valor": "Naranjos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "YUC",
+    "valor": "Tizimín",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "02",
+    "estado": "ZAC",
+    "valor": "Jerez de García Salinas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "AGU",
+    "valor": "San Francisco de los Romo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "BCN",
+    "valor": "Tecate",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "BCS",
+    "valor": "Cabo San Lucas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "CAM",
+    "valor": "Calkiní",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "COA",
+    "valor": "Matamoros",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "COL",
+    "valor": "Tecoman",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "CHH",
+    "valor": "Cuauhtémoc",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "CHP",
+    "valor": "Tapachula de Córdova y Ordóñez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "DUR",
+    "valor": "Ciudad Lerdo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "GRO",
+    "valor": "Iguala de la Independencia",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "GUA",
+    "valor": "Celaya",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "HID",
+    "valor": "Pachuca de Soto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "JAL",
+    "valor": "Guadalajara",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "MEX",
+    "valor": "Coacalco de Berriozabal",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "MIC",
+    "valor": "Ciudad Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "MOR",
+    "valor": "Galeana",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "NAY",
+    "valor": "Tuxpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "NLE",
+    "valor": "Ciudad General Escobedo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "OAX",
+    "valor": "Salina Cruz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "PUE",
+    "valor": "Puebla (Heroica Puebla)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "ROO",
+    "valor": "Felipe Carrillo Puerto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "SIN",
+    "valor": "Escuinapa de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "SLP",
+    "valor": "Matehuala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "SON",
+    "valor": "Heroica Caborca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "TAB",
+    "valor": "Comalcalco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "TAM",
+    "valor": "Ciudad Madero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "TLA",
+    "valor": "Tlaxcala (Tlaxcala de Xicotencatl)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "VER",
+    "valor": "Boca del RÍo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "YUC",
+    "valor": "Ticul",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "03",
+    "estado": "ZAC",
+    "valor": "Zacatecas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "AGU",
+    "valor": "Jesús María",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "BCN",
+    "valor": "Tijuana",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "BCS",
+    "valor": "San José del Cabo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "CAM",
+    "valor": "Candelaria",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "COA",
+    "valor": "Monclova",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "COL",
+    "valor": "Ciudad de Villa de Álvarez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "CHH",
+    "valor": "Delicias",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "CHP",
+    "valor": "Tuxtla Gutiérrez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "DUR",
+    "valor": "Santiago Papasquiaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "GRO",
+    "valor": "Taxco de Alarcón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "GUA",
+    "valor": "Cortazar",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "HID",
+    "valor": "Cd. de Fray Bernardino de Sahagún",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "JAL",
+    "valor": "Lagos de Moreno",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "MEX",
+    "valor": "Cuautitlán Izcalli",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "MIC",
+    "valor": "Jacona de Plancarte",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "MOR",
+    "valor": "Jojutla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "NAY",
+    "valor": "Acaponeta",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "NLE",
+    "valor": "Guadalupe",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "OAX",
+    "valor": "San Juan Bautista Tuxtepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "PUE",
+    "valor": "San Martín Texmelucan de Labastida",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "QUE",
+    "valor": "El Pueblito",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "ROO",
+    "valor": "Chetumal",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "SIN",
+    "valor": "Guasave",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "SLP",
+    "valor": "Rioverde",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "SON",
+    "valor": "Ciudad Obregón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "TAB",
+    "valor": "Emiliano Zapata",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "TAM",
+    "valor": "Ciudad Mante",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "TLA",
+    "valor": "Huamantla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "VER",
+    "valor": "Coatepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "YUC",
+    "valor": "Motul de Carrillo Puerto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "04",
+    "estado": "ZAC",
+    "valor": "Guadalupe",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "AGU",
+    "valor": "Pabellón de Arteaga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "BCN",
+    "valor": "Playas de Rosarito",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "BCS",
+    "valor": "Loreto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "CAM",
+    "valor": "Escárcega",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "COA",
+    "valor": "Parras de la Fuente",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "COL",
+    "valor": "Ciudad de Armería",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "CHH",
+    "valor": "Hidalgo del Parral",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "CHP",
+    "valor": "Venustiano Carranza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "DUR",
+    "valor": "Canatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "GRO",
+    "valor": "Arcelia",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "GUA",
+    "valor": "Guanajuato",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "HID",
+    "valor": "Tula de Allende",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "JAL",
+    "valor": "Ocotlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "MEX",
+    "valor": "Ecatepec de Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "MIC",
+    "valor": "La piedad de Cabadas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "MOR",
+    "valor": "Puente de Ixtla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "NAY",
+    "valor": "Tecuala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "NLE",
+    "valor": "Linares",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "OAX",
+    "valor": "Matías Romero Avendaño",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "PUE",
+    "valor": "Tehuacan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "ROO",
+    "valor": "Playa del Carmen",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "SIN",
+    "valor": "Mazatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "SLP",
+    "valor": "San Luis Potosí",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "SON",
+    "valor": "Empalme",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "TAB",
+    "valor": "Jalpa de Méndez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "TAM",
+    "valor": "Heroica Matamoros",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "TLA",
+    "valor": "Calpulalpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "VER",
+    "valor": "Agua dulce",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "YUC",
+    "valor": "Valladolid",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "05",
+    "estado": "ZAC",
+    "valor": "Río Grande",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "AGU",
+    "valor": "Rincón de Romos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "BCN",
+    "valor": "Rodolfo Sánchez T. (Maneadero)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "BCS",
+    "valor": "Puerto Adolfo López Mateos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "CAM",
+    "valor": "Sabancuy",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "COA",
+    "valor": "Piedras Negras",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "CHH",
+    "valor": "Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "CHP",
+    "valor": "Jiquipilas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "DUR",
+    "valor": "San Juan del Río del Centauro del Norte",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "GRO",
+    "valor": "Ayutla de los Libres",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "GUA",
+    "valor": "Irapuato",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "HID",
+    "valor": "Tulancingo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "JAL",
+    "valor": "Puerto Vallarta",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "MEX",
+    "valor": "Huixquilucan de Degollado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "MIC",
+    "valor": "Morelia",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "MOR",
+    "valor": "Santa Rosa Treinta",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "NAY",
+    "valor": "Compostela",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "NLE",
+    "valor": "Montemorelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "OAX",
+    "valor": "Heroica Ciudad de Huajuapan de León",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "PUE",
+    "valor": "Teziutlan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "ROO",
+    "valor": "Kantunilkin",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "SIN",
+    "valor": "Guamúchil",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "SLP",
+    "valor": "Soledad de Graciano Sánchez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "SON",
+    "valor": "Heroica Guaymas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "TAM",
+    "valor": "Nuevo Laredo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "TLA",
+    "valor": "Chiautempan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "VER",
+    "valor": "Coatzacoalcos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "YUC",
+    "valor": "Kanasín",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "06",
+    "estado": "ZAC",
+    "valor": "Ciudad Cuauhtémoc",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "AGU",
+    "valor": "Asientos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "BCN",
+    "valor": "San Felipe",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "BCS",
+    "valor": "Todos Santos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "CAM",
+    "valor": "Hopelchén",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "COA",
+    "valor": "Sabinas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "CHH",
+    "valor": "Nuevo Casas Grandes",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "CHP",
+    "valor": "Villaflores",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "DUR",
+    "valor": "Peñón Blanco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "GRO",
+    "valor": "Atoyac de Álvarez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "GUA",
+    "valor": "León de los Aldama",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "HID",
+    "valor": "Zimapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "JAL",
+    "valor": "San Juan de los Lagos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "MEX",
+    "valor": "Los Reyes Acaquilpan (La Paz)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "MIC",
+    "valor": "Pátzcuaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "MOR",
+    "valor": "Zacatepec de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "NAY",
+    "valor": "Francisco I. Madero (Puga)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "NLE",
+    "valor": "Monterrey",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "OAX",
+    "valor": "Loma Bonita",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "PUE",
+    "valor": "San Andrés Cholula",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "ROO",
+    "valor": "Isla Mujeres",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "SIN",
+    "valor": "Navolato",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "SLP",
+    "valor": "Charcas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "SON",
+    "valor": "Hermosillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "TAB",
+    "valor": "Macuspana",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "TAM",
+    "valor": "Reynosa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "VER",
+    "valor": "Córdoba",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "07",
+    "estado": "ZAC",
+    "valor": "Ojocaliente",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "AGU",
+    "valor": "Tepezalá",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "BCS",
+    "valor": "Heroica Mulegé",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "CAM",
+    "valor": "Champotón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "COA",
+    "valor": "Saltillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "CHP",
+    "valor": "Las Margaritas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "DUR",
+    "valor": "Francisco I. Madero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "GUA",
+    "valor": "Moroleón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "HID",
+    "valor": "Huejutla de Reyes",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "JAL",
+    "valor": "Tepatitlán de Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "MEX",
+    "valor": "Metepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "MIC",
+    "valor": "Sahuayo de Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "MOR",
+    "valor": "Tlaquiltenango",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "NAY",
+    "valor": "Villa Hidalgo (El Nuevo)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "NLE",
+    "valor": "Ciudad Sabinas Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "OAX",
+    "valor": "Puerto Escondido",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "PUE",
+    "valor": "San Pedro Cholula",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "ROO",
+    "valor": "Bacalar",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "SIN",
+    "valor": "Quila",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "SLP",
+    "valor": "Salinas de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "SON",
+    "valor": "Huatabampo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "TAB",
+    "valor": "Tenosique de Pino Suárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "TAM",
+    "valor": "Ciudad Río Bravo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "VER",
+    "valor": "Tres Valles",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "08",
+    "estado": "ZAC",
+    "valor": "Villa Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "AGU",
+    "valor": "Cosío",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "BCS",
+    "valor": "Villa Alberto Andrés Alvarado Arámburo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "CAM",
+    "valor": "Hecelchakán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "COA",
+    "valor": "Nueva Rosita",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "CHH",
+    "valor": "Madera",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "CHP",
+    "valor": "Arriaga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "DUR",
+    "valor": "Nombre de Dios",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "GRO",
+    "valor": "San Jerónimo de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "GUA",
+    "valor": "Salamanca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "HID",
+    "valor": "Tlaxcoapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "JAL",
+    "valor": "Tlaquepaque",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "MEX",
+    "valor": "Naucalpan de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "MIC",
+    "valor": "Uruapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "NAY",
+    "valor": "Ruiz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "NLE",
+    "valor": "San Nicolás de los Garza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "OAX",
+    "valor": "Río Grande o Piedra Parada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "PUE",
+    "valor": "Huauchinango",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "SIN",
+    "valor": "Ahome",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "SLP",
+    "valor": "Cárdenas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "SON",
+    "valor": "Navojoa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "TAB",
+    "valor": "Teapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "TAM",
+    "valor": "San Fernando",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "VER",
+    "valor": "Jáltipan de Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "09",
+    "estado": "ZAC",
+    "valor": "Villanueva",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "BCS",
+    "valor": "San Ignacio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "COA",
+    "valor": "San Pedro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "CHH",
+    "valor": "Colonia Anáhuac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "CHP",
+    "valor": "Palenque",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "DUR",
+    "valor": "Vicente Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "GRO",
+    "valor": "Ciudad Apaxtla de Castrejón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "GUA",
+    "valor": "San Francisco del Rincón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "HID",
+    "valor": "Tizayuca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "JAL",
+    "valor": "Zapopan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "MEX",
+    "valor": "Ciudad Nezahualcoyotl",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "MIC",
+    "valor": "Zacapu",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "NAY",
+    "valor": "San Blas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "NLE",
+    "valor": "Ciudad Santa Catarina",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "PUE",
+    "valor": "Acatlán de Osorio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "SIN",
+    "valor": "Higuera de Zaragoza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "SLP",
+    "valor": "Cerritos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "SON",
+    "valor": "Heroica Nogales",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "TAB",
+    "valor": "Paraíso",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "TAM",
+    "valor": "Tampico",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "VER",
+    "valor": "Xalapa-Enríquez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "10",
+    "estado": "ZAC",
+    "valor": "Villa de Cos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "BCS",
+    "valor": "Guerrero Negro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "CAM",
+    "valor": "Pomuch",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "COA",
+    "valor": "Torreón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "CHH",
+    "valor": "Juan Aldama",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "CHP",
+    "valor": "Ocosingo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "DUR",
+    "valor": "El Salto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "GRO",
+    "valor": "Ciudad Altamirano",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "GUA",
+    "valor": "Silao",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "HID",
+    "valor": "Santiago Tulantepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "JAL",
+    "valor": "Tlajomulco de Zúñiga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "MEX",
+    "valor": "Villa Nicolás Romero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "MIC",
+    "valor": "Zamora de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "NAY",
+    "valor": "Ixtlán del Río",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "NLE",
+    "valor": "Doctor Arroyo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "OAX",
+    "valor": "Santiago Suchilquitongo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "PUE",
+    "valor": "Cuautlancingo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "SIN",
+    "valor": "Choix",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "SLP",
+    "valor": "Tamuín",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "SON",
+    "valor": "Puerto Peñasco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "TAB",
+    "valor": "Frontera",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "TAM",
+    "valor": "Ciudad Victoria",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "VER",
+    "valor": "Minatitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "11",
+    "estado": "ZAC",
+    "valor": "Nochistlán de Mejía",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "BCS",
+    "valor": "Santa Rosalía",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "COA",
+    "valor": "Castaños",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "CHH",
+    "valor": "José Mariano Jiménez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "CHP",
+    "valor": "Tonalá",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "DUR",
+    "valor": "Santa María del Oro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "GRO",
+    "valor": "Buenavista de Cuellar",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "GUA",
+    "valor": "Jerécuaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "HID",
+    "valor": "Ixmiquilpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "JAL",
+    "valor": "Tonalá",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "MEX",
+    "valor": "Tecamac de Felipe Villanueva",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "MIC",
+    "valor": "Heroica Zitácuaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "NAY",
+    "valor": "Bucerías",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "NLE",
+    "valor": "Ciénega de Flores",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "OAX",
+    "valor": "San Felipe Jalapa de Díaz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "PUE",
+    "valor": "Tepeaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "SIN",
+    "valor": "Villa Unión",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "SLP",
+    "valor": "Tamasopo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "SON",
+    "valor": "Heroica Ciudad de Cananea",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "TAB",
+    "valor": "Cunduacán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "TAM",
+    "valor": "González",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "VER",
+    "valor": "Orizaba",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "12",
+    "estado": "ZAC",
+    "valor": "Víctor Rosales",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "COA",
+    "valor": "Francisco I. Madero (Chávez)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "CHH",
+    "valor": "Manuel Ojinaga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "CHP",
+    "valor": "Mapastepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "GRO",
+    "valor": "Cutzamala de Pinzón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "GUA",
+    "valor": "Santiago Maravatío",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "HID",
+    "valor": "Tepeji del Rio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "JAL",
+    "valor": "Tuxpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "MEX",
+    "valor": "Tepotzotlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "MIC",
+    "valor": "Paracho de Verduzco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "NAY",
+    "valor": "Las Varas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "NLE",
+    "valor": "Hualahuises",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "OAX",
+    "valor": "Bahias de Huatulco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "PUE",
+    "valor": "Tecamachalco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "SIN",
+    "valor": "Sinaloa de Leyva",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "SLP",
+    "valor": "Ciudad del Maíz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "SON",
+    "valor": "Sonoita",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "TAB",
+    "valor": "Huimanguillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "TAM",
+    "valor": "Jaumave",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "VER",
+    "valor": "Papantla de Olarte",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "13",
+    "estado": "ZAC",
+    "valor": "Valparaíso",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "COA",
+    "valor": "Cuatro Ciénegas de Carranza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "CHH",
+    "valor": "Bachíniva",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "CHP",
+    "valor": "Las Rosas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "GRO",
+    "valor": "Coyuca de Catalán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "GUA",
+    "valor": "Romita",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "HID",
+    "valor": "Cruz Azul",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "JAL",
+    "valor": "Tototlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "MEX",
+    "valor": "Tlalnepantla de Baz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "MIC",
+    "valor": "Tangancícuaro de Arista",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "NAY",
+    "valor": "Xalisco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "OAX",
+    "valor": "Putla Villa de Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "PUE",
+    "valor": "Zacatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "SIN",
+    "valor": "Mocorito",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "SLP",
+    "valor": "Cedral",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "SON",
+    "valor": "Magdalena de Kino",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "TAM",
+    "valor": "Ciudad Gustavo Díaz Ordaz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "VER",
+    "valor": "Poza Rica de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "14",
+    "estado": "ZAC",
+    "valor": "Luis Moya",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "COA",
+    "valor": "Nadadores",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "CHH",
+    "valor": "Saucillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "CHP",
+    "valor": "Chiapa de Corzo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "GRO",
+    "valor": "Tierra Colorada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "GUA",
+    "valor": "Tarandacuao",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "HID",
+    "valor": "Tepeapulco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "JAL",
+    "valor": "San Diego de Alejandría",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "MEX",
+    "valor": "Santa Maria Tultepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "MIC",
+    "valor": "Maravatío de Ocampo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "NAY",
+    "valor": "San pedro Lagunillas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "NLE",
+    "valor": "Cadereyta Jiménez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "OAX",
+    "valor": "Cosolapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "PUE",
+    "valor": "Xicotepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "SIN",
+    "valor": "Angostura",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "SLP",
+    "valor": "Tierra Nueva",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "TAM",
+    "valor": "Estación Manuel (Úrsulo Galván)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "VER",
+    "valor": "San Andrés Tuxtla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "15",
+    "estado": "ZAC",
+    "valor": "Moyahua de Estrada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "COA",
+    "valor": "Ramos Arizpe",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "CHP",
+    "valor": "Cacahoatán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "CMX",
+    "valor": "Ciudad de México",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "GRO",
+    "valor": "Coyuca de Benítez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "GUA",
+    "valor": "Huanímaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "JAL",
+    "valor": "La Resolana",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "MEX",
+    "valor": "Tultitlán de Mariano Escobedo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "MIC",
+    "valor": "Zinapécuaro de Figueroa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "NAY",
+    "valor": "La peñita de Jaltemba",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "OAX",
+    "valor": "Tlacolula de Matamoros",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "PUE",
+    "valor": "Ciudad Serdán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "SIN",
+    "valor": "San Blas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "SLP",
+    "valor": "Villa de Reyes",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "TAM",
+    "valor": "Xicoténcatl",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "VER",
+    "valor": "Túxpam de Rodríguez Cano",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "16",
+    "estado": "ZAC",
+    "valor": "Sombrerete",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "COA",
+    "valor": "Nava",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "CHP",
+    "valor": "Ocozocoautla de Espinosa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "GRO",
+    "valor": "Olinalá",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "GUA",
+    "valor": "Comonfort",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "JAL",
+    "valor": "Atotonilco el Alto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "MEX",
+    "valor": "Cuautitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "MIC",
+    "valor": "Puruándiro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "NAY",
+    "valor": "Jala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "NLE",
+    "valor": "Santiago",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "OAX",
+    "valor": "San Pablo Villa de Mitla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "PUE",
+    "valor": "Amozoc",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "SIN",
+    "valor": "La Cruz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "SLP",
+    "valor": "Fracción el Refugio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "TAM",
+    "valor": "Ciudad Miguel Alemán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "VER",
+    "valor": "Veracruz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "17",
+    "estado": "ZAC",
+    "valor": "Jalpa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "COA",
+    "valor": "Zaragoza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "CHP",
+    "valor": "Cintalapa de Figueroa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "GRO",
+    "valor": "Marquelia",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "GUA",
+    "valor": "Uriangato",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "JAL",
+    "valor": "Jalostotitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "MEX",
+    "valor": "Ixtapaluca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "MIC",
+    "valor": "Yurécuaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "NAY",
+    "valor": "Ahuacatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "NLE",
+    "valor": "El cercado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "OAX",
+    "valor": "Natividad",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "SIN",
+    "valor": "El rosario",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "SLP",
+    "valor": "Tamazunchale",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "TAM",
+    "valor": "Soto la Marina",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "VER",
+    "valor": "Tierra Blanca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "18",
+    "estado": "ZAC",
+    "valor": "Loreto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "COA",
+    "valor": "San Buenaventura",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "CHP",
+    "valor": "Pichucalco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "GRO",
+    "valor": "Zumpango del Río",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "GUA",
+    "valor": "Pénjamo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "JAL",
+    "valor": "Poncitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "MEX",
+    "valor": "Texcoco de Mora",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "MIC",
+    "valor": "Huetamo de Núñez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "OAX",
+    "valor": "Teotitlán de Flores Magón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "SIN",
+    "valor": "Estación Naranjo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "SLP",
+    "valor": "Santa María del Río",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "TAM",
+    "valor": "Ciudad Tula",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "VER",
+    "valor": "Cosamaloapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "19",
+    "estado": "ZAC",
+    "valor": "Juan Aldama",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "COA",
+    "valor": "Ciudad Melchor Múzquiz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "CHP",
+    "valor": "Puerto Madero (San Benito)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "GRO",
+    "valor": "San Luis de la Loma",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "GUA",
+    "valor": "Cuerámaro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "JAL",
+    "valor": "Arandas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "MEX",
+    "valor": "Toluca de Lerdo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "MIC",
+    "valor": "Tacámbaro de Codallos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "NLE",
+    "valor": "Anáhuac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "OAX",
+    "valor": "Santa María Huatulco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "SIN",
+    "valor": "Aguaruto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "SLP",
+    "valor": "El Naranjo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "TAM",
+    "valor": "Nueva Ciudad Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "20",
+    "estado": "VER",
+    "valor": "Carlos A. Carrillo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "COA",
+    "valor": "Viesca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "CHP",
+    "valor": "Pijijiapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "GRO",
+    "valor": "Petatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "GUA",
+    "valor": "Empalme Escobedo (Escobedo)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "JAL",
+    "valor": "Talpa de Allende",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "MEX",
+    "valor": "Valle de Chalco Solidaridad",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "MIC",
+    "valor": "Ciudad Lázaro Cárdenas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "NLE",
+    "valor": "García",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "OAX",
+    "valor": "San Juan Bautista Cuicatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "SIN",
+    "valor": "Cosalá",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "TAM",
+    "valor": "Valle Hermoso",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "21",
+    "estado": "VER",
+    "valor": "Pánuco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "COA",
+    "valor": "Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "CHP",
+    "valor": "Reforma",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "GRO",
+    "valor": "La Unión",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "GUA",
+    "valor": "San Luis de la Paz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "JAL",
+    "valor": "Etzatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "MEX",
+    "valor": "Tejupilco de Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "MIC",
+    "valor": "Las Guacamayas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "NLE",
+    "valor": "Ciudad Benito Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "OAX",
+    "valor": "Villa Sola de Vega",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "SIN",
+    "valor": "San Ignacio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "22",
+    "estado": "VER",
+    "valor": "Tampico Alto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "COA",
+    "valor": "Arteaga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "CHP",
+    "valor": "Huixtla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "GRO",
+    "valor": "San Luis San Pedro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "GUA",
+    "valor": "Valle de Santiago",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "JAL",
+    "valor": "Sayula",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "MEX",
+    "valor": "Chalco de Díaz Covarrubias",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "MIC",
+    "valor": "Jiquilpan de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "OAX",
+    "valor": "Ocotlán de Morelos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "SIN",
+    "valor": "Topolobampo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "23",
+    "estado": "VER",
+    "valor": "Tempoal de Sánchez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "COA",
+    "valor": "Allende",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "CHP",
+    "valor": "Motozintla de Mendoza",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "GRO",
+    "valor": "Teloloapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "GUA",
+    "valor": "Abasolo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "JAL",
+    "valor": "Ahualulco de Mercado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "MEX",
+    "valor": "Amatepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "MIC",
+    "valor": "Tuxpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "OAX",
+    "valor": "Villa de Zaachila",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "SIN",
+    "valor": "Lic. Benito Juárez (Campo Gobierno)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "24",
+    "estado": "VER",
+    "valor": "Tantoyuca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "CHP",
+    "valor": "Acala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "GRO",
+    "valor": "Técpan de Galeana",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "GUA",
+    "valor": "Rincón de Tamayo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "JAL",
+    "valor": "Autlán de Navarro",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "MIC",
+    "valor": "Cotija de la Paz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "OAX",
+    "valor": "Miahuatlán de Porfirio Díaz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "25",
+    "estado": "VER",
+    "valor": "Gutiérrez Zamora",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "GRO",
+    "valor": "Huitzuco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "GUA",
+    "valor": "Villagrán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "JAL",
+    "valor": "Magdalena",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "MEX",
+    "valor": "Melchor Ocampo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "MIC",
+    "valor": "Nueva Italia de Ruiz",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "OAX",
+    "valor": "Unión Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "26",
+    "estado": "VER",
+    "valor": "Platón Sánchez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "GRO",
+    "valor": "Tixtla de Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "GUA",
+    "valor": "Yuriria",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "JAL",
+    "valor": "San Julián",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "MEX",
+    "valor": "San Vicente Chicoloapan de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "MIC",
+    "valor": "Cuitzeo del Porvenir",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "OAX",
+    "valor": "El Camarón",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "27",
+    "estado": "VER",
+    "valor": "Juan Rodríguez Clara",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "GRO",
+    "valor": "Tepecoacuilco de Trujano",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "GUA",
+    "valor": "Apaseo el Grande",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "JAL",
+    "valor": "Cocula",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "MEX",
+    "valor": "Capulhuac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "OAX",
+    "valor": "San Pedro Mixtepec -Dto. 22-",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "28",
+    "estado": "VER",
+    "valor": "Huatusco de Chicuellar",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "GRO",
+    "valor": "San Marcos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "GUA",
+    "valor": "Purísima de Bustos",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "JAL",
+    "valor": "El Grullo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "MEX",
+    "valor": "Juchitepec de Mariano Riva Palacio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "OAX",
+    "valor": "Santa Cruz Itundujia",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "29",
+    "estado": "VER",
+    "valor": "Ixtaczoquitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "GRO",
+    "valor": "Azoyú",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "GUA",
+    "valor": "Salvatierra",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "JAL",
+    "valor": "San Miguel el Alto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "MEX",
+    "valor": "Tequixquiac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "OAX",
+    "valor": "Chahuites",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "30",
+    "estado": "VER",
+    "valor": "Río Blanco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "GRO",
+    "valor": "Tlapehuala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "GUA",
+    "valor": "Marfil",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "JAL",
+    "valor": "Tala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "MEX",
+    "valor": "Xonacatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "OAX",
+    "valor": "Heroica Ciudad de Ejutla de Crespo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "31",
+    "estado": "VER",
+    "valor": "Isla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "GRO",
+    "valor": "San Luis Acatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "GUA",
+    "valor": "San José Iturbide",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "JAL",
+    "valor": "La Barca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "MEX",
+    "valor": "San Mateo Atenco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "OAX",
+    "valor": "San Pedro Tapanatepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "32",
+    "estado": "VER",
+    "valor": "Cuitláhuac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "33",
+    "estado": "GRO",
+    "valor": "Chilapa de Álvarez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "33",
+    "estado": "GUA",
+    "valor": "Apaseo el Alto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "33",
+    "estado": "JAL",
+    "valor": "Jamay",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "33",
+    "estado": "OAX",
+    "valor": "Vicente Camalote",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "33",
+    "estado": "VER",
+    "valor": "Fortín de las Flores",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "34",
+    "estado": "GRO",
+    "valor": "Tlapa de Comonfort",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "34",
+    "estado": "GUA",
+    "valor": "Ciudad Manuel Doblado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "34",
+    "estado": "JAL",
+    "valor": "Yahualica de González Gallo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "34",
+    "estado": "OAX",
+    "valor": "Villa de Tamazulápam del Progreso",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "34",
+    "estado": "VER",
+    "valor": "Alvarado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "35",
+    "estado": "GRO",
+    "valor": "Tlalixtaquilla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "35",
+    "estado": "GUA",
+    "valor": "Jaral del Progreso",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "35",
+    "estado": "JAL",
+    "valor": "Colotlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "35",
+    "estado": "OAX",
+    "valor": "San Juan Bautista lo de Soto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "35",
+    "estado": "VER",
+    "valor": "José Cardel",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "GRO",
+    "valor": "Cuajinicuilapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "GUA",
+    "valor": "San Diego de la Unión",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "JAL",
+    "valor": "Cihuatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "MEX",
+    "valor": "Chiconcuac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "OAX",
+    "valor": "San Juan Cacahuatepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "36",
+    "estado": "VER",
+    "valor": "Banderilla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "37",
+    "estado": "GRO",
+    "valor": "Huamuxtitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "37",
+    "estado": "GUA",
+    "valor": "Santa Cruz Juventino Rosas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "37",
+    "estado": "JAL",
+    "valor": "Zapotiltic",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "37",
+    "estado": "OAX",
+    "valor": "San Pedro Totolapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "37",
+    "estado": "VER",
+    "valor": "Paraje Nuevo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "38",
+    "estado": "GRO",
+    "valor": "Cruz Grande",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "38",
+    "estado": "GUA",
+    "valor": "Doctor Mora",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "38",
+    "estado": "JAL",
+    "valor": "Villa Corona",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "38",
+    "estado": "OAX",
+    "valor": "San Miguel el Grande",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "38",
+    "estado": "VER",
+    "valor": "Playa Vicente",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "GRO",
+    "valor": "Ocotito",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "GUA",
+    "valor": "Dolores Hgo. Cuna de la Indep. Nal.",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "JAL",
+    "valor": "Teocaltiche",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "MEX",
+    "valor": "Almoloya de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "OAX",
+    "valor": "Zimatlán de Álvarez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "39",
+    "estado": "VER",
+    "valor": "Altotonga",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "40",
+    "estado": "GRO",
+    "valor": "Copala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "40",
+    "estado": "MEX",
+    "valor": "Ocoyoacac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "40",
+    "estado": "OAX",
+    "valor": "San Pablo Huitzo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "40",
+    "estado": "VER",
+    "valor": "Juan Díaz Covarrubias",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "41",
+    "estado": "GRO",
+    "valor": "Zihuatanejo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "41",
+    "estado": "JAL",
+    "valor": "Tequila",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "41",
+    "estado": "MEX",
+    "valor": "Zumpango",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "41",
+    "estado": "OAX",
+    "valor": "San Francisco Telixtlahuaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "41",
+    "estado": "VER",
+    "valor": "Cuichapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "42",
+    "estado": "JAL",
+    "valor": "El Quince (San José el Quince)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "42",
+    "estado": "OAX",
+    "valor": "Mariscala de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "42",
+    "estado": "VER",
+    "valor": "Santiago Tuxtla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "43",
+    "estado": "JAL",
+    "valor": "San José el Verde (El Verde)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "43",
+    "estado": "OAX",
+    "valor": "Santiago Pinotepa Nacional",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "43",
+    "estado": "VER",
+    "valor": "Huayacocotla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "44",
+    "estado": "JAL",
+    "valor": "Jocotepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "44",
+    "estado": "OAX",
+    "valor": "Santiago Jamiltepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "44",
+    "estado": "VER",
+    "valor": "Paso de Ovejas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "45",
+    "estado": "JAL",
+    "valor": "Tecalitlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "45",
+    "estado": "OAX",
+    "valor": "San Pedro Pochutla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "45",
+    "estado": "VER",
+    "valor": "Catemaco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "46",
+    "estado": "JAL",
+    "valor": "Chapala",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "46",
+    "estado": "OAX",
+    "valor": "Heroica Ciudad de Tlaxiaco",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "46",
+    "estado": "VER",
+    "valor": "Nogales",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "47",
+    "estado": "JAL",
+    "valor": "Ajijic",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "47",
+    "estado": "OAX",
+    "valor": "San Juan Bautista Valle Nacional",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "47",
+    "estado": "VER",
+    "valor": "Las Choapas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "48",
+    "estado": "JAL",
+    "valor": "San Ignacio Cerro Gordo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "48",
+    "estado": "OAX",
+    "valor": "Lagunas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "48",
+    "estado": "VER",
+    "valor": "General Miguel Alemán (Potrero Nuevo)",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "49",
+    "estado": "JAL",
+    "valor": "Zacoalco de Torres",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "49",
+    "estado": "OAX",
+    "valor": "Ciudad Ixtepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "49",
+    "estado": "VER",
+    "valor": "Coatzintla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "50",
+    "estado": "JAL",
+    "valor": "Huejuquilla el Alto",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "50",
+    "estado": "OAX",
+    "valor": "Santiago Juxtlahuaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "50",
+    "estado": "VER",
+    "valor": "Ángel R. Cabada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "51",
+    "estado": "JAL",
+    "valor": "Villa Hidalgo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "51",
+    "estado": "OAX",
+    "valor": "San Sebastián Tecomaxtlahuaca",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "51",
+    "estado": "VER",
+    "valor": "San Rafael",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "52",
+    "estado": "JAL",
+    "valor": "Unión de San Antonio",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "52",
+    "estado": "OAX",
+    "valor": "Asunción Nochixtlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "52",
+    "estado": "VER",
+    "valor": "Tlacojalpan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "53",
+    "estado": "JAL",
+    "valor": "Las Pintitas",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "53",
+    "estado": "OAX",
+    "valor": "San Francisco Ixhuatán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "53",
+    "estado": "VER",
+    "valor": "Cosoleacaque",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "54",
+    "estado": "JAL",
+    "valor": "Tamazula de Gordiano",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "54",
+    "estado": "OAX",
+    "valor": "San Blas Atempa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "54",
+    "estado": "VER",
+    "valor": "Lerdo de Tejada",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "55",
+    "estado": "JAL",
+    "valor": "Acatlán de Juárez",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "55",
+    "estado": "OAX",
+    "valor": "Santo Domingo Tehuantepec",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "55",
+    "estado": "VER",
+    "valor": "Tihuatlán",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "56",
+    "estado": "JAL",
+    "valor": "Valle de Guadalupe",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "56",
+    "estado": "OAX",
+    "valor": "Cuilápam de Guerrero",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "56",
+    "estado": "VER",
+    "valor": "Atoyac",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "57",
+    "estado": "OAX",
+    "valor": "El Rosario",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "57",
+    "estado": "VER",
+    "valor": "Huiloapan de Cuauhtémoc",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "58",
+    "estado": "OAX",
+    "valor": "Santa Lucia del Camino",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "58",
+    "estado": "VER",
+    "valor": "Cazones de Herrera",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "59",
+    "estado": "OAX",
+    "valor": "San Antonio de la Cal",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "59",
+    "estado": "VER",
+    "valor": "Yecuatla",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "60",
+    "estado": "VER",
+    "valor": "Soledad de Doblado",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "61",
+    "estado": "VER",
+    "valor": "Cerro Azul",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "62",
+    "estado": "VER",
+    "valor": "Tezonapa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "66",
+    "estado": "VER",
+    "valor": "Sihuapan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "67",
+    "estado": "VER",
+    "valor": "El Higo",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "68",
+    "estado": "VER",
+    "valor": "Paso del Macho",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "69",
+    "estado": "VER",
+    "valor": "Tlapacoyan",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  }
+]

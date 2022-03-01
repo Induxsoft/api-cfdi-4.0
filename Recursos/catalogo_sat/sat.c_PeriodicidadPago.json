@@ -1,0 +1,68 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Diario",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "Semanal",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Catorcenal",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Quincenal",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "Mensual",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Bimestral",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "07",
+    "valor": "Unidad obra",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "08",
+    "valor": "Comisión",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": "09",
+    "valor": "Precio alzado",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  },
+  {
+    "clave": 10,
+    "valor": "Decenal",
+    "fechaini": "2017-01-19",
+    "fehafin": ""
+  },
+  {
+    "clave": 99,
+    "valor": "Otra Periodicidad",
+    "fechaini": "2016-11-01",
+    "fehafin": ""
+  }
+]

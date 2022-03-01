@@ -1,0 +1,22 @@
+﻿[{
+        "clave": "CGS",
+        "valor": "Carga General Suelta",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CGC",
+        "valor": "Carga General Contenerizada",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "GMN",
+        "valor": "Gran Mineral",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "GAG",
+        "valor": "Granel Agrícola",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "OFL",
+        "valor": "Otros Fluidos",
+        "fechainicio": "2021-06-01"
+    }
+]

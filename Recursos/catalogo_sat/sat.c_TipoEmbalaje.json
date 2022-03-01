@@ -1,0 +1,234 @@
+﻿[{
+        "clave": "1A1",
+        "valor": "Bidones (Tambores) de Acero 1 de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1A2",
+        "valor": "Bidones (Tambores) de Acero 1 de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1B1",
+        "valor": "Bidones (Tambores) de Aluminio de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1B2",
+        "valor": "Bidones (Tambores) de Aluminio de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1D",
+        "valor": "Bidones (Tambores) de Madera contrachapada",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1G",
+        "valor": "Bidones (Tambores) de Cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1H1",
+        "valor": "Bidones (Tambores) de Plástico de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1H2",
+        "valor": "Bidones (Tambores) de Plástico de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1N1",
+        "valor": "Bidones (Tambores) de Metal que no sea acero ni aluminio de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "1N2",
+        "valor": "Bidones (Tambores) de Metal que no sea acero ni aluminio de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3A1",
+        "valor": "Jerricanes (Porrones) de Acero de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3A2",
+        "valor": "Jerricanes (Porrones) de Acero de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3B1",
+        "valor": "Jerricanes (Porrones) de Aluminio de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3B2",
+        "valor": "Jerricanes (Porrones) de Aluminio de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3H1",
+        "valor": "Jerricanes (Porrones) de Plástico de tapa no desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "3H2",
+        "valor": "Jerricanes (Porrones) de Plástico de tapa desmontable",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4A",
+        "valor": "Cajas de Acero",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4B",
+        "valor": "Cajas de Aluminio",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4C1",
+        "valor": "Cajas de Madera natural ordinaria",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4C2",
+        "valor": "Cajas de Madera natural de paredes a prueba de polvos (estancas a los pulverulentos)",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4D",
+        "valor": "Cajas de Madera contrachapada",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4F",
+        "valor": "Cajas de Madera reconstituida",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4G",
+        "valor": "Cajas de Cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4H1",
+        "valor": "Cajas de Plástico Expandido",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "4H2",
+        "valor": "Cajas de Plástico Rígido",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5H1",
+        "valor": "Sacos (Bolsas) de Tejido de plástico sin forro ni revestimientos interiores",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5H2",
+        "valor": "Sacos (Bolsas) de Tejido de plástico a prueba de polvos (estancos a los pulverulentos)",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5H3",
+        "valor": "Sacos (Bolsas) de Tejido de plástico resistente al agua",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5H4",
+        "valor": "Sacos (Bolsas) de Película de plástico",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5L1",
+        "valor": "Sacos (Bolsas) de Tela sin forro ni revestimientos interiores",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5L2",
+        "valor": "Sacos (Bolsas) de Tela a prueba de polvos (estancos a los pulverulentos)",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5L3",
+        "valor": "Sacos (Bolsas) de Tela resistentes al agua",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5M1",
+        "valor": "Sacos (Bolsas) de Papel de varias hojas",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "5M2",
+        "valor": "Sacos (Bolsas) de Papel de varias hojas, resistentes al agua",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HA1",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con bidón (tambor) de acero",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HA2",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con una jaula o caja de acero",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HB1",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) exterior de aluminio",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HB2",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con una jaula o caja de aluminio",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HC",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de madera",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HD1",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de madera contrachapada",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HD2",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de madera contrachapada",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HG1",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HG2",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con una caja de cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HH1",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con un bidón (tambor) de plástico",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6HH2",
+        "valor": "Envases y embalajes compuestos de Recipiente de plástico, con caja de plástico rígido",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PA1",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) de acero",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PA2",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una jaula o una caja de acero",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PB1",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) exterior de aluminio",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PB2",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una jaula o una caja de aluminio",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PC",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una caja de madera",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PD 1",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con bidón (tambor) de madera contrachapada",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PD2",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con canasta de mimbre",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PG1",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un bidón (tambor) de cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PG2",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con una caja de cartón",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PH1",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un envase y embalaje de plástico expandido",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "6PH2",
+        "valor": "Envases y embalajes compuestos de Recipiente de vidrio, porcelana o de gres, con un envase y embalaje de plástico rígido",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "7H1",
+        "valor": "Bultos de Plástico",
+        "fechavigencia": "2021-06-01"
+    }, {
+        "clave": "7L1",
+        "valor": "Bultos de Tela",
+        "fechavigencia": "2021-06-01"
+    }
+]

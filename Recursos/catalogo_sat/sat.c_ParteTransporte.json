@@ -1,0 +1,46 @@
+﻿[{
+        "clave": "PT01",
+        "valor": "Camión unitario",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT02",
+        "valor": "Camión",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT03",
+        "valor": "Tractocamión",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT04",
+        "valor": "Remolque",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT05",
+        "valor": "Semirremolque",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT06",
+        "valor": "Vehículo ligero de carga",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT07",
+        "valor": "Grúa",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT08",
+        "valor": "Aeronave",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT09",
+        "valor": "Barco o buque",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT10",
+        "valor": "Carro o vagón",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "PT11",
+        "valor": "Contenedor",
+        "fechainicio": "2021-12-01"
+    }
+]

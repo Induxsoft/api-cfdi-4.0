@@ -1,0 +1,52 @@
+﻿[{
+        "clave": "TC01",
+        "valor": "Furgón",
+        "contenedor": "0",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC02",
+        "valor": "Góndola",
+        "contenedor": "0",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC03",
+        "valor": "Tolva",
+        "contenedor": "0",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC04",
+        "valor": "Tanque",
+        "contenedor": "0",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC05",
+        "valor": "Plataforma Intermodal",
+        "contenedor": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC06",
+        "valor": "Plataforma de Uso General ",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TC07",
+        "valor": "Plataforma Automotriz",
+        "contenedor": "0",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TC08",
+        "valor": "Locomotora",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TC09",
+        "valor": "Carro Especial",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }, {
+        "clave": "TC10",
+        "valor": "Pasajeros",
+        "contenedor": "0",
+        "fechainicio": "2021-12-01"
+    }
+]

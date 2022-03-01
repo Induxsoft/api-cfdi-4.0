@@ -1,0 +1,34 @@
+﻿[{
+        "clave": "CM001",
+        "valor": "Contenedores refrigerados de 20FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM002",
+        "valor": "Contenedores refrigerados de 40FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM003",
+        "valor": "Contenedores estándar de 8FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM004",
+        "valor": "Contenedores estándar de 10FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM005",
+        "valor": "Contenedores estándar de 20FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM006",
+        "valor": "Contenedores estándar de 40FT",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM007",
+        "valor": "Contenedores Open Side",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "CM008",
+        "valor": "Contenedor Isotanque",
+        "fechainicio": "2021-06-01"
+    }
+]

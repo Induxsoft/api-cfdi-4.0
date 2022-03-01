@@ -1,0 +1,4722 @@
+[
+  {
+    "clave": "Tu",
+    "valor": "Contenedor externo",
+    "descripcion": "Tipo de caja de contención que sirve como contenedor de transporte externo, no especificado como equipo de transporte.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1A",
+    "valor": "Tambor de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1B",
+    "valor": "Tambor de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1D",
+    "valor": "Tambor contrachapado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1F",
+    "valor": "Contenedor flexible",
+    "descripcion": "Contenedor de empaque de construcción flexible.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1G",
+    "valor": "Tambor de fibra",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X1w",
+    "valor": "Tambor de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X2C",
+    "valor": "Barril de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X3A",
+    "valor": "Bidón de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X3H",
+    "valor": "Bidón de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X43",
+    "valor": "Bolsa de gran tamaño",
+    "descripcion": "Bolsa de tela de plástico o de papel que tiene las dimensiones del pallet sobre el que está construido.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X44",
+    "valor": "Bolsa de plástico",
+    "descripcion": "Un tipo de bolsa de plástico, normalmente utilizada para envolver piezas promocionales, publicaciones, muestras de productos y / o catálogos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4A",
+    "valor": "Caja de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4B",
+    "valor": "Caja de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4C",
+    "valor": "Caja de  madera natural",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4D",
+    "valor": "Caja de contrachapado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4F",
+    "valor": "Caja de madera reconstituida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4G",
+    "valor": "Caja de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X4H",
+    "valor": "Caja de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5H",
+    "valor": "Bolsa de plástico tejido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5L",
+    "valor": "Bolsa textil",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X5M",
+    "valor": "Bolsa de papel",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X6H",
+    "valor": "Recipiente de plástico, Contenedor compuesto.",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X6P",
+    "valor": "Recipiente de vidrio, Contenedor compuesto.",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X7A",
+    "valor": "Estuche para carro",
+    "descripcion": "Tipo de contenedor portátil diseñado para almacenar equipo para el transporte en un automóvil.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X7B",
+    "valor": "Estuche de madera",
+    "descripcion": "Un estuche de madera para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8A",
+    "valor": "Pallet de madera",
+    "descripcion": "Plataforma o caja abierta de madera, en la que se conservan las mercancías para facilitar su manejo mecánico durante el transporte y almacenamiento.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8B",
+    "valor": "Cajón de madera",
+    "descripcion": "Un contenedor de madera, en el que se conservan las mercancías para facilitar su manipulación mecánica durante el transporte y almacenamiento.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "X8C",
+    "valor": "Madera flejada",
+    "descripcion": "Piezas sueltas o sin contenedor de madera atadas o envueltas.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAA",
+    "valor": "Contenedor intermedio  para gráneles de plástico rígido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAB",
+    "valor": "Contenedor de fibra",
+    "descripcion": "Recipiente de contención de fibra, utilizado para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAC",
+    "valor": "Contenedor de papel",
+    "descripcion": "Recipiente de contención de papel, para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAD",
+    "valor": "Contenedor de madera",
+    "descripcion": "Recipiente de contención de madera, para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAE",
+    "valor": "Aerosol",
+    "descripcion": "Una unidad de cuenta que define el número de Aerosoles",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAF",
+    "valor": "Pallet modular con collares,  80cms * 60cms",
+    "descripcion": "Pallet de tamaño estándar con dimensiones de 80 centímetros por 60 centímetros (cms).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAG",
+    "valor": "Pallet o empaquetado",
+    "descripcion": "La carga del pallet se asegura con una película de plástico transparente envuelta alrededor y luego encogido firmemente.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAH",
+    "valor": "Pallet, 100cms X 110cms",
+    "descripcion": "Pallet tamaño estándar con dimensiones de 100 centímetros por 110 centímetros (cms).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAI",
+    "valor": "Contenedor tipo concha",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAJ",
+    "valor": "Cono",
+    "descripcion": "Contenedor utilizado en el transporte de material lineal como el hilo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAL",
+    "valor": "Esfera",
+    "descripcion": "Recipiente de contención esférico para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAM",
+    "valor": "Ampolleta no protegida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAP",
+    "valor": "Ampolleta protegida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAT",
+    "valor": "Atomizador",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XAV",
+    "valor": "Cápsula",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XB4",
+    "valor": "Cinturón",
+    "descripcion": "Banda utiliza para retener varios artículos juntos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBA",
+    "valor": "Barril",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBB",
+    "valor": "Bobina",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBC",
+    "valor": "Cajón para botellas / Estante para botellas",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBD",
+    "valor": "Tablero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBE",
+    "valor": "Flejado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBF",
+    "valor": "Globo no protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBG",
+    "valor": "Bolso",
+    "descripcion": "Recipiente de material flexible con tapa abierta o cerrada.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBH",
+    "valor": "Manojo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBI",
+    "valor": "Compartimiento",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBJ",
+    "valor": "Cubeta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBK",
+    "valor": "Cesta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBL",
+    "valor": "Paca comprimida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBM",
+    "valor": "Cuenco",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBN",
+    "valor": "Paca no comprimida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBO",
+    "valor": "Botella no-protegida y cilíndrica",
+    "descripcion": "Recipiente de forma cilíndrica de cuello estrecho sin material de empaque protector externo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBP",
+    "valor": "Globo protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBQ",
+    "valor": "Botella cilíndrica protegida",
+    "descripcion": "Recipiente de forma cilíndrica de cuello estrecho con material de empaque protector externo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBR",
+    "valor": "Barra",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBS",
+    "valor": "Botella, no-protegida en forma de bulbo",
+    "descripcion": "Recipiente en forma de bulbo de cuello estrecho sin material de empaque protector externo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBT",
+    "valor": "Rollo de tela",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBU",
+    "valor": "Butt",
+    "descripcion": "Barril de 1/2 tonel",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBV",
+    "valor": "Botella de bulbo protegido",
+    "descripcion": "Recipiente en forma de bulbo de cuello estrecho con material de empaque protector externo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBW",
+    "valor": "Caja para líquidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBX",
+    "valor": "Caja",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBY",
+    "valor": "Tablero, con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XBZ",
+    "valor": "Barras, con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCA",
+    "valor": "Lata rectangular",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCB",
+    "valor": "Cajón para cerveza",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCC",
+    "valor": "Mantequera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCD",
+    "valor": "Lata con mango y boquilla",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCE",
+    "valor": "Cesto tejido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCF",
+    "valor": "Cofre",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCG",
+    "valor": "Contenedor tipo Jaula",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCH",
+    "valor": "Cajonera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCI",
+    "valor": "Frasco",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCJ",
+    "valor": "Ataúd",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCK",
+    "valor": "Barrica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCL",
+    "valor": "Espiral",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCM",
+    "valor": "Paquete de tarjetas",
+    "descripcion": "Paquete plano normalmente hecho de cartón desde / hacia el cual el producto es a menudo colgado o unido.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCN",
+    "valor": "Contenedor, no especificado como equipo de transporte",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCO",
+    "valor": "Garrafón no protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCP",
+    "valor": "Garrafón protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCQ",
+    "valor": "Cartucho",
+    "descripcion": "Paquete que contiene una carga tal como un explosivo propulsor para armas de fuego o tóner de tinta para una impresora.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCR",
+    "valor": "Cajón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCS",
+    "valor": "Estuche",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCT",
+    "valor": "Cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCU",
+    "valor": "Vaso",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCV",
+    "valor": "Cubierta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCW",
+    "valor": "Jaula estilo rodillo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCX",
+    "valor": "Lata cilíndrica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCY",
+    "valor": "Cilindro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XCZ",
+    "valor": "Lona",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDA",
+    "valor": "Cajón multicapa de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDB",
+    "valor": "Cajón de varias capas de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDC",
+    "valor": "Cajón multicapa de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDG",
+    "valor": "Jaula, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP))",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDH",
+    "valor": "Caja, Según la clasificación de la compañía (CHEP), Eurobox",
+    "descripcion": "Caja montada sobre una base de pallet Según la clasificación de la compañía (CHEP).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDI",
+    "valor": "Tambor de hierro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDJ",
+    "valor": "damajuana o garrafa, no protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDK",
+    "valor": "Cajón a granel, cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDL",
+    "valor": "Cajas de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDM",
+    "valor": "Cajones a granel de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDN",
+    "valor": "Dispensador",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDP",
+    "valor": "damajuana o garrafa, protegido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDR",
+    "valor": "Tambor",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDS",
+    "valor": "Bandeja de una capa sin cubierta y de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDT",
+    "valor": "Bandeja de una capa sin cubierta y de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDU",
+    "valor": "Bandeja de una capa sin cubierta y  poliestireno",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDV",
+    "valor": "Bandeja de una capa sin cubierta y de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDW",
+    "valor": "Bandeja de dos capas sin tapa y con bandeja de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDX",
+    "valor": "Bandeja de dos capas sin cubierta y de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XDY",
+    "valor": "Bandeja de dos capas sin cubierta y de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEC",
+    "valor": "Bolsa de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XED",
+    "valor": "Estuche, con pallet de base",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEE",
+    "valor": "Estuche, con pallet base de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEF",
+    "valor": "Estuche, con pallet base de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEG",
+    "valor": "Estuche, con pallet base de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEH",
+    "valor": "Estuche, con pallet base de metal",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEI",
+    "valor": "Estuche isotérmico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XEN",
+    "valor": "Sobre",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFB",
+    "valor": "Bolsa flexible",
+    "descripcion": "Bolsa de contención flexible hecha de plástico, usado típicamente para el transporte de mercancías no peligrosas a granel, que usan contenedores de transporte de tamaño estándar.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFC",
+    "valor": "Cajón para fruta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFD",
+    "valor": "Cajón enmarcado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFE",
+    "valor": "Tanque flexible",
+    "descripcion": "Contenedor flexible de plástico, usado típicamente para el transporte de cargas no peligrosas a granel usando contenedores de transporte de tamaño estándar.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFI",
+    "valor": "Firkin",
+    "descripcion": "Barril de 41 litros",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFL",
+    "valor": "Matraz",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFO",
+    "valor": "Cajón para zapatos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFP",
+    "valor": "Caja auxiliar para película fotográfica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFR",
+    "valor": "Marco",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFT",
+    "valor": "Contenedor para alimentos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFW",
+    "valor": "Carro de cama plana",
+    "descripcion": "Módulo con ruedas en el que las bandejas u otros artículos de forma regular se empacan para fines de transporte.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XFX",
+    "valor": "Bolsa flexible tipo contenedor",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGB",
+    "valor": "Botella para gas",
+    "descripcion": "Cilindro metálico de cuello estrecho para la retención de gas licuado o comprimido.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGI",
+    "valor": "Viga",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGL",
+    "valor": "Contenedor tipo galón",
+    "descripcion": "Contenedor con una capacidad de un galón.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGR",
+    "valor": "Recipiente de vidrio",
+    "descripcion": "Recipiente de contención de vidrio para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGU",
+    "valor": "Bandeja contenedor para apilar horizontalmente objetos planos",
+    "descripcion": "Bandeja para contiene objetos planos apilados uno encima del otro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGY",
+    "valor": "Costal de Yute",
+    "descripcion": "Hecho de yute, usado para transportar mercancías gruesas, tales como granos, patatas, y otros productos agrícolas.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XGZ",
+    "valor": "Vigas con correas o agrupadas",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHA",
+    "valor": "Cesta con mango y de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHB",
+    "valor": "Cesta con mango y de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHC",
+    "valor": "Cesta  con asa y de  cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHG",
+    "valor": "Hogshead",
+    "descripcion": "Barril de 1/4 de tonel",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHN",
+    "valor": "Gancho",
+    "descripcion": "Artefacto, cuya forma con un gancho en la parte superior, tiene el propósito de colgar artículos de un carril.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XHR",
+    "valor": "Cesto",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIA",
+    "valor": "Paquete con pantalla y de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIB",
+    "valor": "Paquete  con pantalla y de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIC",
+    "valor": "Paquete con pantalla y de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XID",
+    "valor": "Paquete con pantalla y de metal",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIE",
+    "valor": "Paquete de mostrador.",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIF",
+    "valor": "Envase para alimentos",
+    "descripcion": "Envase flexible tubular o de piel, posiblemente transparente, a menudo utilizado para contener alimentos (por ejemplo salami).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIG",
+    "valor": "Paquete envuelto en papel",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIH",
+    "valor": "Tambor de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIK",
+    "valor": "Paquete de cartón con los agujeros para botellas",
+    "descripcion": "Material de empaque realizado en cartón que facilita la separación de botellas individuales de vidrio o plástico.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIL",
+    "valor": "Bandeja rígida con tapa y apilable (CEN TS 14482: 2002)",
+    "descripcion": "Bandeja rígida apilable empotrada compatible con CEN TS 14482: 2002.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIN",
+    "valor": "Lingote",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XIZ",
+    "valor": "Lingotes  con correas/ agrupados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJB",
+    "valor": "Bolsa jumbo",
+    "descripcion": "Bolsa de contención flexible, ampliamente utilizada para almacenamiento, transporte y manipulación de materiales en polvo, escamas o granulares. Típicamente construido a partir de tejido de polipropileno (PP) tejido en forma de bolsas cúbicas.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJC",
+    "valor": "Bidón rectangular",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJG",
+    "valor": "Jarra",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJR",
+    "valor": "Tarro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJT",
+    "valor": "Bolsa de yute",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XJY",
+    "valor": "Bidón, cilíndrico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XKG",
+    "valor": "Barrilete",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XKI",
+    "valor": "Kit (Conjunto de piezas)",
+    "descripcion": "Conjunto de artículos o implementos utilizados para un propósito específico.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLE",
+    "valor": "Valijas",
+    "descripcion": "Colección de bolsas, cajas y / o contenedores que contienen objetos personales para un viaje.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLG",
+    "valor": "Bitácora",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLT",
+    "valor": "Lote",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLU",
+    "valor": "Caja de arrastre",
+    "descripcion": "Caja de madera para el transporte y almacenamiento de frutas y verduras.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLV",
+    "valor": "Contenedor pequeño",
+    "descripcion": "Contenedor de madera o metal, usado para empacar artículos de uso doméstico y personales.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XLZ",
+    "valor": "Registros  con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMA",
+    "valor": "Cajón metálico",
+    "descripcion": "Caja de contención hecha de metal para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMB",
+    "valor": "Múltiplo de bolsas",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMC",
+    "valor": "Cajón para leche",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XME",
+    "valor": "Contenedor de metal",
+    "descripcion": "Tipo de caja de contención hecha de metal para retener sustancias o artículos, no especificado de otro modo como equipo de transporte.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMR",
+    "valor": "Recipiente de metal",
+    "descripcion": "Recipiente de contención de metal para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMS",
+    "valor": "Saco milti-pared",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMT",
+    "valor": "Tapete",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMW",
+    "valor": "Contenedor envuelto en plástico",
+    "descripcion": "Recipiente de contención envuelto en plástico para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XMX",
+    "valor": "Caja pequeña de cerillos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNA",
+    "valor": "No disponible",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNE",
+    "valor": "Sin empaque o no empaquetado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNF",
+    "valor": "Sin empaque o no empaquetado, unidad simple",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNG",
+    "valor": "Sin empaque o no empaquetado, unidades múltiples",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNS",
+    "valor": "Caja nido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNT",
+    "valor": "Red",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNU",
+    "valor": "Red de plástico con tubo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XNV",
+    "valor": "Red textil con tubo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOA",
+    "valor": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 40 cm x 60 cm",
+    "descripcion": "Pallet de dimensiones 40 centímetros x 60 centímetros.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOB",
+    "valor": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 80 cm x 120 cm",
+    "descripcion": "Pallet de dimensiones 80 centímetros x 120 centímetros.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOC",
+    "valor": "Pallet, Según la clasificación de la compañía (Commonwealth Handling Equipment Pool (CHEP) 100 cm x 120 cm",
+    "descripcion": "Pallet de dimensiones 100 centímetros x 120 centímetros.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOD",
+    "valor": "Pallet, AS 4068-1993",
+    "descripcion": "Pallet con  estándar australiano de dimensiones 115.5 centímetros x 116.5 centímetros.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOE",
+    "valor": "Pallet, ISO T11",
+    "descripcion": "Pallet con estándar ISO de dimensiones 110 centímetros x 110 centímetros, prevalente en la región Asia-Pacífico.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOF",
+    "valor": "Plataforma, peso o dimensión no especificada",
+    "descripcion": "Plataforma de carga equivalente del Pallet de dimensiones desconocidas o peso desconocido.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOK",
+    "valor": "Bloque",
+    "descripcion": "Una pieza sólida de una sustancia dura, tal como granito, que tiene uno o más lados planos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XOT",
+    "valor": "Octabin",
+    "descripcion": "Envase estándar de cartón de grandes dimensiones para almacenar por ejemplo verduras, gránulos de plástico u otros productos secos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XP2",
+    "valor": "Charola",
+    "descripcion": "Recipiente ancho y abierto, usualmente de metal.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPA",
+    "valor": "Cajetilla",
+    "descripcion": "Paquete pequeño.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPB",
+    "valor": "Pallet, Caja combinada y abierta con caja y pallet.",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPC",
+    "valor": "Paquete postal",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPD",
+    "valor": "Pallet modular con collares (80cms * 100cms)",
+    "descripcion": "Pallet tamaño estándar de dimensiones 80 centímetros por 100 centímetros (cms).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPE",
+    "valor": "Pallet modular con collares (80cms * 120cms)",
+    "descripcion": "Pallet tamaño estándar de dimensiones 80 centímetros por 120 centímetros (cms).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPF",
+    "valor": "Corral",
+    "descripcion": "Pequeño recinto abierto para retener animales.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPG",
+    "valor": "Placa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPH",
+    "valor": "Cantaro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPI",
+    "valor": "Pleca",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPJ",
+    "valor": "Canastilla",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPK",
+    "valor": "Paquete",
+    "descripcion": "Unidad de empaque estándar.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPL",
+    "valor": "Balde",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPN",
+    "valor": "Tablón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPO",
+    "valor": "Bolsa pequeña",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPR",
+    "valor": "Contenedor de plástico",
+    "descripcion": "Recipiente de contención de plástico para retener sustancias o artículos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPT",
+    "valor": "Maceta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPU",
+    "valor": "Cacerola",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPV",
+    "valor": "Tubos, con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPX",
+    "valor": "Pallet",
+    "descripcion": "Plataforma o caja abierta, generalmente de madera, en la que se conservan las mercancías para facilitar el manejo mecánico durante el transporte y almacenamiento.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPY",
+    "valor": "Placas con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XPZ",
+    "valor": "Tablones con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQA",
+    "valor": "Tambor de acero con cabeza no desmontable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQB",
+    "valor": "Tambor de  acero con cabeza extraíble",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQC",
+    "valor": "Tambor de aluminio con cabeza no extraíble",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQD",
+    "valor": "Tambor de aluminio con cabeza extraíble",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQF",
+    "valor": "Tambor, plástico con cabeza no desmontable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQG",
+    "valor": "Tambor, plástico, cabeza extraíble",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQH",
+    "valor": "Barril de madera con tapón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQJ",
+    "valor": "Barril de madera con cabeza desprendible",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQK",
+    "valor": "Bidón de acero con cabeza no desmontable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQL",
+    "valor": "Bidón de acero con cabeza desmontable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQM",
+    "valor": "Bidón de plástico con cabeza no desmontable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQN",
+    "valor": "Bidón de plástico con cabeza extraíble",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQP",
+    "valor": "Caja de madera natural estándar",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQQ",
+    "valor": "Caja de madera natural con muros a prueba de filtraciones",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQR",
+    "valor": "Caja de plástico expandida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XQS",
+    "valor": "Caja de plástico sólida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRD",
+    "valor": "Rod",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRG",
+    "valor": "Anillo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRJ",
+    "valor": "Estante, Perchero para ropa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRK",
+    "valor": "Estante",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRL",
+    "valor": "Carrete",
+    "descripcion": "Dispositivo giratorio cilíndrico con un reborde en cada extremo en el que se enrollan los materiales.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRO",
+    "valor": "Rollo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRT",
+    "valor": "Red Roja",
+    "descripcion": "Material de confinamiento hecho de redes de malla roja para retener artículos (por ejemplo árboles).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XRZ",
+    "valor": "Varillas  con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSA",
+    "valor": "Saco",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSB",
+    "valor": "Losa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSC",
+    "valor": "Cajón poco profundo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSD",
+    "valor": "Huso",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSE",
+    "valor": "Baúl",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSH",
+    "valor": "Bolsa pequeña hermética",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSI",
+    "valor": "Patín",
+    "descripcion": "Una plataforma o plataforma móvil baja para facilitar el manejo y transporte de mercancías.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSK",
+    "valor": "Carcasa esqueleto",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSL",
+    "valor": "Hoja de deslizamiento",
+    "descripcion": "Láminas de plástico duro se utilizan principalmente como la base sobre la cual apilan mercancías para optimizar el espacio dentro de un contenedor. Puede utilizarse como alternativa a un embalaje paletizado.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSM",
+    "valor": "Hoja de metal",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSO",
+    "valor": "Carrete pequeño",
+    "descripcion": "Contenedor de empaque utilizado en el transporte de artículos tales como alambre, cable, cinta e hilo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSP",
+    "valor": "Hoja de empaque de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSS",
+    "valor": "Cajón de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSU",
+    "valor": "Maleta",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSV",
+    "valor": "Sobre de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSW",
+    "valor": "Envoltorio",
+    "descripcion": "Mercancías retenidas en una película de plástico transparente que ha sido envuelta alrededor y luego encogido fuertemente a las mercancías.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSY",
+    "valor": "Manga",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XSZ",
+    "valor": "Hojas  con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XT1",
+    "valor": "Tableta",
+    "descripcion": "Artículo suelto o sin empaque en forma de barra, bloque o pieza.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTB",
+    "valor": "Tina",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTC",
+    "valor": "Caja para té",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTD",
+    "valor": "Tubo plegable",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTG",
+    "valor": "Contenedor de tanque genérico",
+    "descripcion": "Recipiente especialmente construido para el transporte de líquidos y gases a granel.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTI",
+    "valor": "Tierce",
+    "descripcion": "Barril de 1/6 parte de tonel",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTK",
+    "valor": "Tanque rectangular",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTL",
+    "valor": "Tina con tapa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTN",
+    "valor": "Hojalata",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTO",
+    "valor": "Tonel",
+    "descripcion": "Barril con capacidad para 982 litros",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTR",
+    "valor": "Maletero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTS",
+    "valor": "Estructura",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTT",
+    "valor": "Bolsa de mano",
+    "descripcion": "Una gran bolsa o cesto.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTU",
+    "valor": "Tubo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTV",
+    "valor": "Tubo con boquilla",
+    "descripcion": "Tubo de plástico, metal o cartón, provisto de una boquilla, que contiene un producto líquido o semilíquido, por ejemplo silicio.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTW",
+    "valor": "Pallet tricapa",
+    "descripcion": "Una paleta ligera hecha de cartón ondulado resistente.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTY",
+    "valor": "Tanque cilíndrico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XTZ",
+    "valor": "Tubos  con fleje/ agrupados/ armados",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XUC",
+    "valor": "Sin empaque",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XUN",
+    "valor": "Unidad",
+    "descripcion": "Tipo de paquete compuesto de un solo artículo u objeto, no especificado de otro modo como una unidad de equipo de transporte.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVA",
+    "valor": "Tanque",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVG",
+    "valor": "Tanque de gas (a 1,031 mbar y 15° C)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVI",
+    "valor": "Frasco pequeño",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVK",
+    "valor": "Paquete transportable",
+    "descripcion": "Tipo de cajón de madera.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVL",
+    "valor": "Contenedor para líquidos a granel",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVN",
+    "valor": "Vehículo",
+    "descripcion": "Medio de transporte autopropulsado.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVO",
+    "valor": "Contenedor para sólido de partículas grandes a granel (\"nódulos\")",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVP",
+    "valor": "Envasado al vacío",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVQ",
+    "valor": "Tanque para Gas licuado (a temperatura / presión anormal)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVR",
+    "valor": "Contenedor para sólidos de partículas granulares a granel (Granos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVS",
+    "valor": "Contenedor de chatarra a granel",
+    "descripcion": "Chatarra suelta o sin empaquetar transportada a granel.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XVY",
+    "valor": "Contenedor para sólido de partículas finas a granel (\"polvos\")",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWA",
+    "valor": "Contenedor de granel intermedio",
+    "descripcion": "Recipiente reutilizable hecho de metal, plástico, textiles, madera o materiales compuestos utilizados para facilitar el transporte de sólidos y líquidos a granel en volúmenes manejables.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWB",
+    "valor": "Botella de mimbre",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWC",
+    "valor": "Contenedor intermedio para gráneles y de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWD",
+    "valor": "Contenedor intermedio para gráneles y de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWF",
+    "valor": "Contenedor intermedio para gráneles y de metal",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWG",
+    "valor": "Contenedor intermedio para gráneles y de acero presurizado menor a 10 kpa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWH",
+    "valor": "Contenedor intermedio para gráneles y de aluminio, presurizado menor a 10 kpa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWJ",
+    "valor": "Contenedor intermedio para gráneles y de metal con una presión de 10 kpa",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWK",
+    "valor": "Contenedor intermedio para gráneles y de acero para líquido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWL",
+    "valor": "Contenedor intermedio para gráneles y de aluminio para líquido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWM",
+    "valor": "Contenedor intermedio para gráneles y de metal para líquido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWN",
+    "valor": "Contenedor intermedio para gráneles con tejido plástico sin capa con revestimiento",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWP",
+    "valor": "Contenedor intermedio para gráneles con tejido plástico y recubierto",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWQ",
+    "valor": "Contenedor intermedio para gráneles con tejido plástico con revestimiento",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWR",
+    "valor": "Contenedor intermedio para gráneles con tejido plástico, revestido y con forro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWS",
+    "valor": "Contenedor intermedio para gráneles con película de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWT",
+    "valor": "Contenedor intermedio para gráneles textil sin capa / forro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWU",
+    "valor": "Contenedor intermedio para gráneles de madera natural con forro interior",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWV",
+    "valor": "Contenedor intermedio para gráneles textil recubierto",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWW",
+    "valor": "Contenedor intermedio para gráneles textil con revestimiento",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWX",
+    "valor": "Contenedor intermedio para gráneles textil recubierto y con forro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWY",
+    "valor": "Contenedor intermedio para gráneles contrachapado con revestimiento interior",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XWZ",
+    "valor": "Contenedor intermedio para gráneles de madera reconstituida con revestimiento interior",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXA",
+    "valor": "Bolsa de tejido plástico, sin abrigo interior ni forro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXB",
+    "valor": "Bolsa de tejido plástico a prueba de filtraciones",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXC",
+    "valor": "Bolsa de tejido plástico resistente al agua",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXD",
+    "valor": "Bolsa con película de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXF",
+    "valor": "Bolsa textil sin capa ni forro interior",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXG",
+    "valor": "Bolsa textil a prueba de filtraciones",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXH",
+    "valor": "Bolsa textil resistente al agua",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXJ",
+    "valor": "Bolsa de papel multi-pared",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XXK",
+    "valor": "Bolsa de papel multi-pared, resistente al agua",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYA",
+    "valor": "Empaque compuesto, recipiente de plástico en tambor de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYB",
+    "valor": "Empaque compuesto, recipiente de plástico en cajas de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYC",
+    "valor": "Empaque compuesto, recipiente de plástico en tambor de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYD",
+    "valor": "Empaque compuesto, recipiente de plástico en cajón de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYF",
+    "valor": "Empaque compuesto, recipiente de plástico en caja de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYG",
+    "valor": "Empaque compuesto, recipiente de plástico en tambor de madera contrachapada",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYH",
+    "valor": "Empaque compuesto, recipiente de plástico en caja de madera contrachapada",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYJ",
+    "valor": "Empaque compuesto, recipiente de plástico en tambor de fibra",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYK",
+    "valor": "Empaque compuesto, recipiente de plástico en caja de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYL",
+    "valor": "Empaque compuesto, recipiente de plástico en el tambor de plástico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYM",
+    "valor": "Empaque compuesto, recipiente de plástico en caja de plástico sólido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYN",
+    "valor": "Empaque compuesto, receptáculo de vidrio en tambor de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYP",
+    "valor": "Empaque compuesto, receptáculo de vidrio en caja de cajas de acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYQ",
+    "valor": "Empaque compuesto, recipiente de vidrio en tambor de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYR",
+    "valor": "Empaque compuesto, receptáculo de vidrio en caja de aluminio",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYS",
+    "valor": "Empaque compuesto, recipiente de vidrio en caja de madera",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYT",
+    "valor": "Empaque compuesto, recipiente de vidrio en tambor de madera contrachapada",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "Xyv",
+    "valor": "Empaque compuesto, recipiente de vidrio en el cesto de mimbre",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYW",
+    "valor": "Empaque compuesto, recipiente de vidrio en tambor de fibra",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYX",
+    "valor": "Empaque compuesto, recipiente de vidrio en caja de cartón",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYY",
+    "valor": "Empaque compuesto, recipiente de vidrio en paquete de plástico expandible",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XYZ",
+    "valor": "Empaque compuesto, recipiente de vidrio en paquete de plástico sólido",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZA",
+    "valor": "Contenedor de granel intermedio, papel, multi-pared",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZB",
+    "valor": "Bolsa grande",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZC",
+    "valor": "Contenedor intermedio para gráneles de papel, multi-pared y resistente al agua",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZD",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para sólidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZF",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, autoportante para sólidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZG",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural, presurizado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZH",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, autoportante y presurizado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZJ",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, con equipo estructural para líquidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZK",
+    "valor": "Contenedor intermedio para gráneles de plástico rígido, autoportante, líquidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZL",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, sólidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZM",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico flexible, sólidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZN",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, presurizado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZP",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico flexible, presurizado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZQ",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico rígido, líquidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZR",
+    "valor": "Contenedor intermedio para gráneles, compuesto y de plástico flexible para líquidos",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZS",
+    "valor": "Contenedor intermedio para gráneles, compuesto",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZT",
+    "valor": "Contenedor intermedio para gráneles con tablero de fibras",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZU",
+    "valor": "Contenedor intermedio para gráneles flexible",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZV",
+    "valor": "Contenedor intermedio para gráneles de metal, distinto del acero",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZW",
+    "valor": "Contenedor intermedio para gráneles, de madera natural",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZX",
+    "valor": "Contenedor intermedio para gráneles, de contrachapado",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "XZY",
+    "valor": "Contenedor intermedio para gráneles, de madera reconstituida",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Embalaje"
+  },
+  {
+    "clave": "KGM",
+    "valor": "Kilogramo",
+    "descripcion": "Una unidad de masa igual a mil gramos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MC",
+    "valor": "Microgramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "µg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DJ",
+    "valor": "Decagramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dag",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DG",
+    "valor": "Decigramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "GRM",
+    "valor": "Gramo",
+    "descripcion": "Medida de masa, de símbolo g, que es igual a la milésima parte de un kilogramo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "g",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CGM",
+    "valor": "Centigramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "TNE",
+    "valor": "Tonelada (tonelada métrica)",
+    "descripcion": "Sinónimo: tonelada métrica",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "t",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "DTN",
+    "valor": "Decitonelada métrica",
+    "descripcion": "Sinónimo: centner, métrico 100 kg; Quintal, métrico 100 kg",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dt or dtn",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MGM",
+    "valor": "Miligramo",
+    "descripcion": "Medida de masa, de símbolo mg, que es igual a la milésima parte de un gramo.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "mg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "HGM",
+    "valor": "Hectogramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "hg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "KTN",
+    "valor": "Kilotonelada Métrica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "kt",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "2U",
+    "valor": "Megagramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Mg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "LBR",
+    "valor": "Libra",
+    "descripcion": "Unidad monetaria de Irlanda (hasta su sustitución por el euro), Reino Unido, Chipre, Egipto, Líbano, Malta, Siria y otros países.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "lb",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "GRN",
+    "valor": "Grano",
+    "descripcion": "Es la mínima unidad de masa en el sistema inglés de medidas. Se considera con el mismo valor en cualquier país anglosajón. Se utiliza para estimar con más sensibilidad y precisión la poca masa de pequeños objetos (medicamentos, drogas, pólvora, proyectiles, piezas de joyería, etc.).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "gr",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "ONZ",
+    "valor": "Onza (avoirdupois)",
+    "descripcion": "Es una unidad de masa usada desde la Antigua Roma para pesar con mayor precisión las mercancías y otros artículos, especialmente si su peso era menor que una libra romana",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "oz",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CWI",
+    "valor": "Hundredweight",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cwt (UK)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "CWA",
+    "valor": "Hundred pound",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cwt (US)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "LTN",
+    "valor": "Tonelada (UK) o tonelada larga (estados unidos)",
+    "descripcion": "Sinónimo: tonelada bruta (2240 ​​lb)",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ton (UK)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "STI",
+    "valor": "Estone (UK)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "st",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "STN",
+    "valor": "Tonelada (estados unidos) o tonelada corta (UK y estados unidos)",
+    "descripcion": "Sinónimo: tonelada neta (2000 lb)",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ton (US)",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "APZ",
+    "valor": "Onza troy u onza farmacéutica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "tr oz",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "F13",
+    "valor": "Slug",
+    "descripcion": "Una unidad de masa. Un slug es la masa acelerada a 1 pie por segundo por segundo por una fuerza de 1 libra.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "slug",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "K64",
+    "valor": "Libra (avoirdupois) por grado fahrenheit",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "lb/°F",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L69",
+    "valor": "Tonelada por kelvin",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "t/K",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L87",
+    "valor": "Tonelada corta por grado fahrenheit",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ton (US)/°F",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M85",
+    "valor": "Tonelada, ensayo",
+    "descripcion": "Unidad de masa no conforme al sistema internacional, utilizada en la mineralogía para determinar la concentración de metales preciosos en el mineral de acuerdo con la masa del metal precioso en miligramos en una muestra de la masa de un sonido de ensayo (número de onzas troy en una tonelada corta (1 000 lb)).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M86",
+    "valor": "Libra Alemana",
+    "descripcion": "Anticuada unidad de masa usada en Alemania.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "pfd",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "J33",
+    "valor": "Microgramo por kilogramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "µg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "L32",
+    "valor": "Nanogramo por kilogramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ng/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "NA",
+    "valor": "Miligramo por kilogramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "mg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M29",
+    "valor": "Kilogramo por kilogramo",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "kg/kg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "M91",
+    "valor": "Libra por libra",
+    "descripcion": "Proporción de la masa consistente en la libra avoirdupois según el sistema unitario avoirdupois dividido por la libra avoirdupois según el sistema unitario avoirdupois.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "lb/lb",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "Q29",
+    "valor": "Microgramo por hectogramo",
+    "descripcion": "Microgramo por hectogramo",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "µg/hg",
+    "bandera": "Masa"
+  },
+  {
+    "clave": "MTQ",
+    "valor": "Metro cúbico",
+    "descripcion": "Sinónimo: metro cúbico",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "m³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MAL",
+    "valor": "Megalitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Ml",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "LTR",
+    "valor": "Litro",
+    "descripcion": "Es una unidad de volumen equivalente a un decímetro cúbico (1 dm³). Su uso es aceptado en el Sistema Internacional de Unidades (SI), aunque ya no pertenece estrictamente a él.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "l",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MMQ",
+    "valor": "Milímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo mm, que es igual a la milésima parte de un metro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "mm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "CMQ",
+    "valor": "Centímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo cm, que es igual a la centésima parte de un metro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DMQ",
+    "valor": "Decímetro cúbico",
+    "descripcion": "Medida de longitud, de símbolo dm, que es igual a la décima parte de un metro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "MLT",
+    "valor": "Mililitro",
+    "descripcion": "Medida de volumen, de símbolo ml, que es igual a la milésima parte de un litro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ml",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "HLT",
+    "valor": "Hectolitro",
+    "descripcion": "Es una unidad de volumen equivalente a cien litros, representado por el símbolo hl. Es el segundo múltiplo del litro y también equivale a 100 decímetros cúbicos (0,1 metros cúbicos).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "hl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "CLT",
+    "valor": "Centilitro",
+    "descripcion": "Medida de volumen, de símbolo cl, que es igual a la centésima parte de un litro.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DMA",
+    "valor": "Decámetro cúbico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dam³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "H19",
+    "valor": "Hectómetro cúbico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "hm³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "H20",
+    "valor": "Kilómetro cúbico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "km³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M71",
+    "valor": "Metro cúbico por pascal (joules)",
+    "descripcion": "Unidad de Energía del sistema internacional, metro elevado al exponente 3 y dividido por la unidad pascal.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "m³/Pa",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "DLT",
+    "valor": "Decilitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "4G",
+    "valor": "Microlitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "µl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K6",
+    "valor": "Kilolitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "kl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "A44",
+    "valor": "Decalitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dal",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G94",
+    "valor": "Centímetro cúbico por bar",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cm³/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G95",
+    "valor": "Litro por bar",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "l/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G96",
+    "valor": "Metro cúbico por bar",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "m³/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G97",
+    "valor": "Mililitro por bar",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ml/bar",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "5I",
+    "valor": "Pies cúbicos estándar",
+    "descripcion": "Utilice estándar (código común WSD)",
+    "Nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Std",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "INQ",
+    "valor": "Pulgada cúbica",
+    "descripcion": "Sinónimo: pulgada cuadrada",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "in³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "FTQ",
+    "valor": "Pie cúbico",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ft³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "YDQ",
+    "valor": "Yarda cúbica",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "yd³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLI",
+    "valor": "Galón (UK)",
+    "descripcion": "Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: \"galón de vino\" (wine gallon) y \"galón de cerveza británico\" (ale gallon).\nEs equivalente a 3.7854 litros.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "gal (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLL",
+    "valor": "Galón (EUA)",
+    "descripcion": "Es una unidad de volumen que se emplea en los países anglófonos (especialmente Estados Unidos) o con influencia de estos (como Liberia, Guatemala, Panamá, Honduras, Nicaragua, El Salvador, Colombia y parcialmente en México), para medir volúmenes de líquidos, principalmente la gasolina y su precio. Antiguamente, el volumen de un galón dependía de lo que se midiera, y dónde. Sin embargo, en el siglo XIX existían dos definiciones de uso común: \"galón de vino\" (wine gallon) y \"galón de cerveza británico\" (ale gallon).",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "gal (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PT",
+    "valor": "Pinta (US)",
+    "descripcion": "Utilice pinta líquida (código común PTL)",
+    "Nota": "Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTI",
+    "valor": "Pint (uk)",
+    "descripcion": "Es una unidad de volumen inglesa en el sistema imperial y los Estados Unidos. La versión imperial usada en el UK es de 20 onzas líquidas y es equivalente a 568,26125 ml, mientras que en los EUA es de 16 onzas líquidas y es equivalente a 473,17647 ml.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "pt (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTI",
+    "valor": "Cuarto (UK)",
+    "descripcion": "Es una unidad de medida de volumen equivalente a media fanega. En Castilla equivalía a aproximadamente a 6 celemines. La medida real cambia según regiones o incluso localidades.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "qt (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTL",
+    "valor": "Pinta líquida (estados unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "liq pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTL",
+    "valor": "Cuarto de líquido (estadis unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "liq qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "PTD",
+    "valor": "Pinta seca (estados unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dry pt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "OZI",
+    "valor": "Onza líquida (UK)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "fl oz (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QT",
+    "valor": "Cuarto (EUA)",
+    "descripcion": "Utilice cuarto de galón líquido (código común QTL)",
+    "Nota": "Unidades no recomendadas para su uso por la Oficina Internacional de Pesos y Medidas (BIPM) con sede en Francia.",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "J57",
+    "valor": "Barril (uk petróleo)",
+    "descripcion": "Es el nombre de varias unidades de volumen usadas en el Reino Unido y en los Estados Unidos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "bbl (UK liq.)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K21",
+    "valor": "Pie cúbico por grado fahrenheit",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ft³/°F",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "K23",
+    "valor": "Pie cúbico por psi (libra por pulgada cuadrada)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "ft³/psi",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L43",
+    "valor": "Peck (UK)",
+    "descripcion": "Un peck es una unidad tradicional de medida de volúmenes. Aunque puede ser utilizado para medir seco y líquido, se utiliza generalmente para las materias secas. Es igual a 1/4 bushel, 2 galones, o 8 cuartos de galón.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "pk (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L61",
+    "valor": "Pinta (US seco)",
+    "descripcion": "Utilice pinta seca (código común PTD)",
+    "Nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Pt (US seco)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L62",
+    "valor": "Cuarto de galón (seco de los EUA)",
+    "descripcion": "Utilice cuarto seco (EUA) (código común QTD)",
+    "Nota": "Las unidades marcadas como borradas en el catálogo internacional de UNECE, serán retenidas indefinidamente en las listas de códigos. En su caso, estas unidades podrán ser reinstalado a través del proceso de mantenimiento.",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "Qt (US seco)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L84",
+    "valor": "Tonelada (flota UK)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "British shipping ton",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "L86",
+    "valor": "Tonelada (flota estados unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "(US) shipping ton",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M11",
+    "valor": "Yarda cúbica por grado fahrenheit",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "yd³/°F",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M14",
+    "valor": "Yarda cúbica por psi (libra por pulgada cuadrada)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "yd³/psi",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "OZA",
+    "valor": "Onza líquida (estados unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "fl oz (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BUI",
+    "valor": "Bushel (UK)",
+    "descripcion": "Un bushel tiene 4 pecks o 32 quarts, y equivale a 1,03205 del bushel de los Estados Unidos, que a su vez equivale a 0,35238 hectolitros. La palabra bushel está cayendo en desuso rápidamente.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "bushel (UK)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BUA",
+    "valor": "Bushel (EUA)",
+    "descripcion": "El bushel es una unidad de medida de capacidad para mercancía sólida en los países anglosajones (países de habla inglesa). Se utiliza en el comercio de granos, harinas y otros productos análogos.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "bu (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BLL",
+    "valor": "Barril (EUA)",
+    "descripcion": "Un barril estadounidense es igual a:\n\n42 galones estadounidenses\n168 cuartos estadounidenses\n336 pintas estadounidenses\n1344 gills estadounidenses\n5376 onzas líquidas estadounidenses\n158.987294928 litros",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "barrel (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "BLD",
+    "valor": "Barril seco (EUA)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "bbl (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "GLD",
+    "valor": "Galón seco (EUA)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dry gal (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "QTD",
+    "valor": "Cuarto seco (estados unidos)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "dry qt (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G26",
+    "valor": "Estere",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "st",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G21",
+    "valor": "Taza (unidad de volumen)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cup (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G24",
+    "valor": "Cucharada (estados unidos)",
+    "descripcion": "1/2 onzas fluidas, 3 cucharaditas, 15 mililitros",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "tablespoon (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G25",
+    "valor": "Cucharilla (estados unidos)",
+    "descripcion": "1/6 onzas fluidas o 5 mililitros",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "teaspoon (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "G23",
+    "valor": "Peck",
+    "descripcion": "Es una unidad de medida imperial y habitual en  Estados Unidos de volumen seco.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "pk (US)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M67",
+    "valor": "Acre-pie",
+    "descripcion": "Unidad de volúmen, la cúal es usada en los Estados Unidos para medir la capacidad de las presas.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "acre-ft (US survey)",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M68",
+    "valor": "Cordón",
+    "descripcion": "Unidad tradicional del volumen de leña apilada que se ha medido con un cordón.",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "cord",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M69",
+    "valor": "Milla cúbica (reino unido)",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "mi³",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "M70",
+    "valor": "Unidad tradicional de capacidad de carga",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "RT",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q32",
+    "valor": "Femtolitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "fl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q33",
+    "valor": "Picolitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "pl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "Q34",
+    "valor": "Nanolitro",
+    "descripcion": "",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "nl",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "NM3",
+    "valor": "Metro cúbico normalizado",
+    "descripcion": "Metros cúbicos normalizados (temperatura 0 ° C y presión 101325 milibares)",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Volumen"
+  },
+  {
+    "clave": "SM3",
+    "valor": "Metro cúbico estándar",
+    "descripcion": "Metro cúbico estándar (temperatura 15 ° C y presión 101325 milibares)",
+    "Nota": "",
+    "fechaini": "01/06/2021",
+    "fechafin": "",
+    "simbolo": "",
+    "bandera": "Volumen"
+  }
+]

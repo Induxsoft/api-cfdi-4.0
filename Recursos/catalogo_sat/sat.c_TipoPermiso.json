@@ -1,0 +1,127 @@
+﻿[{
+        "clave": "TPAF01",
+        "valor": "Autotransporte Federal de carga general.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF02",
+        "valor": "Transporte privado de carga.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF03",
+        "valor": "Autotransporte Federal de Carga Especializada de materiales y residuos peligrosos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF04",
+        "valor": "Transporte de automóviles sin rodar en vehículo tipo góndola.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF05",
+        "valor": "Transporte de carga de gran peso y/o volumen de hasta 90 toneladas.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF06",
+        "valor": "Transporte de carga especializada de gran peso y/o volumen de más 90 toneladas.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF07",
+        "valor": "Transporte Privado de materiales y residuos peligrosos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF08",
+        "valor": "Autotransporte internacional de carga de largo recorrido.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF09",
+        "valor": "Autotransporte internacional de carga especializada de materiales y residuos peligrosos de largo recorrido.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF10",
+        "valor": "Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF11",
+        "valor": "Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación comprende la franja fronteriza con Estados Unidos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF12",
+        "valor": "Servicio auxiliar de arrastre en las vías generales de comunicación.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF13",
+        "valor": "Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y depósito de vehículos en las vías generales de comunicación.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF14",
+        "valor": "Servicio de paquetería y mensajería en las vías generales de comunicación.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF15",
+        "valor": "Transporte especial para el tránsito de grúas industriales con peso máximo de 90 toneladas.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF16",
+        "valor": "Servicio federal para empresas arrendadoras servicio público federal.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF17",
+        "valor": "Empresas trasladistas de vehículos nuevos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF18",
+        "valor": "Empresas fabricantes o distribuidoras de vehículos nuevos.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF19",
+        "valor": "Autorización expresa para circular en los caminos y puentes de jurisdicción federal con configuraciones de tractocamión doblemente articulado.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPAF20",
+        "valor": "Autotransporte Federal de Carga Especializada de fondos y valores.",
+        "cvetransporte": "1",
+        "fechainicio": "2021-07-02"
+    }, {
+        "clave": "TPTM01",
+        "valor": "Permiso temporal para navegación de cabotaje",
+        "cvetransporte": "2",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPTA01",
+        "valor": "Concesión y/o autorización para el servicio regular nacional y/o internacional para empresas mexicanas",
+        "cvetransporte": "3",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPTA02",
+        "valor": "Permiso para el servicio aéreo regular de empresas extranjeras",
+        "cvetransporte": "3",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPTA03",
+        "valor": "Permiso para el servicio nacional e internacional no regular de fletamento",
+        "cvetransporte": "3",
+        "fechainicio": "2021-06-01"
+    }, {
+        "clave": "TPTA04",
+        "valor": "Permiso para el servicio nacional e internacional no regular de taxi aéreo",
+        "cvetransporte": "3",
+        "fechainicio": "2021-06-01"
+    }
+]

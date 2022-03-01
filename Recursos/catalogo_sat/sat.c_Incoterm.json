@@ -1,0 +1,98 @@
+﻿[
+  {
+    "clave": "CFR",
+    "valor": "COSTE Y FLETE (PUERTO DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CIF",
+    "valor": "COSTE, SEGURO Y FLETE (PUERTO DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CPT",
+    "valor": "TRANSPORTE PAGADO HASTA (EL LUGAR DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "CIP",
+    "valor": "TRANSPORTE Y SEGURO PAGADOS HASTA (LUGAR DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DAF",
+    "valor": "ENTREGADA EN FRONTERA (LUGAR CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": "2020-04-15"
+  },
+  {
+    "clave": "DAP",
+    "valor": "ENTREGADA EN LUGAR.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DAT",
+    "valor": "ENTREGADA EN TERMINAL.",
+    "fechaini": "2017-01-01",
+    "fechafin": "2020-04-15"
+  },
+  {
+    "clave": "DES",
+    "valor": "ENTREGADA SOBRE BUQUE (PUERTO DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": "2020-04-15"
+  },
+  {
+    "clave": "DEQ",
+    "valor": "ENTREGADA EN MUELLE (PUERTO DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": "2020-04-15"
+  },
+  {
+    "clave": "DDU",
+    "valor": "ENTREGADA DERECHOS NO PAGADOS (LUGAR DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": "2020-04-15"
+  },
+  {
+    "clave": "DDP",
+    "valor": "ENTREGADA DERECHOS PAGADOS (LUGAR DE DESTINO CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "DPU",
+    "valor": "ENTREGADA Y DESCARGADA EN LUGAR ACORDADO.",
+    "fechaini": "2020-04-15",
+    "fechafin": ""
+  },
+  {
+    "clave": "EXW",
+    "valor": "EN FABRICA (LUGAR CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FCA",
+    "valor": "FRANCO TRANSPORTISTA (LUGAR DESIGNADO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FAS",
+    "valor": "FRANCO AL COSTADO DEL BUQUE (PUERTO DE CARGA CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "FOB",
+    "valor": "FRANCO A BORDO (PUERTO DE CARGA CONVENIDO).",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  }
+]

@@ -1,0 +1,247 @@
+﻿[{
+        "clave": "01",
+        "valor": "ACAPULCO, ACAPULCO DE JUAREZ, GUERRERO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "02",
+        "valor": "AGUA PRIETA, AGUA PRIETA, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "05",
+        "valor": "SUBTENIENTE LOPEZ, SUBTENIENTE LOPEZ, QUINTANA ROO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "06",
+        "valor": "CIUDAD DEL CARMEN, CIUDAD DEL CARMEN, CAMPECHE.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "07",
+        "valor": "CIUDAD JUAREZ, CIUDAD JUAREZ, CHIHUAHUA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "08",
+        "valor": "COATZACOALCOS, COATZACOALCOS, VERACRUZ.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "11",
+        "valor": "ENSENADA, ENSENADA, BAJA CALIFORNIA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "12",
+        "valor": "GUAYMAS, GUAYMAS, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "14",
+        "valor": "LA PAZ, LA PAZ, BAJA CALIFORNIA SUR.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "16",
+        "valor": "MANZANILLO, MANZANILLO, COLIMA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "17",
+        "valor": "MATAMOROS, MATAMOROS, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "18",
+        "valor": "MAZATLAN, MAZATLAN, SINALOA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "19",
+        "valor": "MEXICALI, MEXICALI, BAJA CALIFORNIA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "20",
+        "valor": "MEXICO, DISTRITO FEDERAL.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "22",
+        "valor": "NACO, NACO, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "23",
+        "valor": "NOGALES, NOGALES, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "24",
+        "valor": "NUEVO LAREDO, NUEVO LAREDO, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "25",
+        "valor": "OJINAGA, OJINAGA, CHIHUAHUA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "26",
+        "valor": "PUERTO PALOMAS, PUERTO PALOMAS, CHIHUAHUA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "27",
+        "valor": "PIEDRAS NEGRAS, PIEDRAS NEGRAS, COAHUILA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "28",
+        "valor": "PROGRESO, PROGRESO, YUCATAN.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "30",
+        "valor": "CIUDAD REYNOSA, CIUDAD REYNOSA, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "31",
+        "valor": "SALINA CRUZ, SALINA CRUZ, OAXACA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "33",
+        "valor": "SAN LUIS RIO COLORADO, SAN LUIS RIO COLORADO, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "34",
+        "valor": "CIUDAD MIGUEL ALEMAN, CIUDAD MIGUEL ALEMAN, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "37",
+        "valor": "CIUDAD HIDALGO, CIUDAD HIDALGO, CHIAPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "38",
+        "valor": "TAMPICO, TAMPICO, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "39",
+        "valor": "TECATE, TECATE, BAJA CALIFORNIA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "40",
+        "valor": "TIJUANA, TIJUANA, BAJA CALIFORNIA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "42",
+        "valor": "TUXPAN, TUXPAN DE RODRIGUEZ CANO, VERACRUZ.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "43",
+        "valor": "VERACRUZ, VERACRUZ, VERACRUZ.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "44",
+        "valor": "CIUDAD ACUÑA, CIUDAD ACUÑA, COAHUILA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "46",
+        "valor": "TORREON, TORREON, COAHUILA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "47",
+        "valor": "AEROPUERTO INTERNACIONAL DE LA CIUDAD DE MEXICO,",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "48",
+        "valor": "GUADALAJARA, TLACOMULCO DE ZUÑIGA, JALISCO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "50",
+        "valor": "SONOYTA, SONOYTA, SONORA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "51",
+        "valor": "LAZARO CARDENAS, LAZARO CARDENAS, MICHOACAN.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "52",
+        "valor": "MONTERREY, GENERAL MARIANO ESCOBEDO, NUEVO LEON.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "53",
+        "valor": "CANCUN, CANCUN, QUINTANA ROO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "64",
+        "valor": "QUERÉTARO, EL MARQUÉS Y COLON, QUERÉTARO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "65",
+        "valor": "TOLUCA, TOLUCA, ESTADO DE MEXICO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "67",
+        "valor": "CHIHUAHUA, CHIHUAHUA, CHIHUAHUA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "73",
+        "valor": "AGUASCALIENTES, AGUASCALIENTES, AGUASCALIENTES.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "75",
+        "valor": "PUEBLA, HEROICA PUEBLA DE ZARAGOZA, PUEBLA.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "80",
+        "valor": "COLOMBIA, COLOMBIA, NUEVO LEON.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "81",
+        "valor": "ALTAMIRA, ALTAMIRA, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "82",
+        "valor": "CIUDAD CAMARGO, CIUDAD CAMARGO, TAMAULIPAS.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "83",
+        "valor": "DOS BOCAS, PARAISO, TABASCO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }, {
+        "clave": "84",
+        "valor": "GUANAJUATO, SILAO, GUANAJUATO.",
+        "fechainicio": "2022-01-01",
+        "fechafin ": ""
+    }
+]

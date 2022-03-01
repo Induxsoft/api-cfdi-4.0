@@ -1,0 +1,22 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Terreno"
+  },
+  {
+    "clave": "02",
+    "valor": "Terreno uso comercial"
+  },
+  {
+    "clave": "03",
+    "valor": "Construcción habitacional"
+  },
+  {
+    "clave": "04",
+    "valor": "Construcción uso comercial"
+  },
+  {
+    "clave": "05",
+    "valor": "Uso mixto"
+  }
+]

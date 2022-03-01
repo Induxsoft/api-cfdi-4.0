@@ -1,0 +1,20 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "ISR",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "IVA",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "IEPS",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

@@ -1,0 +1,20 @@
+﻿[
+  {
+    "clave": "Tasa",
+    "valor": "Tasa",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "Cuota",
+    "valor": "Cuota",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  },
+  {
+    "clave": "Exento",
+    "valor": "Exento",
+    "finicio": "2022-01-01",
+    "ffin": ""
+  }
+]

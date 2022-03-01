@@ -1,0 +1,38 @@
+﻿[
+  {
+    "clave": "01",
+    "valor": "Proviene de CUFIN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "02",
+    "valor": "No proviene de CUFIN",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "03",
+    "valor": "Reembolso o reducción de capital",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "04",
+    "valor": "Liquidación de la persona moral",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "05",
+    "valor": "CUFINRE",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "06",
+    "valor": "Proviene de CUFIN al 31 de diciembre 2013.",
+    "fechaini": "2022-01-01",
+    "fechafin": ""
+  }
+]

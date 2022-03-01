@@ -1,0 +1,744 @@
+﻿[
+  {
+    "clave": "002",
+    "valor": "BANAMEX",
+    "nombrerazonsoc": "Banco Nacional de México, S.A., Institución de Banca Múltiple, Grupo Financiero Banamex",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "006",
+    "valor": "BANCOMEXT",
+    "nombrerazonsoc": "Banco Nacional de Comercio Exterior, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "009",
+    "valor": "BANOBRAS",
+    "nombrerazonsoc": "Banco Nacional de Obras y Servicios Públicos, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "012",
+    "valor": "BBVA BANCOMER",
+    "nombrerazonsoc": "BBVA Bancomer, S.A., Institución de Banca Múltiple, Grupo Financiero BBVA Bancomer",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "014",
+    "valor": "SANTANDER",
+    "nombrerazonsoc": "Banco Santander (México), S.A., Institución de Banca Múltiple, Grupo Financiero Santander",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "019",
+    "valor": "BANJERCITO",
+    "nombrerazonsoc": "Banco Nacional del Ejército, Fuerza Aérea y Armada, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "021",
+    "valor": "HSBC",
+    "nombrerazonsoc": "HSBC México, S.A., institución De Banca Múltiple, Grupo Financiero HSBC",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "030",
+    "valor": "BAJIO",
+    "nombrerazonsoc": "Banco del Bajío, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "032",
+    "valor": "IXE",
+    "nombrerazonsoc": "IXE Banco, S.A., Institución de Banca Múltiple, IXE Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": "2017-08-13"
+  },
+  {
+    "clave": "036",
+    "valor": "INBURSA",
+    "nombrerazonsoc": "Banco Inbursa, S.A., Institución de Banca Múltiple, Grupo Financiero Inbursa",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "037",
+    "valor": "INTERACCIONES",
+    "nombrerazonsoc": "Banco Interacciones, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "042",
+    "valor": "MIFEL",
+    "nombrerazonsoc": "Banca Mifel, S.A., Institución de Banca Múltiple, Grupo Financiero Mifel",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "044",
+    "valor": "SCOTIABANK",
+    "nombrerazonsoc": "Scotiabank Inverlat, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "058",
+    "valor": "BANREGIO",
+    "nombrerazonsoc": "Banco Regional de Monterrey, S.A., Institución de Banca Múltiple, Banregio Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "059",
+    "valor": "INVEX",
+    "nombrerazonsoc": "Banco Invex, S.A., Institución de Banca Múltiple, Invex Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "060",
+    "valor": "BANSI",
+    "nombrerazonsoc": "Bansi, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "062",
+    "valor": "AFIRME",
+    "nombrerazonsoc": "Banca Afirme, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": "072",
+    "valor": "BANORTE/IXE",
+    "nombrerazonsoc": "Banco Mercantil del Norte, S.A., Institución de Banca Múltiple, Grupo Financiero Banorte",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 102,
+    "valor": "THE ROYAL BANK",
+    "nombrerazonsoc": "The Royal Bank of Scotland México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 103,
+    "valor": "AMERICAN EXPRESS",
+    "nombrerazonsoc": "American Express Bank (México), S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 106,
+    "valor": "BAMSA",
+    "nombrerazonsoc": "Bank of America México, S.A., Institución de Banca Múltiple, Grupo Financiero Bank of America",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 108,
+    "valor": "TOKYO",
+    "nombrerazonsoc": "Bank of Tokyo-Mitsubishi UFJ (México), S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 110,
+    "valor": "JP MORGAN",
+    "nombrerazonsoc": "Banco J.P. Morgan, S.A., Institución de Banca Múltiple, J.P. Morgan Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 112,
+    "valor": "BMONEX",
+    "nombrerazonsoc": "Banco Monex, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 113,
+    "valor": "VE POR MAS",
+    "nombrerazonsoc": "Banco Ve Por Mas, S.A. Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 116,
+    "valor": "ING",
+    "nombrerazonsoc": "ING Bank (México), S.A., Institución de Banca Múltiple, ING Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": "2017-08-13"
+  },
+  {
+    "clave": 124,
+    "valor": "DEUTSCHE",
+    "nombrerazonsoc": "Deutsche Bank México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 126,
+    "valor": "CREDIT SUISSE",
+    "nombrerazonsoc": "Banco Credit Suisse (México), S.A. Institución de Banca Múltiple, Grupo Financiero Credit Suisse (México)",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 127,
+    "valor": "AZTECA",
+    "nombrerazonsoc": "Banco Azteca, S.A. Institución de Banca Múltiple.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 128,
+    "valor": "AUTOFIN",
+    "nombrerazonsoc": "Banco Autofin México, S.A. Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 129,
+    "valor": "BARCLAYS",
+    "nombrerazonsoc": "Barclays Bank México, S.A., Institución de Banca Múltiple, Grupo Financiero Barclays México",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 130,
+    "valor": "COMPARTAMOS",
+    "nombrerazonsoc": "Banco Compartamos, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 131,
+    "valor": "BANCO FAMSA",
+    "nombrerazonsoc": "Banco Ahorro Famsa, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 132,
+    "valor": "BMULTIVA",
+    "nombrerazonsoc": "Banco Multiva, S.A., Institución de Banca Múltiple, Multivalores Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 133,
+    "valor": "ACTINVER",
+    "nombrerazonsoc": "Banco Actinver, S.A. Institución de Banca Múltiple, Grupo Financiero Actinver",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 134,
+    "valor": "WAL-MART",
+    "nombrerazonsoc": "Banco Wal-Mart de México Adelante, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": "2017-08-13"
+  },
+  {
+    "clave": 135,
+    "valor": "NAFIN",
+    "nombrerazonsoc": "Nacional Financiera, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 136,
+    "valor": "INTERCAM BANCO",
+    "nombrerazonsoc": "Intercam Banco, S.A., Institución de Banca Múltiple, Intercam Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 137,
+    "valor": "BANCOPPEL",
+    "nombrerazonsoc": "BanCoppel, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 138,
+    "valor": "ABC CAPITAL",
+    "nombrerazonsoc": "ABC Capital, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 139,
+    "valor": "UBS BANK",
+    "nombrerazonsoc": "UBS Bank México, S.A., Institución de Banca Múltiple, UBS Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 140,
+    "valor": "CONSUBANCO",
+    "nombrerazonsoc": "Consubanco, S.A. Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 141,
+    "valor": "VOLKSWAGEN",
+    "nombrerazonsoc": "Volkswagen Bank, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 143,
+    "valor": "CIBANCO",
+    "nombrerazonsoc": "CIBanco, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 145,
+    "valor": "BBASE",
+    "nombrerazonsoc": "Banco Base, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 147,
+    "valor": "BANKAOOL",
+    "nombrerazonsoc": "Bankaool, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 148,
+    "valor": "PAGATODO",
+    "nombrerazonsoc": "Banco PagaTodo, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 149,
+    "valor": "FORJADORES",
+    "nombrerazonsoc": "Banco Forjadores, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 150,
+    "valor": "INMOBILIARIO",
+    "nombrerazonsoc": "Banco Inmobiliario Mexicano, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 151,
+    "valor": "DONDÉ",
+    "nombrerazonsoc": "Fundación Dondé Banco, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 152,
+    "valor": "BANCREA",
+    "nombrerazonsoc": "Banco Bancrea, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 153,
+    "valor": "PROGRESO",
+    "nombrerazonsoc": "Banco Progreso Chihuahua, S.A.",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 154,
+    "valor": "BANCO FINTERRA",
+    "nombrerazonsoc": "Banco Finterra, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 155,
+    "valor": "ICBC",
+    "nombrerazonsoc": "Industrial and Commercial Bank of China México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 156,
+    "valor": "SABADELL",
+    "nombrerazonsoc": "Banco Sabadell, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 157,
+    "valor": "SHINHAN",
+    "nombrerazonsoc": "Banco Shinhan de México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 158,
+    "valor": "MIZUHO BANK",
+    "nombrerazonsoc": "Mizuho Bank México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 159,
+    "valor": "BANK OF CHINA",
+    "nombrerazonsoc": "Bank of China México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 160,
+    "valor": "BANCO S3",
+    "nombrerazonsoc": "Banco S3 México, S.A., Institución de Banca Múltiple",
+    "fechaini": "2017-08-13",
+    "fechafin": ""
+  },
+  {
+    "clave": 166,
+    "valor": "BANSEFI",
+    "nombrerazonsoc": "Banco del Ahorro Nacional y Servicios Financieros, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 168,
+    "valor": "HIPOTECARIA FEDERAL",
+    "nombrerazonsoc": "Sociedad Hipotecaria Federal, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 600,
+    "valor": "MONEXCB",
+    "nombrerazonsoc": "Monex Casa de Bolsa, S.A. de C.V. Monex Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 601,
+    "valor": "GBM",
+    "nombrerazonsoc": "GBM Grupo Bursátil Mexicano, S.A. de C.V. Casa de Bolsa",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 602,
+    "valor": "MASARI",
+    "nombrerazonsoc": "Masari Casa de Bolsa, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 605,
+    "valor": "VALUE",
+    "nombrerazonsoc": "Value, S.A. de C.V. Casa de Bolsa",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 606,
+    "valor": "ESTRUCTURADORES",
+    "nombrerazonsoc": "Estructuradores del Mercado de Valores Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 607,
+    "valor": "TIBER",
+    "nombrerazonsoc": "Casa de Cambio Tiber, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 608,
+    "valor": "VECTOR",
+    "nombrerazonsoc": "Vector Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 610,
+    "valor": "B&B",
+    "nombrerazonsoc": "B y B, Casa de Cambio, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 614,
+    "valor": "ACCIVAL",
+    "nombrerazonsoc": "Acciones y Valores Banamex, S.A. de C.V., Casa de Bolsa",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 615,
+    "valor": "MERRILL LYNCH",
+    "nombrerazonsoc": "Merrill Lynch México, S.A. de C.V. Casa de Bolsa",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 616,
+    "valor": "FINAMEX",
+    "nombrerazonsoc": "Casa de Bolsa Finamex, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 617,
+    "valor": "VALMEX",
+    "nombrerazonsoc": "Valores Mexicanos Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 618,
+    "valor": "UNICA",
+    "nombrerazonsoc": "Unica Casa de Cambio, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 619,
+    "valor": "MAPFRE",
+    "nombrerazonsoc": "MAPFRE Tepeyac, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 620,
+    "valor": "PROFUTURO",
+    "nombrerazonsoc": "Profuturo G.N.P., S.A. de C.V., Afore",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 621,
+    "valor": "CB ACTINVER",
+    "nombrerazonsoc": "Actinver Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 622,
+    "valor": "OACTIN",
+    "nombrerazonsoc": "OPERADORA ACTINVER, S.A. DE C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 623,
+    "valor": "SKANDIA",
+    "nombrerazonsoc": "Skandia Vida, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 626,
+    "valor": "CBDEUTSCHE",
+    "nombrerazonsoc": "Deutsche Securities, S.A. de C.V. CASA DE BOLSA",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 627,
+    "valor": "ZURICH",
+    "nombrerazonsoc": "Zurich Compañía de Seguros, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 628,
+    "valor": "ZURICHVI",
+    "nombrerazonsoc": "Zurich Vida, Compañía de Seguros, S.A.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 629,
+    "valor": "SU CASITA",
+    "nombrerazonsoc": "Hipotecaria Su Casita, S.A. de C.V. SOFOM ENR",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 630,
+    "valor": "CB INTERCAM",
+    "nombrerazonsoc": "Intercam Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 631,
+    "valor": "CI BOLSA",
+    "nombrerazonsoc": "CI Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 632,
+    "valor": "BULLTICK CB",
+    "nombrerazonsoc": "Bulltick Casa de Bolsa, S.A., de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 633,
+    "valor": "STERLING",
+    "nombrerazonsoc": "Sterling Casa de Cambio, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 634,
+    "valor": "FINCOMUN",
+    "nombrerazonsoc": "Fincomún, Servicios Financieros Comunitarios, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 636,
+    "valor": "HDI SEGUROS",
+    "nombrerazonsoc": "HDI Seguros, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 637,
+    "valor": "ORDER",
+    "nombrerazonsoc": "Order Express Casa de Cambio, S.A. de C.V",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 638,
+    "valor": "AKALA",
+    "nombrerazonsoc": "Akala, S.A. de C.V., Sociedad Financiera Popular",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 640,
+    "valor": "CB JPMORGAN",
+    "nombrerazonsoc": "J.P. Morgan Casa de Bolsa, S.A. de C.V. J.P. Morgan Grupo Financiero",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 642,
+    "valor": "REFORMA",
+    "nombrerazonsoc": "Operadora de Recursos Reforma, S.A. de C.V., S.F.P.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 646,
+    "valor": "STP",
+    "nombrerazonsoc": "Sistema de Transferencias y Pagos STP, S.A. de C.V.SOFOM ENR",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 647,
+    "valor": "TELECOMM",
+    "nombrerazonsoc": "Telecomunicaciones de México",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 648,
+    "valor": "EVERCORE",
+    "nombrerazonsoc": "Evercore Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 649,
+    "valor": "SKANDIA",
+    "nombrerazonsoc": "Skandia Operadora de Fondos, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 651,
+    "valor": "SEGMTY",
+    "nombrerazonsoc": "Seguros Monterrey New York Life, S.A de C.V",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 652,
+    "valor": "ASEA",
+    "nombrerazonsoc": "Solución Asea, S.A. de C.V., Sociedad Financiera Popular",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 653,
+    "valor": "KUSPIT",
+    "nombrerazonsoc": "Kuspit Casa de Bolsa, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 655,
+    "valor": "SOFIEXPRESS",
+    "nombrerazonsoc": "J.P. SOFIEXPRESS, S.A. de C.V., S.F.P.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 656,
+    "valor": "UNAGRA",
+    "nombrerazonsoc": "UNAGRA, S.A. de C.V., S.F.P.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 659,
+    "valor": "OPCIONES EMPRESARIALES DEL NOROESTE",
+    "nombrerazonsoc": "OPCIONES EMPRESARIALES DEL NORESTE, S.A. DE C.V., S.F.P.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 670,
+    "valor": "LIBERTAD",
+    "nombrerazonsoc": "Libertad Servicios Financieros, S.A. De C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 901,
+    "valor": "CLS",
+    "nombrerazonsoc": "Cls Bank International",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  },
+  {
+    "clave": 902,
+    "valor": "INDEVAL",
+    "nombrerazonsoc": "SD. Indeval, S.A. de C.V.",
+    "fechaini": "2017-01-01",
+    "fechafin": ""
+  }
+]
