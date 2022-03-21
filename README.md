@@ -16,8 +16,8 @@ La API está formada por un subconjunto de servicios Web de la plataforma de Ind
 
 ## Ensamblados .Net Framework 4.5
 * [Componentes redistribuibles](.Net%20Framework%204.5/bin)
-* [Ejemplos de sellado y timbrado en C#](.Net%20Framework%204.5/examples)
+* [Ejemplos en C#](.Net%20Framework%204.5/examples)
 
 ## PHP
-* [Ejemplos de sellado y timbrado en PHP](PHP/Examples)
+* [Ejemplos en PHP](PHP/Examples)
 
