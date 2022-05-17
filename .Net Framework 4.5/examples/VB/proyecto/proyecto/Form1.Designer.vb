@@ -30,13 +30,14 @@ Partial Class Form1
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(46, 50)
+        Me.TextBox1.Location = New System.Drawing.Point(37, 50)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(429, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(311, 20)
         Me.TextBox1.TabIndex = 0
         '
         'Label1
@@ -50,7 +51,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(394, 76)
+        Me.Button1.Location = New System.Drawing.Point(273, 76)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -59,16 +60,16 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(49, 100)
+        Me.Button2.Location = New System.Drawing.Point(354, 50)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(75, 49)
         Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Timbrar"
+        Me.Button2.Text = "Timbrar >>"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(49, 178)
+        Me.TextBox2.Location = New System.Drawing.Point(10, 179)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
@@ -77,17 +78,17 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(393, 416)
+        Me.Button3.Location = New System.Drawing.Point(352, 416)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Timbrar"
+        Me.Button3.Text = "Timbrar >>"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(46, 151)
+        Me.Label2.Location = New System.Drawing.Point(7, 152)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(420, 13)
         Me.Label2.TabIndex = 6
@@ -99,14 +100,24 @@ Partial Class Form1
         Me.Label3.BackColor = System.Drawing.Color.Black
         Me.Label3.Location = New System.Drawing.Point(-1, 133)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(509, 10)
+        Me.Label3.Size = New System.Drawing.Size(430, 10)
         Me.Label3.TabIndex = 7
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(447, 12)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox3.Size = New System.Drawing.Size(454, 427)
+        Me.TextBox3.TabIndex = 8
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(504, 451)
+        Me.ClientSize = New System.Drawing.Size(913, 451)
+        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button3)
@@ -130,4 +141,5 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents TextBox3 As TextBox
 End Class

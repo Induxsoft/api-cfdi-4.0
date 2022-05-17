@@ -13,29 +13,26 @@
         Dim comprobante As New induxsoft.cfdi.v40.Comprobante()
 
         'Si el XML ya está sellado, solo debe indicar Id y pwd de Cuenta de timbrado
-        comprobante.CuentaTimbradoInduxsoft = "SU ID DE CUENTA DE TIMBRADO INDUXSOFT"
-        comprobante.ContrasenaCuentaTimbradoInduxsoft = "CONTRASEÑA DE LA CUENTA DE TIMBRADO INDUXSOFT"
+        comprobante.CuentaTimbradoInduxsoft = "ID DE CUENTA DE TIMBRADO"
+        comprobante.ContrasenaCuentaTimbradoInduxsoft = "CONTRASEÑA DE CUENTA DE TIMBRADO"
 
         'Si el XML NO está sellado, debe indicar también los siguientes:
         'induxsoft.cfdi.v40.Comprobante.NIC = "SU NIC"
         'induxsoft.cfdi.v40.Comprobante.Licencia = "SU LICENCIA"
-        'comprobante.UbicacionCertificado = "RUTA DEL ARCHIVO CER"
-        'comprobante.UbicacionClavePrivada = "RUTA DEL ARCHIVO KEY"
-        'comprobante.ContrasenaClavePrivada = "CONTRASEÑA DE LA CLAVE PRIVADA"
-        'induxsoft.cfdi.v40.Comprobante.XSLT_CadenaOriginal = "RUTA DEL ARCHIVO DE LA cadenaoriginal.xslt"
+        'comprobante.UbicacionCertificado = "RUTA DE CERTIFICADO DE SELLO DIGITAL"
+        'comprobante.UbicacionClavePrivada = "RUTA DE LLAVE PRIVADA"
+        'comprobante.ContrasenaClavePrivada = "CONTRASEÑA DE LLAVE PRIVADA"
+        'induxsoft.cfdi.v40.Comprobante.XSLT_CadenaOriginal = "RUTA DE CADENAORIGINAL.xslt"
 
         Try
+            TextBox3.Text = ""
+
             comprobante.Open(TextBox1.Text)
 
             Dim resultado = comprobante.Timbrar()
-            If Convert.ToBoolean(resultado("success")) Then
-                'Timbrado correctamente
-                Dim xmlTimbrado As String
+            Dim xmlTimbrado As String = System.Text.UTF8Encoding.UTF8.GetString(Convert.FromBase64String(resultado("xml").ToString()))
+            TextBox3.Text = xmlTimbrado
 
-                xmlTimbrado = resultado("xml").ToString()
-            Else
-                MessageBox.Show(resultado("message").ToString())
-            End If
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
@@ -46,11 +43,12 @@
         Dim comprobante As induxsoft.cfdi.v40.Comprobante
 
         Try
+            TextBox3.Text = ""
+
             comprobante = induxsoft.cfdi.v40.Comprobante.FromXml(TextBox2.Text)
             'Si el XML ya está sellado, solo debe indicar Id y pwd de Cuenta de timbrado
-            comprobante.CuentaTimbradoInduxsoft = "SU ID DE CUENTA DE TIMBRADO INDUXSOFT"
-            comprobante.ContrasenaCuentaTimbradoInduxsoft = "CONTRASEÑA DE LA CUENTA DE TIMBRADO INDUXSOFT"
-
+            comprobante.CuentaTimbradoInduxsoft = "xipova"
+            comprobante.ContrasenaCuentaTimbradoInduxsoft = "123456"
             'Si el XML NO está sellado, debe indicar también los siguientes:
             'induxsoft.cfdi.v40.Comprobante.NIC = "SU NIC"
             'induxsoft.cfdi.v40.Comprobante.Licencia = "SU LICENCIA"
@@ -60,16 +58,16 @@
             'induxsoft.cfdi.v40.Comprobante.XSLT_CadenaOriginal = "RUTA DEL ARCHIVO DE LA cadenaoriginal.xslt"
 
             Dim resultado = comprobante.Timbrar()
-            If Convert.ToBoolean(resultado("success")) Then
-                'Timbrado correctamente
-                Dim xmlTimbrado As String
+            Dim xmlTimbrado As String = System.Text.UTF8Encoding.UTF8.GetString(Convert.FromBase64String(resultado("xml").ToString()))
+            TextBox3.Text = xmlTimbrado
 
-                xmlTimbrado = resultado("xml").ToString()
-            Else
-                MessageBox.Show(resultado("message").ToString())
-            End If
+
         Catch ex As Exception
             MessageBox.Show(ex.Message)
         End Try
+    End Sub
+
+    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
+
     End Sub
 End Class
