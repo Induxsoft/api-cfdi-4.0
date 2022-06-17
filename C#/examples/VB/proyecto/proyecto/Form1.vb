@@ -1,4 +1,8 @@
-﻿Public Class Form1
+﻿
+
+Imports System.Text
+
+Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim opf As New OpenFileDialog()
         opf.Filter = "Archivos XML|*.xml|Todos los archivos|*.*"
@@ -33,6 +37,7 @@
                 Dim xmlTimbrado As String
 
                 xmlTimbrado = resultado("xml").ToString()
+                'System.IO.File.WriteAllText("Ruta", Encoding.UTF8.GetString(Convert.FromBase64String(xmlTimbrado)))
             Else
                 MessageBox.Show(resultado("message").ToString())
             End If
