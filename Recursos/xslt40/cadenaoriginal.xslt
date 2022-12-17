@@ -31,6 +31,7 @@
 	<xsl:include href="ComercioExterior11.xslt"/>
 	<xsl:include href="ine11.xslt"/>
 	<xsl:include href="iedu.xslt"/>
+	<xsl:include href="terceros11.xslt"/>
 	<xsl:include href="ventavehiculos11.xslt"/>
 	<xsl:include href="detallista.xslt"/>
 	<xsl:include href="ecc12.xslt"/>
