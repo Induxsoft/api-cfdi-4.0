@@ -22,7 +22,7 @@ namespace ejemplo.cfdi40.nomina
             */
 
             // Establecer ubicación de los XSLT del SAT
-            Comprobante.XSLT_CadenaOriginal = @"..\..\..\..\..\..\Recursos\xslt\cadenaoriginal.xslt";
+            Comprobante.XSLT_CadenaOriginal = @"..\..\..\..\..\..\Recursos\xslt40\cadenaoriginal.xslt";
 
             try
             {

@@ -28,7 +28,7 @@ namespace ejemplo.cfdi40.pagos20
 
 
             // Establecer ubicación de los XSLT del SAT
-            string xslt = @"..\..\..\..\..\..\Recursos\xslt\cadenaoriginal.xslt";
+            string xslt = @"..\..\..\..\..\..\Recursos\xslt40\cadenaoriginal.xslt";
             Comprobante.XSLT_CadenaOriginal = xslt;
 
             try
