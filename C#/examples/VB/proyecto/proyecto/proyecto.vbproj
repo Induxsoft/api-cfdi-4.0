@@ -50,6 +50,9 @@
     <Reference Include="induxsoft.cfdi.v40">
       <HintPath>..\..\..\..\bin\induxsoft.cfdi.v40.dll</HintPath>
     </Reference>
+    <Reference Include="induxsoft.cfdi.v40.vb">
+      <HintPath>..\..\..\..\..\..\cfdi40\src\induxsoft.cfdi.v40\induxsoft.cfdi.v40.vb\bin\Debug\induxsoft.cfdi.v40.vb.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
