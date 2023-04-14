@@ -18,10 +18,10 @@ Public Class Form1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
         '****************************************************Comprobante******************************
-        Dim comprobante As New induxsoft.cfdi.v40.Comprobante()
+        ' Dim comprobante As New induxsoft.cfdi.v40.Comprobante()
         'Si el XML ya está sellado, solo debe indicar Id y pwd de Cuenta de timbrado
-        comprobante.CuentaTimbradoInduxsoft = "SU ID DE CUENTA DE TIMBRADO INDUXSOFT"
-        comprobante.ContrasenaCuentaTimbradoInduxsoft = "CONTRASEÑA DE LA CUENTA DE TIMBRADO INDUXSOFT"
+        'comprobante.CuentaTimbradoInduxsoft = "SU ID DE CUENTA DE TIMBRADO INDUXSOFT"
+        'comprobante.ContrasenaCuentaTimbradoInduxsoft = "CONTRASEÑA DE LA CUENTA DE TIMBRADO INDUXSOFT"
 
         'Si el XML NO está sellado, debe indicar también los siguientes:
         'induxsoft.cfdi.v40.Comprobante.NIC = "SU NIC"
@@ -31,26 +31,25 @@ Public Class Form1
         'comprobante.ContrasenaClavePrivada = "CONTRASEÑA DE LA CLAVE PRIVADA"
         'induxsoft.cfdi.v40.Comprobante.XSLT_CadenaOriginal = "RUTA DEL ARCHIVO DE LA cadenaoriginal.xslt"
 
-        Try
-            comprobante.Open(TextBox1.Text)
+        'Try
+        '    comprobante.Open(TextBox1.Text)
 
-            Dim resultado = comprobante.Timbrar()
-            If Convert.ToBoolean(resultado("success")) Then
-                'Timbrado correctamente
-                Dim xmlTimbrado As String
+        '    Dim resultado = comprobante.Timbrar()
+        '    If Convert.ToBoolean(resultado("success")) Then
+        '        'Timbrado correctamente
+        '        Dim xmlTimbrado As String
 
-                xmlTimbrado = resultado("xml").ToString()
-                'System.IO.File.WriteAllText("Ruta", Encoding.UTF8.GetString(Convert.FromBase64String(xmlTimbrado)))
-            Else
-                MessageBox.Show(resultado("message").ToString())
-            End If
-        Catch ex As Exception
-            MessageBox.Show(ex.Message)
-        End Try
+        '        xmlTimbrado = resultado("xml").ToString()
+        '        'System.IO.File.WriteAllText("Ruta", Encoding.UTF8.GetString(Convert.FromBase64String(xmlTimbrado)))
+        '    Else
+        '        MessageBox.Show(resultado("message").ToString())
+        '    End If
+        'Catch ex As Exception
+        '    MessageBox.Show(ex.Message)
+        'End Try
 
         '**********************Retención**********************************
         Dim retencion As New induxsoft.cfdi.v40.vb.Retenciones()
-        retencion.Open(TextBox1.Text)
 
         'Si el XML ya está sellado, solo debe indicar Id y pwd de Cuenta de timbrado
         retencion.CuentaTimbradoInduxsoft = "SU ID DE CUENTA DE TIMBRADO INDUXSOFT"
@@ -66,7 +65,6 @@ Public Class Form1
 
         Try
             retencion.Open(TextBox1.Text)
-
             Dim resultado = retencion.Timbrar()
             If Convert.ToBoolean(resultado("success")) Then
                 'Timbrado correctamente
