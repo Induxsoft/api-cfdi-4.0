@@ -1,0 +1,18 @@
+[
+ {
+  "clave": "01",
+  "valor": "Riesgo de trabajo."
+ },
+ {
+  "clave": "02",
+  "valor": "Enfermedad en general."
+ },
+ {
+  "clave": "03",
+  "valor": "Maternidad."
+ },
+ {
+  "clave": "04",
+  "valor": "Licencia por cuidados médicos de hijos diagnosticados con cáncer."
+ }
+]

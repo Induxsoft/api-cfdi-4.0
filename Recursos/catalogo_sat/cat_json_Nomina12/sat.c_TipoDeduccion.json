@@ -1,0 +1,537 @@
+[
+ {
+  "clave": "001",
+  "valor": "Seguridad social",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "002",
+  "valor": "ISR",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "003",
+  "valor": "Aportaciones a retiro, cesantía en edad avanzada y vejez.",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "004",
+  "valor": "Otros",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "005",
+  "valor": "Aportaciones a Fondo de vivienda",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "006",
+  "valor": "Descuento por incapacidad",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "007",
+  "valor": "Pensión alimenticia",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "008",
+  "valor": "Renta",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "009",
+  "valor": "Préstamos provenientes del Fondo Nacional de la Vivienda para los Trabajadores",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "010",
+  "valor": "Pago por crédito de vivienda",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "011",
+  "valor": "Pago de abonos INFONACOT",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "012",
+  "valor": "Anticipo de salarios",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "013",
+  "valor": "Pagos hechos con exceso al trabajador",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "014",
+  "valor": "Errores",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "015",
+  "valor": "Pérdidas",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "016",
+  "valor": "Averías",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "017",
+  "valor": "Adquisición de artículos producidos por la empresa o establecimiento",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "018",
+  "valor": "Cuotas para la constitución y fomento de sociedades cooperativas y de cajas de ahorro",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "019",
+  "valor": "Cuotas sindicales",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "020",
+  "valor": "Ausencia (Ausentismo)",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "021",
+  "valor": "Cuotas obrero patronales",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "022",
+  "valor": "Impuestos Locales",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "023",
+  "valor": "Aportaciones voluntarias",
+  "fechainicio": "11/01/2016"
+ },
+ {
+  "clave": "024",
+  "valor": "Ajuste en Gratificación Anual (Aguinaldo) Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "025",
+  "valor": "Ajuste en Gratificación Anual (Aguinaldo) Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "026",
+  "valor": "Ajuste en Participación de los Trabajadores en las Utilidades PTU Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "027",
+  "valor": "Ajuste en Participación de los Trabajadores en las Utilidades PTU Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "028",
+  "valor": "Ajuste en Reembolso de Gastos Médicos Dentales y Hospitalarios Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "029",
+  "valor": "Ajuste en Fondo de ahorro Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "030",
+  "valor": "Ajuste en Caja de ahorro Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "031",
+  "valor": "Ajuste en Contribuciones a Cargo del Trabajador Pagadas por el Patrón Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "032",
+  "valor": "Ajuste en Premios por puntualidad Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "033",
+  "valor": "Ajuste en Prima de Seguro de vida Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "034",
+  "valor": "Ajuste en Seguro de Gastos Médicos Mayores Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "035",
+  "valor": "Ajuste en Cuotas Sindicales Pagadas por el Patrón Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "036",
+  "valor": "Ajuste en Subsidios por incapacidad Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "037",
+  "valor": "Ajuste en Becas para trabajadores y/o hijos Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "038",
+  "valor": "Ajuste en Horas extra Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "039",
+  "valor": "Ajuste en Horas extra Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "040",
+  "valor": "Ajuste en Prima dominical Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "041",
+  "valor": "Ajuste en Prima dominical Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "042",
+  "valor": "Ajuste en Prima vacacional Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "043",
+  "valor": "Ajuste en Prima vacacional Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "044",
+  "valor": "Ajuste en Prima por antigüedad Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "045",
+  "valor": "Ajuste en Prima por antigüedad Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "046",
+  "valor": "Ajuste en Pagos por separación Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "047",
+  "valor": "Ajuste en Pagos por separación Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "048",
+  "valor": "Ajuste en Seguro de retiro Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "049",
+  "valor": "Ajuste en Indemnizaciones Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "050",
+  "valor": "Ajuste en Indemnizaciones Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "051",
+  "valor": "Ajuste en Reembolso por funeral Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "052",
+  "valor": "Ajuste en Cuotas de seguridad social pagadas por el patrón Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "053",
+  "valor": "Ajuste en Comisiones Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "054",
+  "valor": "Ajuste en Vales de despensa Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "055",
+  "valor": "Ajuste en Vales de restaurante Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "056",
+  "valor": "Ajuste en Vales de gasolina Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "057",
+  "valor": "Ajuste en Vales de ropa Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "058",
+  "valor": "Ajuste en Ayuda para renta Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "059",
+  "valor": "Ajuste en Ayuda para artículos escolares Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "060",
+  "valor": "Ajuste en Ayuda para anteojos Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "061",
+  "valor": "Ajuste en Ayuda para transporte Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "062",
+  "valor": "Ajuste en Ayuda para gastos de funeral Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "063",
+  "valor": "Ajuste en Otros ingresos por salarios Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "064",
+  "valor": "Ajuste en Otros ingresos por salarios Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "065",
+  "valor": "Ajuste en Jubilaciones, pensiones o haberes de retiro en una sola exhibición Exento ",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "066",
+  "valor": "Ajuste en Jubilaciones, pensiones o haberes de retiro en una sola exhibición Gravado",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "067",
+  "valor": "Ajuste en Pagos por separación Acumulable",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "068",
+  "valor": "Ajuste en Pagos por separación No acumulable",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "069",
+  "valor": "Ajuste en Jubilaciones, pensiones o haberes de retiro en parcialidades Exento",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "070",
+  "valor": "Ajuste en Jubilaciones, pensiones o haberes de retiro en parcialidades Gravado",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "071",
+  "valor": "Ajuste en Subsidio para el empleo (efectivamente entregado al trabajador)",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "072",
+  "valor": "Ajuste en Ingresos en acciones o títulos valor que representan bienes Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "073",
+  "valor": "Ajuste en Ingresos en acciones o títulos valor que representan bienes Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "074",
+  "valor": "Ajuste en Alimentación Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "075",
+  "valor": "Ajuste en Alimentación Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "076",
+  "valor": "Ajuste en Habitación Exento",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "077",
+  "valor": "Ajuste en Habitación Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "078",
+  "valor": "Ajuste en Premios por asistencia",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "079",
+  "valor": "Ajuste en Pagos distintos a los listados y que no deben considerarse como ingreso por sueldos, salarios o ingresos asimilados.",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "080",
+  "valor": "Ajuste en Viáticos gravados",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "081",
+  "valor": "Ajuste en Viáticos (entregados al trabajador)",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "082",
+  "valor": "Ajuste en Fondo de ahorro Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "083",
+  "valor": "Ajuste en Caja de ahorro Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "084",
+  "valor": "Ajuste en Prima de Seguro de vida Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "085",
+  "valor": "Ajuste en Seguro de Gastos Médicos Mayores Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "086",
+  "valor": "Ajuste en Subsidios por incapacidad Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "087",
+  "valor": "Ajuste en Becas para trabajadores y/o hijos Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "088",
+  "valor": "Ajuste en Seguro de retiro Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "089",
+  "valor": "Ajuste en Vales de despensa Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "090",
+  "valor": "Ajuste en Vales de restaurante Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "091",
+  "valor": "Ajuste en Vales de gasolina Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "092",
+  "valor": "Ajuste en Vales de ropa Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "093",
+  "valor": "Ajuste en Ayuda para renta Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "094",
+  "valor": "Ajuste en Ayuda para artículos escolares Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "095",
+  "valor": "Ajuste en Ayuda para anteojos Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "096",
+  "valor": "Ajuste en Ayuda para transporte Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "097",
+  "valor": "Ajuste en Ayuda para gastos de funeral Gravado",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "098",
+  "valor": "Ajuste a ingresos asimilados a salarios gravados",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "099",
+  "valor": "Ajuste a ingresos por sueldos y salarios gravados",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "100",
+  "valor": "Ajuste en Viáticos exentos",
+  "fechainicio": "01/06/2017"
+ },
+ {
+  "clave": "101",
+  "valor": "ISR Retenido de ejercicio anterior",
+  "fechainicio": "12/05/2017"
+ },
+ {
+  "clave": "102",
+  "valor": "Ajuste a pagos por gratificaciones, primas, compensaciones, recompensas u otros a extrabajadores derivados de jubilación en parcialidades, gravados",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "103",
+  "valor": "Ajuste a pagos que se realicen a extrabajadores que obtengan una jubilación en parcialidades derivados de la ejecución de una resolución judicial o de un laudo gravados",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "104",
+  "valor": "Ajuste a pagos que se realicen a extrabajadores que obtengan una jubilación en parcialidades derivados de la ejecución de una resolución judicial o de un laudo exentos",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "105",
+  "valor": "Ajuste a pagos que se realicen a extrabajadores que obtengan una jubilación en una sola exhibición derivados de la ejecución de una resolución judicial o de un laudo gravados",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "106",
+  "valor": "Ajuste a pagos que se realicen a extrabajadores que obtengan una jubilación en una sola exhibición derivados de la ejecución de una resolución judicial o de un laudo exentos",
+  "fechainicio": "10/15/2018"
+ },
+ {
+  "clave": "107",
+  "valor": "Ajuste al Subsidio Causado ",
+  "fechainicio": "01/01/2020"
+ }
+]

@@ -1,0 +1,52 @@
+[
+ {
+  "clave": "001",
+  "valor": "Reintegro de ISR pagado en exceso (siempre que no haya sido enterado al SAT).",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "002",
+  "valor": "Subsidio para el empleo (efectivamente entregado al trabajador).",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "003",
+  "valor": "Viáticos (entregados al trabajador).",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "004",
+  "valor": "Aplicación de saldo a favor por compensación anual.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "005",
+  "valor": "Reintegro de ISR retenido en exceso de ejercicio anterior (siempre que no haya sido enterado al SAT).",
+  "fechainicio": "12/05/2017"
+ },
+ {
+  "clave": "006",
+  "valor": "Alimentos en bienes (Servicios de comedor y comida) Art 94 último párrafo LISR.",
+  "fechainicio": "01/01/2020"
+ },
+ {
+  "clave": "007",
+  "valor": "ISR ajustado por subsidio.",
+  "fechainicio": "01/01/2020"
+ },
+ {
+  "clave": "008",
+  "valor": "Subsidio efectivamente entregado que no correspondía (Aplica sólo cuando haya ajuste al cierre de mes en relación con el Apéndice 7 de la guía de llenado de nómina).",
+  "fechainicio": "01/01/2020"
+ },
+ {
+  "clave": "009",
+  "valor": "Reembolso de descuentos efectuados para el crédito de vivienda.",
+  "fechainicio": "20/04/2020"
+ },
+ {
+  "clave": "999",
+  "valor": "Pagos distintos a los listados y que no deben considerarse como ingreso por sueldos, salarios o ingresos asimilados.",
+  "fechainicio": "01/01/2017"
+ }
+]

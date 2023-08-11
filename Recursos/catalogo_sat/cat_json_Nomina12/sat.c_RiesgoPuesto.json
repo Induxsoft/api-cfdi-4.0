@@ -1,0 +1,32 @@
+[
+ {
+  "clave": "1",
+  "valor": "Clase I",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "2",
+  "valor": "Clase II",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "3",
+  "valor": "Clase III",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "4",
+  "valor": "Clase IV",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "5",
+  "valor": "Clase V",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "99",
+  "valor": "No aplica",
+  "fechainicio": "08/13/2017"
+ }
+]

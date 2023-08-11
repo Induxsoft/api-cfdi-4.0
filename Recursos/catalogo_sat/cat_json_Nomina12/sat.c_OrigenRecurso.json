@@ -1,0 +1,14 @@
+[
+ {
+  "clave": "IP",
+  "valor": "Ingresos propios."
+ },
+ {
+  "clave": "IF",
+  "valor": "Ingreso federales."
+ },
+ {
+  "clave": "IM",
+  "valor": "Ingresos mixtos."
+ }
+]

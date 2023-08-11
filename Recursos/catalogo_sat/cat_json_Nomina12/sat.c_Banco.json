@@ -1,0 +1,535 @@
+[
+ {
+  "clave": "BANAMEX",
+  "valor ": "Banco Nacional de México, S.A., Institución de Banca Múltiple, Grupo Financiero Banamex",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANCOMEXT",
+  "valor ": "Banco Nacional de Comercio Exterior, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANOBRAS",
+  "valor ": "Banco Nacional de Obras y Servicios Públicos, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BBVA BANCOMER",
+  "valor ": "BBVA Bancomer, S.A., Institución de Banca Múltiple, Grupo Financiero BBVA Bancomer",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SANTANDER",
+  "valor ": "Banco Santander (México), S.A., Institución de Banca Múltiple, Grupo Financiero Santander",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANJERCITO",
+  "valor ": "Banco Nacional del Ejército, Fuerza Aérea y Armada, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "HSBC",
+  "valor ": "HSBC México, S.A., institución De Banca Múltiple, Grupo Financiero HSBC",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BAJIO",
+  "valor ": "Banco del Bajío, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "IXE",
+  "valor ": "IXE Banco, S.A., Institución de Banca Múltiple, IXE Grupo Financiero",
+  "fechainicio": "01/01/2017",
+  "fechafin": "08/13/2017"
+ },
+ {
+  "clave": "INBURSA",
+  "valor ": "Banco Inbursa, S.A., Institución de Banca Múltiple, Grupo Financiero Inbursa",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "INTERACCIONES",
+  "valor ": "Banco Interacciones, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "MIFEL",
+  "valor ": "Banca Mifel, S.A., Institución de Banca Múltiple, Grupo Financiero Mifel",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SCOTIABANK",
+  "valor ": "Scotiabank Inverlat, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANREGIO",
+  "valor ": "Banco Regional de Monterrey, S.A., Institución de Banca Múltiple, Banregio Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "INVEX",
+  "valor ": "Banco Invex, S.A., Institución de Banca Múltiple, Invex Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANSI",
+  "valor ": "Bansi, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "AFIRME",
+  "valor ": "Banca Afirme, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANORTE/IXE",
+  "valor ": "Banco Mercantil del Norte, S.A., Institución de Banca Múltiple, Grupo Financiero Banorte",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "THE ROYAL BANK",
+  "valor ": "The Royal Bank of Scotland México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "AMERICAN EXPRESS",
+  "valor ": "American Express Bank (México), S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BAMSA",
+  "valor ": "Bank of America México, S.A., Institución de Banca Múltiple, Grupo Financiero Bank of America",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "TOKYO",
+  "valor ": "Bank of Tokyo-Mitsubishi UFJ (México), S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "JP MORGAN",
+  "valor ": "Banco J.P. Morgan, S.A., Institución de Banca Múltiple, J.P. Morgan Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BMONEX",
+  "valor ": "Banco Monex, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "VE POR MAS",
+  "valor ": "Banco Ve Por Mas, S.A. Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ING",
+  "valor ": "ING Bank (México), S.A., Institución de Banca Múltiple, ING Grupo Financiero",
+  "fechainicio": "01/01/2017",
+  "fechafin": "08/13/2017"
+ },
+ {
+  "clave": "DEUTSCHE",
+  "valor ": "Deutsche Bank México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CREDIT SUISSE",
+  "valor ": "Banco Credit Suisse (México), S.A. Institución de Banca Múltiple, Grupo Financiero Credit Suisse (México)",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "AZTECA",
+  "valor ": "Banco Azteca, S.A. Institución de Banca Múltiple.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "AUTOFIN",
+  "valor ": "Banco Autofin México, S.A. Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BARCLAYS",
+  "valor ": "Barclays Bank México, S.A., Institución de Banca Múltiple, Grupo Financiero Barclays México",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "COMPARTAMOS",
+  "valor ": "Banco Compartamos, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANCO FAMSA",
+  "valor ": "Banco Ahorro Famsa, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BMULTIVA",
+  "valor ": "Banco Multiva, S.A., Institución de Banca Múltiple, Multivalores Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ACTINVER",
+  "valor ": "Banco Actinver, S.A. Institución de Banca Múltiple, Grupo Financiero Actinver",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "WAL-MART",
+  "valor ": "Banco Wal-Mart de México Adelante, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017",
+  "fechafin": "08/13/2017"
+ },
+ {
+  "clave": "NAFIN",
+  "valor ": "Nacional Financiera, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "INTERCAM BANCO",
+  "valor ": "Intercam Banco, S.A., Institución de Banca Múltiple, Intercam Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANCOPPEL",
+  "valor ": "BanCoppel, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ABC CAPITAL",
+  "valor ": "ABC Capital, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "UBS BANK",
+  "valor ": "UBS Bank México, S.A., Institución de Banca Múltiple, UBS Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CONSUBANCO",
+  "valor ": "Consubanco, S.A. Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "VOLKSWAGEN",
+  "valor ": "Volkswagen Bank, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CIBANCO",
+  "valor ": "CIBanco, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BBASE",
+  "valor ": "Banco Base, S.A., Institución de Banca Múltiple",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BANKAOOL",
+  "valor ": "Bankaool, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "PAGATODO",
+  "valor ": "Banco PagaTodo, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "FORJADORES",
+  "valor ": "Banco Forjadores, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "INMOBILIARIO",
+  "valor ": "Banco Inmobiliario Mexicano, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "DONDÉ",
+  "valor ": "Fundación Dondé Banco, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "BANCREA",
+  "valor ": "Banco Bancrea, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "PROGRESO",
+  "valor ": "Banco Progreso Chihuahua, S.A.",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "BANCO FINTERRA",
+  "valor ": "Banco Finterra, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "ICBC",
+  "valor ": "Industrial and Commercial Bank of China México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "SABADELL",
+  "valor ": "Banco Sabadell, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "SHINHAN",
+  "valor ": "Banco Shinhan de México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "MIZUHO BANK",
+  "valor ": "Mizuho Bank México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "BANK OF CHINA",
+  "valor ": "Bank of China México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "BANCO S3",
+  "valor ": "Banco S3 México, S.A., Institución de Banca Múltiple",
+  "fechainicio": "08/13/2017"
+ },
+ {
+  "clave": "BANSEFI",
+  "valor ": "Banco del Ahorro Nacional y Servicios Financieros, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "HIPOTECARIA FEDERAL",
+  "valor ": "Sociedad Hipotecaria Federal, Sociedad Nacional de Crédito, Institución de Banca de Desarrollo",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "MONEXCB",
+  "valor ": "Monex Casa de Bolsa, S.A. de C.V. Monex Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "GBM",
+  "valor ": "GBM Grupo Bursátil Mexicano, S.A. de C.V. Casa de Bolsa",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "MASARI",
+  "valor ": "Masari Casa de Bolsa, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "VALUE",
+  "valor ": "Value, S.A. de C.V. Casa de Bolsa",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ESTRUCTURADORES",
+  "valor ": "Estructuradores del Mercado de Valores Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "TIBER",
+  "valor ": "Casa de Cambio Tiber, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "VECTOR",
+  "valor ": "Vector Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "B&B",
+  "valor ": "B y B, Casa de Cambio, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ACCIVAL",
+  "valor ": "Acciones y Valores Banamex, S.A. de C.V., Casa de Bolsa",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "MERRILL LYNCH",
+  "valor ": "Merrill Lynch México, S.A. de C.V. Casa de Bolsa",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "FINAMEX",
+  "valor ": "Casa de Bolsa Finamex, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "VALMEX",
+  "valor ": "Valores Mexicanos Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "UNICA",
+  "valor ": "Unica Casa de Cambio, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "MAPFRE",
+  "valor ": "MAPFRE Tepeyac, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "PROFUTURO",
+  "valor ": "Profuturo G.N.P., S.A. de C.V., Afore",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CB ACTINVER",
+  "valor ": "Actinver Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "OACTIN",
+  "valor ": "OPERADORA ACTINVER, S.A. DE C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SKANDIA",
+  "valor ": "Skandia Vida, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CBDEUTSCHE",
+  "valor ": "Deutsche Securities, S.A. de C.V. CASA DE BOLSA",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ZURICH",
+  "valor ": "Zurich Compañía de Seguros, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ZURICHVI",
+  "valor ": "Zurich Vida, Compañía de Seguros, S.A.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SU CASITA",
+  "valor ": "Hipotecaria Su Casita, S.A. de C.V. SOFOM ENR",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CB INTERCAM",
+  "valor ": "Intercam Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CI BOLSA",
+  "valor ": "CI Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "BULLTICK CB",
+  "valor ": "Bulltick Casa de Bolsa, S.A., de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "STERLING",
+  "valor ": "Sterling Casa de Cambio, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "FINCOMUN",
+  "valor ": "Fincomún, Servicios Financieros Comunitarios, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "HDI SEGUROS",
+  "valor ": "HDI Seguros, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ORDER",
+  "valor ": "Order Express Casa de Cambio, S.A. de C.V",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "AKALA",
+  "valor ": "Akala, S.A. de C.V., Sociedad Financiera Popular",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CB JPMORGAN",
+  "valor ": "J.P. Morgan Casa de Bolsa, S.A. de C.V. J.P. Morgan Grupo Financiero",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "REFORMA",
+  "valor ": "Operadora de Recursos Reforma, S.A. de C.V., S.F.P.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "STP",
+  "valor ": "Sistema de Transferencias y Pagos STP, S.A. de C.V.SOFOM ENR",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "TELECOMM",
+  "valor ": "Telecomunicaciones de México",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "EVERCORE",
+  "valor ": "Evercore Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SKANDIA",
+  "valor ": "Skandia Operadora de Fondos, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SEGMTY",
+  "valor ": "Seguros Monterrey New York Life, S.A de C.V",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "ASEA",
+  "valor ": "Solución Asea, S.A. de C.V., Sociedad Financiera Popular",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "KUSPIT",
+  "valor ": "Kuspit Casa de Bolsa, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "SOFIEXPRESS",
+  "valor ": "J.P. SOFIEXPRESS, S.A. de C.V., S.F.P.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "UNAGRA",
+  "valor ": "UNAGRA, S.A. de C.V., S.F.P.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "OPCIONES EMPRESARIALES DEL NOROESTE",
+  "valor ": "OPCIONES EMPRESARIALES DEL NORESTE, S.A. DE C.V., S.F.P.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "LIBERTAD",
+  "valor ": "Libertad Servicios Financieros, S.A. De C.V.",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "CLS",
+  "valor ": "Cls Bank International",
+  "fechainicio": "01/01/2017"
+ },
+ {
+  "clave": "INDEVAL",
+  "valor ": "SD. Indeval, S.A. de C.V.",
+  "fechainicio": "01/01/2017"
+ }
+]
