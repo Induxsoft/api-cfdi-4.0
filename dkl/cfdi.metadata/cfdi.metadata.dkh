@@ -1,0 +1,1516 @@
+#include "dkli.dkh"
+#!
+module "cfdi.metadata.dkh"
+{
+    @lectura_recursiva = @true
+
+    tipoDocNum::tipo
+    {
+        switch cut(tolower(trim(str(tipo))),1)
+        {
+            case "i" { return 0 }
+            case "e" { return 1 }
+            case "t" { return 2 }
+            case "n" { return 3 }
+            case "p" { return 4 }
+            default { return 404 }
+        }
+    }
+
+    /**
+    * @param obj elemento : Elemento sobre el que se realizará la busqueda
+    * @param string tagname : Nombre de etiqueta del elemento a buscar.
+    * @return obj : Devuelve un objeto que representa el primer elemento encontrado.
+    * @example
+    * 
+    * ```dkl
+    * ref doc = parse.xmlFile('fullFileName')
+    * ref el = getElementByTagName(doc,'prefix:name')
+    *
+    * ```
+    */
+    getElementByTagName::&elemento,tagname
+    {
+        ref nodes = @@(elemento,"&nodes")
+        if isnull(nodes) { return @null }
+
+        for i = 0; i < @count(nodes); i+1
+        {
+            ref el = @item(nodes,i)
+
+            if @@(el,"name") == tagname { return el }
+        }
+
+        return @null
+    }
+
+    /**
+    * @param obj elemento : Elemento sobre el que se realizará la busqueda.
+    * @param string name : Nombre del atributo a buscar.
+    * @return mixed : Devuelve el valor del atributo encontrado.
+    */
+    attr::&elemento, name
+    {
+        return @@(@@(elemento,"&attributes"),name)
+    }
+
+    /**
+    * @return obj : Devuelve una lista con los nodos del elemento.
+    */
+    nodes::&elemento
+    {
+        return @@(elemento,"&nodes")
+    }
+
+    /**
+    * @return string : Devuelve el prefijo del nombre de etiqueta del elemento.
+    */
+    prefix::&elemento
+    {
+        return list.str(split(@@(elemento,"name"),":"),0)
+    }
+
+    cfdi.BaseImpuesto30::&cfdi,clase,impClave,tasaCuota
+    {
+        ref conceptos = getElementByTagName(cfdi,"cfdi:Conceptos")
+
+        total = 0
+        for a = 0; a < @count(nodes(conceptos))
+        {
+            ref cpto = @item(nodes(conceptos),a)
+            ref impuestos = getElementByTagName(cpto,"cfdi:Impuestos")
+            ref clsImpuesto = getElementByTagName(impuestos,clase)
+
+            for b = 0; b < @count(nodes(clsImpuesto))
+            {
+                ref impuesto = @item(nodes(clsImpuesto),b)
+
+                if attr(impuesto,"Impuesto") == impClave && tolower(attr(impuesto,"TipoFactor")) == tolower(tasaCuota) {
+                    total = total + parse.num(attr(impuesto,"Base"))
+                }
+                if attr(impuesto,"Impuesto") == impClave && attr(impuesto,"TasaOCuota") == tasaCuota {
+                    total = total + parse.num(attr(impuesto,"Base"))
+                }
+                if attr(impuesto,"Impuesto") == impClave && tasaCuota == "*" {
+                    total = total + parse.num(attr(impuesto,"Base"))
+                }
+            }
+        }
+
+        return total
+    }
+
+    cfdi.BaseImpuesto40::&cfdi,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(cfdi,"cfdi:Impuestos")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"Impuesto") == impClave && tolower(attr(impuesto,"TipoFactor")) == tolower(tasaCuota) {
+                return parse.num(attr(impuesto,"Base"))
+            }
+            if attr(impuesto,"Impuesto") == impClave && attr(impuesto,"TasaOCuota") == tasaCuota {
+                return parse.num(attr(impuesto,"Base"))
+            }
+            if attr(impuesto,"Impuesto") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"Base"))
+            }
+        }
+
+        return total
+    }
+
+    /**
+    * @param obj cfdi : Documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `Impuesto` de los nodos de `cfdi:Impuestos` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuota` de los nodos de `cfdi:Impuestos` a filtrar.
+    * @return decimal : Devuelve la suma de las `Base` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    *
+    * val = cfdi.baseImpuesto(cfdi, "cfdi:Traslados", "002", "*")
+    * val = cfdi.baseImpuesto(cfdi, "cfdi:Traslados", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.baseImpuesto::&cfdi,clase,impClave,tasaCuota
+    {
+        version = val(cut(attr(cfdi,"Version"),1))
+        switch version
+        {
+            case 3 { return cfdi.BaseImpuesto30(cfdi,clase,impClave,tasaCuota) }
+            case 4 { return cfdi.BaseImpuesto40(cfdi,clase,impClave,tasaCuota) }
+            default { return 0 }
+        }
+    }
+
+    /**
+    * @param obj cfdi : Documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `Impuesto` de los nodos de `cfdi:Impuestos` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuota` de los nodos de `cfdi:Impuestos` a filtrar.
+    * @return decimal : Devuelve la suma de los `Importe` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    *
+    * val = cfdi.sumaImpuesto(cfdi, "cfdi:Traslados", "002", "*")
+    * val = cfdi.sumaImpuesto(cfdi, "cfdi:Traslados", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.sumaImpuesto::&cfdi,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(cfdi,"cfdi:Impuestos")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"Impuesto") == impClave && attr(impuesto,"TasaOCuota") == tasaCuota {
+                return parse.num(attr(impuesto,"Importe"))
+            }
+            if attr(impuesto,"Impuesto") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"Importe"))
+            }
+        }
+
+        return total
+    }
+
+    cfdi.baseTasa16::&cfdi
+    {
+        return cfdi.baseImpuesto(cfdi,"cfdi:Traslados","002","0.160000")
+    }
+
+    cfdi.baseTasa8::&cfdi
+    {
+        return cfdi.baseImpuesto(cfdi,"cfdi:Traslados","002","0.080000")
+    }
+
+    cfdi.baseTasa0::&cfdi
+    {
+        return cfdi.baseImpuesto(cfdi,"cfdi:Traslados","002","0.000000")
+    }
+
+    cfdi.baseTasaExento::&cfdi
+    {
+        return cfdi.baseImpuesto(cfdi,"cfdi:Traslados","002","Exento")
+    }
+
+    cfdi.ivaTrasladado16::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Traslados","002","0.160000")
+    }
+
+    cfdi.ivaTrasladado8::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Traslados","002","0.080000")
+    }
+
+    cfdi.ivaTrasladado::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Traslados","002","*")
+    }
+
+    cfdi.baseIeps::&cfdi
+    {
+        return cfdi.baseImpuesto(cfdi,"cfdi:Traslados","003","*")
+    }
+
+    cfdi.iepsTrasladado::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Traslados","003","*")
+    }
+
+    cfdi.ivaRetenido::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Retenciones","002","*")
+    }
+
+    cfdi.isrRetenido::&cfdi
+    {
+        return cfdi.sumaImpuesto(cfdi,"cfdi:Retenciones","001","*")
+    }
+
+    /**
+    * @param list files : Una lista con las rutas y nombres de los archivos cfdi (xml).
+    * @return list : Devuelve una lista con los datos extraidos de cada archivo cfdi.
+    */
+    cfdi.extractInfo::&files
+    {
+        ref container = list.create()
+
+        go foreach.lstr(value:fullFileName) with(files)
+        {
+            ref comprobante = parse.xmlFile(fullFileName)
+            ref emisor = getElementByTagName(comprobante, "cfdi:Emisor")
+            ref receptor = getElementByTagName(comprobante, "cfdi:Receptor")
+            ref complemento = getElementByTagName(comprobante, "cfdi:Complemento")
+            ref tfd = getElementByTagName(complemento, "tfd:TimbreFiscalDigital")
+
+            new data
+            {
+                @"version": attr(comprobante,"Version")
+                @"tipo": attr(comprobante,"TipoDeComprobante")
+                @"moneda": attr(comprobante,"Moneda")
+                @"tcambio": attr(comprobante,"TipoCambio")
+                @"fpago": attr(comprobante,"FormaPago")
+                @"mpago": attr(comprobante,"MetodoPago")
+                @"emision": attr(comprobante,"Fecha")
+                @"timbrado": attr(tfd,"FechaTimbrado")
+                @"uuid": attr(tfd,"UUID")
+                @"cp_emisor": attr(comprobante,"LugarExpedicion")
+                @"reg_emisor": attr(emisor,"RegimenFiscal")
+                @"rfc_emisor": attr(emisor,"Rfc")
+                @"emisor": attr(emisor,"Nombre")
+                @"cp_receptor": attr(receptor,"DomicilioFiscalReceptor")
+                @"reg_receptor": attr(receptor,"RegimenFiscalReceptor")
+                @"rfc_receptor": attr(receptor,"Rfc")
+                @"receptor": attr(receptor,"Nombre")
+                @"uso_cfdi": attr(receptor,"UsoCFDI")
+                @"subtotal": attr(comprobante,"#SubTotal")
+                @"descuento": attr(comprobante,"#Descuento")
+                @"total": attr(comprobante,"#Total")
+                @"base_tasa_16": cfdi.baseTasa16(comprobante)
+                @"base_tasa_8": cfdi.baseTasa8(comprobante)
+                @"base_tasa_0": cfdi.baseTasa0(comprobante)
+                @"base_tasa_exento": cfdi.baseTasaExento(comprobante)
+                @"iva_tras_16": cfdi.ivaTrasladado16(comprobante)
+                @"iva_tras_8": cfdi.ivaTrasladado8(comprobante)
+                @"base_ieps": cfdi.baseIeps(comprobante)
+                @"ieps_tras": cfdi.iepsTrasladado(comprobante)
+                @"iva_ret": cfdi.ivaRetenido(comprobante)
+                @"isr_ret": cfdi.isrRetenido(comprobante)
+            }
+
+            do list.add(container,data)
+        }
+
+        return container
+    }
+
+    /**
+    * @param obj pago : Elemento `Pago` del documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `ImpuestoP` de los nodos de `ImpuestosP` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuotaP` de los nodos de `ImpuestosP` a filtrar.
+    * @return decimal : Devuelve la suma de las `BaseP` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref pagos = getElementByTagName(complemento, "pago20:Pagos")
+    * ref pago = getElementByTagName(pagos, "pago20:Pago")
+    *
+    * val = cfdi.pagos.baseImpuesto(pago, "cfdi:TrasladosP", "002", "*")
+    * val = cfdi.pagos.baseImpuesto(pago, "cfdi:TrasladosP", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.pagos.baseImpuesto::&pago,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(pago,"pago20:ImpuestosP")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"ImpuestoP") == impClave && tolower(attr(impuesto,"TipoFactorP")) == tolower(tasaCuota) {
+                return parse.num(attr(impuesto,"BaseP"))
+            }
+            if attr(impuesto,"ImpuestoP") == impClave && attr(impuesto,"TasaOCuotaP") == tasaCuota {
+                return parse.num(attr(impuesto,"BaseP"))
+            }
+            if attr(impuesto,"ImpuestoP") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"BaseP"))
+            }
+        }
+
+        return total
+    }
+
+    /**
+    * @param obj pago : Elemento `Pago` del documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `ImpuestoP` de los nodos de `ImpuestosP` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuotaP` de los nodos de `ImpuestosP` a filtrar.
+    * @return decimal : Devuelve la suma de los `ImporteP` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref pagos = getElementByTagName(complemento, "pago20:Pagos")
+    * ref pago = getElementByTagName(pagos, "pago20:Pago")
+    *
+    * val = cfdi.pagos.sumaImpuesto(pago, "cfdi:TrasladosP", "002", "*")
+    * val = cfdi.pagos.sumaImpuesto(pago, "cfdi:TrasladosP", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.pagos.sumaImpuesto::&pago,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(pago,"pago20:ImpuestosP")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"ImpuestoP") == impClave && attr(impuesto,"TasaOCuotaP") == tasaCuota {
+                return parse.num(attr(impuesto,"ImporteP"))
+            }
+            if attr(impuesto,"ImpuestoP") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"ImporteP"))
+            }
+        }
+
+        return total
+    }
+
+    cfdi.pagos.baseTasa16::&pago
+    {
+        return cfdi.pagos.baseImpuesto(pago,"pago20:TrasladosP","002","0.160000")
+    }
+
+    cfdi.pagos.baseTasa8::&pago
+    {
+        return cfdi.pagos.baseImpuesto(pago,"pago20:TrasladosP","002","0.080000")
+    }
+
+    cfdi.pagos.baseTasa0::&pago
+    {
+        return cfdi.pagos.baseImpuesto(pago,"pago20:TrasladosP","002","0.000000")
+    }
+
+    cfdi.pagos.baseTasaExento::&pago
+    {
+        return cfdi.pagos.baseImpuesto(pago,"pago20:TrasladosP","002","Exento")
+    }
+
+    cfdi.pagos.ivaTrasladado16::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:TrasladosP","002","0.160000")
+    }
+
+    cfdi.pagos.ivaTrasladado8::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:TrasladosP","002","0.080000")
+    }
+
+    cfdi.pagos.ivaTrasladado::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:TrasladosP","002","*")
+    }
+
+    cfdi.pagos.baseIeps::&pago
+    {
+        return cfdi.pagos.baseImpuesto(pago,"pago20:TrasladosP","003","*")
+    }
+
+    cfdi.pagos.iepsTrasladado::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:TrasladosP","003", "*")
+    }
+
+    cfdi.pagos.ivaRetenido::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:RetencionesP","002","*")
+    }
+
+    cfdi.pagos.isrRetenido::&pago
+    {
+        return cfdi.pagos.sumaImpuesto(pago,"pago20:RetencionesP","001","*")
+    }
+
+    /**
+    * @param obj docto : Elemento `DoctoRelacionado` del documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `ImpuestoDR` de los nodos de `ImpuestosDR` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuotaDR` de los nodos de `ImpuestosDR` a filtrar.
+    * @return decimal : Devuelve la suma de las `BaseDR` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref pagos = getElementByTagName(complemento, "pago20:Pagos")
+    * ref pago = getElementByTagName(pagos, "pago20:Pago")
+    * ref docto = getElementByTagName(pago, "pago20:DoctoRelacionado")
+    *
+    * val = cfdi.pagos.baseImpuestoDR(docto, "cfdi:TrasladosP", "002", "*")
+    * val = cfdi.pagos.baseImpuestoDR(docto, "cfdi:TrasladosP", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.pagos.baseImpuestoDR::&docto,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(docto,"pago20:ImpuestosDR")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"ImpuestoDR") == impClave && tolower(attr(impuesto,"TipoFactorDR")) == tolower(tasaCuota) {
+                return parse.num(attr(impuesto,"BaseDR"))
+            }
+            if attr(impuesto,"ImpuestoDR") == impClave && attr(impuesto,"TasaOCuotaDR") == tasaCuota {
+                return parse.num(attr(impuesto,"BaseDR"))
+            }
+            if attr(impuesto,"ImpuestoDR") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"BaseDR"))
+            }
+        }
+
+        return total
+    }
+
+    /**
+    * @param obj docto : Elemento `DoctoRelacionado` del documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento sobre el que se realizarán las operaciones.
+    * @param string impClave : Valor del `ImpuestoDR` de los nodos de `ImpuestosDR` a filtrar.
+    * @param string tasaCuota : Valor de `TasaOCuotaDR` de los nodos de `ImpuestosDR` a filtrar.
+    * @return decimal : Devuelve la suma de los `ImporteDR` encontradas.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref pagos = getElementByTagName(complemento, "pago20:Pagos")
+    * ref pago = getElementByTagName(pagos, "pago20:Pago")
+    * ref docto = getElementByTagName(pago, "pago20:DoctoRelacionado")
+    *
+    * val = cfdi.pagos.sumaImpuestoDR(docto, "cfdi:TrasladosP", "002", "*")
+    * val = cfdi.pagos.sumaImpuestoDR(docto, "cfdi:TrasladosP", "002", "0.160000")
+    *
+    * ```
+    */
+    cfdi.pagos.sumaImpuestoDR::&docto,clase,impClave,tasaCuota
+    {
+        ref impuestos = getElementByTagName(docto,"pago20:ImpuestosDR")
+        if isnull(impuestos) { return 0 }
+
+        ref clsImpuesto = getElementByTagName(impuestos,clase)
+        if isnull(clsImpuesto) { return 0 }
+        if isnull(@@(clsImpuesto,"&nodes")) { return 0 }
+
+        total = 0
+        for i = 0; i < @count(@@(clsImpuesto,"&nodes"))
+        {
+            ref impuesto = @item(@@(clsImpuesto,"&nodes"), i)
+
+            if attr(impuesto,"ImpuestoDR") == impClave && attr(impuesto,"TasaOCuotaDR") == tasaCuota {
+                return parse.num(attr(impuesto,"ImporteDR"))
+            }
+            if attr(impuesto,"ImpuestoDR") == impClave && tasaCuota == "*" {
+                total = total + parse.num(attr(impuesto,"ImporteDR"))
+            }
+        }
+
+        return total
+    }
+
+    cfdi.pagos.baseTasa16DR::&docto
+    {
+        return cfdi.pagos.baseImpuestoDR(docto,"pago20:TrasladosDR","002","0.160000")
+    }
+
+    cfdi.pagos.baseTasa8DR::&docto
+    {
+        return cfdi.pagos.baseImpuestoDR(docto,"pago20:TrasladosDR","002","0.080000")
+    }
+
+    cfdi.pagos.baseTasa0DR::&docto
+    {
+        return cfdi.pagos.baseImpuestoDR(docto,"pago20:TrasladosDR","002","0.000000")
+    }
+
+    cfdi.pagos.baseTasaExentoDR::&docto
+    {
+        return cfdi.pagos.baseImpuestoDR(docto,"pago20:TrasladosDR","002","Exento")
+    }
+
+    cfdi.pagos.ivaTrasladado16DR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:TrasladosDR","002","0.160000")
+    }
+
+    cfdi.pagos.ivaTrasladado8DR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:TrasladosDR","002","0.080000")
+    }
+
+    cfdi.pagos.ivaTrasladadoDR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:TrasladosDR","002","*")
+    }
+
+    cfdi.pagos.baseIepsDR::&docto
+    {
+        return cfdi.pagos.baseImpuestoDR(docto,"pago20:TrasladosDR","003","*")
+    }
+
+    cfdi.pagos.iepsTrasladadoDR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:TrasladosDR","003", "*")
+    }
+
+    cfdi.pagos.ivaRetenidoDR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:RetencionesDR","002","*")
+    }
+
+    cfdi.pagos.isrRetenidoDR::&docto
+    {
+        return cfdi.pagos.sumaImpuestoDR(docto,"pago20:RetencionesDR","001","*")
+    }
+
+    /**
+    * @param list files : Una lista con las rutas y nombres de los archivos de complemento de pagos (xml).
+    * @return list : Devuelve una lista con los datos extraidos (un obj por cada DoctoRelacionado) de cada complemento de pago.
+    */
+    cfdi.pagos.extractInfo::&files
+    {
+        ref container = list.create()
+
+        go foreach.lstr(value:fullFileName) with(files)
+        {
+            ref comprobante = parse.xmlFile(fullFileName)
+            ref emisor = getElementByTagName(comprobante, "cfdi:Emisor")
+            ref receptor = getElementByTagName(comprobante, "cfdi:Receptor")
+            ref complemento = getElementByTagName(comprobante, "cfdi:Complemento")
+
+            ver = val(cut(attr(comprobante,"Version"),1))
+            pre = ""
+            if ver == 4 { pre = "pago20" }
+            if ver == 3 { pre = "pago10" }
+
+            ref pagos = getElementByTagName(complemento, pre+":Pagos")
+            ref tfd = getElementByTagName(complemento, "tfd:TimbreFiscalDigital")
+
+            new data
+            {
+                @"version": attr(comprobante,"Version")
+                @"ver_complemento": attr(pagos,"Version")
+                @"tipo": attr(comprobante,"TipoDeComprobante")
+                @"emision": attr(comprobante,"Fecha")
+                @"timbrado": attr(tfd,"FechaTimbrado")
+                @"uuid": attr(tfd,"UUID")
+                @"cp_emisor": attr(comprobante,"LugarExpedicion")
+                @"reg_emisor": attr(emisor,"RegimenFiscal")
+                @"rfc_emisor": attr(emisor,"Rfc")
+                @"emisor": attr(emisor,"Nombre")
+                @"cp_receptor": attr(receptor,"DomicilioFiscalReceptor")
+                @"reg_receptor": attr(receptor,"RegimenFiscalReceptor")
+                @"rfc_receptor": attr(receptor,"Rfc")
+                @"receptor": attr(receptor,"Nombre")
+                @"uso_cfdi": attr(receptor,"UsoCFDI")
+            }
+
+            for a = 0; a < @count(@@(pagos,"&nodes"))
+            {
+                ref pago = @item(@@(pagos,"&nodes"),a)
+
+                if @@(pago,"name") == pre+":Pago"
+                {
+                    ref data = from.json(to.json(data))
+
+                    using data
+                    {
+                        @"monto": attr(pago,"#Monto")
+                        @"moneda_p": attr(pago,"MonedaP")
+                        @"tcambio_p": attr(pago,"TipoCambioP")
+                        @"fecha_pago": attr(pago,"FechaPago")
+                        @"forma_pago_p": attr(pago,"FormaDePagoP")
+                    }
+
+                    for b = 0; b < @count(@@(pago,"&nodes"))
+                    {
+                        ref docto = @item(@@(pago,"&nodes"),b)
+
+                        if @@(docto,"name") == pre+":DoctoRelacionado"
+                        {
+                            ref data = from.json(to.json(data))
+
+                            using data
+                            {
+                                @"aplicado_a": attr(docto,"IdDocumento")
+                                @"imp_pagado": attr(docto,"#ImpPagado")
+                                @"moneda_dr": attr(docto,"MonedaDR")
+                                @"equivalencia_dr": attr(docto,"EquivalenciaDR")
+                                @"parcialidad": attr(docto,"#NumParcialidad")
+                                @"imp_saldo_ant": attr(docto,"#ImpSaldoAnt")
+                                @"imp_saldo_ins": attr(docto,"#ImpSaldoInsoluto")
+                                @"obj_imp": attr(docto,"ObjetoImpDR")
+
+                                @"base_tasa_16_dr": cfdi.pagos.baseTasa16DR(docto)
+                                @"base_tasa_8_dr": cfdi.pagos.baseTasa8DR(docto)
+                                @"base_tasa_0_dr": cfdi.pagos.baseTasa0DR(docto)
+                                @"base_tasa_exento_dr": cfdi.pagos.baseTasaExentoDR(docto)
+                                @"iva_tras_16_dr": cfdi.pagos.ivaTrasladado16DR(docto)
+                                @"iva_tras_8_dr": cfdi.pagos.ivaTrasladado8DR(docto)
+                                @"base_ieps_dr": cfdi.pagos.baseIepsDR(docto)
+                                @"ieps_tras_dr": cfdi.pagos.iepsTrasladadoDR(docto)
+                                @"iva_ret_dr": cfdi.pagos.ivaRetenidoDR(docto)
+                                @"isr_ret_dr": cfdi.pagos.isrRetenidoDR(docto)
+
+                                @"base_tasa_16": cfdi.pagos.baseTasa16(pago)
+                                @"base_tasa_8": cfdi.pagos.baseTasa8(pago)
+                                @"base_tasa_0": cfdi.pagos.baseTasa0(pago)
+                                @"base_tasa_exento": cfdi.pagos.baseTasaExento(pago)
+                                @"iva_tras_16": cfdi.pagos.ivaTrasladado16(pago)
+                                @"iva_tras_8": cfdi.pagos.ivaTrasladado8(pago)
+                                @"base_ieps": cfdi.pagos.baseIeps(pago)
+                                @"ieps_tras": cfdi.pagos.iepsTrasladado(pago)
+                                @"iva_ret": cfdi.pagos.ivaRetenido(pago)
+                                @"isr_ret": cfdi.pagos.isrRetenido(pago)
+                            }
+
+                            do list.add(container,data)
+                        }
+                    }
+                }
+            }
+        }
+
+        return container
+    }
+
+    /**
+    * @param obj nomina : Elemento `Nomina` del documento cfdi.
+    * @param string tipos : Cadena con una o mas claves (según el catálogo del complemento) delimitadas por comas o `*` para tomar todo.
+    * @return decimal : Devuelve la suma de los importes de las `Deducciones`.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref nomina = getElementByTagName(complemento, "nomina#:Nomina")
+    *
+    * val = cfdi.nomina.sumaDeducciones(nomina, "*")
+    * val = cfdi.nomina.sumaDeducciones(nomina, "004")
+    * val = cfdi.nomina.sumaDeducciones(nomina, "001,003,...")
+    *
+    * ```
+    */
+    cfdi.nomina.sumaDeducciones::&nomina,tipos
+    {
+        tagname = prefix(nomina) + ":Deducciones"
+        ref deducciones = getElementByTagName(nomina,tagname)
+
+        total = 0
+        for i = 0; i < @count(nodes(deducciones))
+        {
+            ref child = @item(nodes(deducciones),i)
+
+            if tipos == "*" { total = total + parse.num(attr(child,"Importe")) }
+            if containsword(attr(child,"TipoDeduccion"), tipos) { total = total + parse.num(attr(child,"Importe")) }
+        }
+
+        return total
+    }
+
+    /**
+    * @param obj nomina : Elemento `Nomina` del documento cfdi.
+    * @param string tipos : Cadena con una o mas claves (según el catálogo del complemento) delimitadas por comas o `*` para tomar todo.
+    * @return decimal : Devuelve la suma de los importes de `OtrosPagos`.
+    * @example
+    * 
+    * ```dkl
+    * ref cfdi = parse.xmlFile("fullFileName")
+    * ref complemento = getElementByTagName(cfdi, "cfdi:Complemento")
+    * ref nomina = getElementByTagName(complemento, "nomina#:Nomina")
+    *
+    * val = cfdi.nomina.sumaOtrosPagos(nomina, "*")
+    * val = cfdi.nomina.sumaOtrosPagos(nomina, "004")
+    * val = cfdi.nomina.sumaOtrosPagos(nomina, "001,003,...")
+    *
+    * ```
+    */
+    cfdi.nomina.sumaOtrosPagos::&nomina,tipos
+    {
+        tagname = prefix(nomina) + ":OtrosPagos"
+        ref otrosPagos = getElementByTagName(nomina,tagname)
+
+        total = 0
+        for i = 0; i < @count(nodes(otrosPagos))
+        {
+            ref child = @item(nodes(otrosPagos),i)
+
+            if tipos == "*" { total = total + parse.num(attr(child,"Importe")) }
+            if containsword(attr(child,"TipoOtroPago"), tipos) { total = total + parse.num(attr(child,"Importe")) }
+
+            /* if containsword("002,004",tipos) || (tipos == "*" && containsword(attr(child,"TipoOtroPago"),"002,004"))
+            {
+                for a = 0; a < @count(nodes(child))
+                {
+                    ref itm = @item(nodes(child),a)
+
+                    total = total + parse.num(attr(itm,"SubsidioCausado"))
+                    total = total + parse.num(attr(itm,"SaldoAFavor"))
+                    total = total + parse.num(attr(itm,"RemanenteSalFav"))
+                }
+            } */
+        }
+
+        return total
+    }
+
+    /**
+    * @param obj nomina : Elemento `nomina` del documento cfdi.
+    * @param string clase : Nombre de etiqueta del elemento al que se agruparán sus nodos.
+    * @return obj : Devuelve una lista de objetos que representa la suma de los importes agrupados por tipo.
+    */
+    cfdi.nomina.groupByType::&nomina,clase
+    {
+        ref element = getElementByTagName(nomina,clase)
+        elementName = list.str(split(clase,":"),1)
+
+        new tipos
+        {
+            @"Percepciones": "TipoPercepcion"
+            @"Deducciones": "TipoDeduccion"
+            @"OtrosPagos": "TipoOtroPago"
+        }
+
+        ref container = list.create()
+        ref data = record.create()
+        tipo = @@(tipos,elementName)
+
+        for i = 0; i < @count(nodes(element))
+        {
+            ref child = @item(nodes(element),i)
+            cveTipo = attr(child,tipo)
+            
+            if not(field.exist(data,cveTipo)) { data<cveTipo+"*"> : record.create() }
+
+            data<cveTipo+"/tipo"> : cveTipo
+            switch elementName
+            {
+                case "Percepciones"
+                {
+                    data<cveTipo+"/gravado"> : @@(data,"#"+cveTipo+"/gravado") + attr(child,"#ImporteGravado")
+                    data<cveTipo+"/exento"> : @@(data,"#"+cveTipo+"/exento") + attr(child,"#ImporteExento")
+                    break
+                }
+                case "Deducciones"
+                {
+                    data<cveTipo+"/total"> : @@(data,"#"+cveTipo+"/total") + attr(child,"#Importe")
+                    break
+                }
+                case "OtrosPagos"
+                {
+                    data<cveTipo+"/total"> : @@(data,"#"+cveTipo+"/total") + attr(child,"#Importe")
+
+                    // if cveTipo == "002" || cveTipo == "004" {
+                    //     for a = 0; a < @count(nodes(child))
+                    //     {
+                    //         ref itm = @item(nodes(child),a)
+
+                    //         data<cveTipo+"/total"> : @@(data,"#"+cveTipo+"/total") + attr(itm,"#SubsidioCausado")
+                    //         data<cveTipo+"/total"> : @@(data,"#"+cveTipo+"/total") + attr(itm,"#SaldoAFavor")
+                    //         data<cveTipo+"/total"> : @@(data,"#"+cveTipo+"/total") + attr(itm,"#RemanenteSalFav")
+                    //     }
+                    // }
+                    break
+                }
+            }
+        }
+        
+        go foreach.fobj(index:i, key:key, value:obj) with(data)
+        {
+            do list.add(container,obj)
+        }
+
+        return container
+    }
+
+    cfdi.nomina.deducciones::&nomina
+    {
+        return cfdi.nomina.sumaDeducciones(nomina,"*")
+    }
+
+    cfdi.nomina.otrosPagos::&nomina
+    {
+        return cfdi.nomina.sumaOtrosPagos(nomina,"*")
+    }
+
+    cfdi.nomina.liquido::&cfdi
+    {
+        ref conceptos = getElementByTagName(cfdi,"cfdi:Conceptos")
+        ref cpto = list.obj(nodes(conceptos),0)
+
+        return attr(cpto,"#Importe")
+    }
+
+    cfdi.nomina.isrRetenido::&nomina
+    {
+        return cfdi.nomina.sumaDeducciones(nomina,"002,101")
+    }
+
+    cfdi.nomina.subParaEmpleo::&nomina
+    {
+        return cfdi.nomina.sumaOtrosPagos(nomina,"002")
+    }
+
+    cfdi.nomina.subAlEmpleo::&nomina
+    {
+        tagname = prefix(nomina) + ":OtrosPagos"
+        ref otrosPagos = getElementByTagName(nomina,tagname)
+
+        for i = 0; i < @count(nodes(otrosPagos))
+        {
+            ref child = @item(nodes(otrosPagos),i)
+
+            if attr(child,"TipoOtroPago") == "002"
+            {
+                ref itm = list.obj(nodes(child),0)
+                return parse.num(attr(itm,"SubsidioCausado"))
+            }
+        }
+
+        return 0
+    }
+
+    cfdi.nomina.SaldosAFavor::&nomina
+    {
+        return cfdi.nomina.sumaOtrosPagos(nomina,"004")
+    }
+
+    cfdi.nomina.cpercepcion::&nomina
+    {
+        tagname = prefix(nomina) + ":Percepciones"
+        return cfdi.nomina.groupByType(nomina,tagname)
+    }
+
+    cfdi.nomina.cdeduccion::&nomina
+    {
+        tagname = prefix(nomina) + ":Deducciones"
+        return cfdi.nomina.groupByType(nomina,tagname)
+    }
+
+    cfdi.nomina.cotrospagos::&nomina
+    {
+        tagname = prefix(nomina) + ":OtrosPagos"
+        return cfdi.nomina.groupByType(nomina,tagname)
+    }
+
+    /**
+    * @param list files : Una lista con las rutas y nombres de los archivos de nominas (xml).
+    * @return list : Devuelve una lista con los datos extraidos de cada archivo de nomina.
+    */
+    cfdi.nomina.extractInfo::&files
+    {
+        ref container = list.create()
+
+        go foreach.lstr(index:i, value:fullFileName) with(files)
+        {
+            ref comprobante = parse.xmlFile(fullFileName)
+            ref emisor = getElementByTagName(comprobante, "cfdi:Emisor")
+            ref receptor = getElementByTagName(comprobante, "cfdi:Receptor")
+            ref complemento = getElementByTagName(comprobante, "cfdi:Complemento")
+            ref tfd = getElementByTagName(complemento, "tfd:TimbreFiscalDigital")
+
+            ref nomina = getElementByTagName(complemento,"nomina12:Nomina")
+            ref nomReceptor = getElementByTagName(nomina,"nomina12:Receptor")
+            ref percepciones = getElementByTagName(nomina,"nomina12:Percepciones")
+            ref deducciones = getElementByTagName(nomina,"nomina12:Deducciones")
+
+            new data
+            {
+                @"version": attr(comprobante,"Version")
+                @"ver_nomina": attr(nomina,"Version")
+                @"tipo": attr(comprobante,"TipoDeComprobante")
+                @"mpago": attr(comprobante,"MetodoPago")
+                @"emision": attr(comprobante,"Fecha")
+                @"timbrado": attr(tfd,"FechaTimbrado")
+                @"uuid": attr(tfd,"UUID")
+                @"cp_emisor": attr(comprobante,"LugarExpedicion")
+                @"reg_emisor": attr(emisor,"RegimenFiscal")
+                @"rfc_emisor": attr(emisor,"Rfc")
+                @"emisor": attr(emisor,"Nombre")
+                @"cp_receptor": attr(receptor,"DomicilioFiscalReceptor")
+                @"reg_receptor": attr(receptor,"RegimenFiscalReceptor")
+                @"rfc_receptor": attr(receptor,"Rfc")
+                @"receptor": attr(receptor,"Nombre")
+                @"uso_cfdi": attr(receptor,"UsoCFDI")
+                @"tipo_reg_receptor": attr(nomReceptor,"TipoRegimen")
+                @"subtotal": attr(comprobante,"#SubTotal")
+                @"descuento": attr(comprobante,"#Descuento")
+                @"total": attr(comprobante,"#Total")
+                @"percepciones_gravado": attr(percepciones,"#TotalGravado")
+                @"percepciones_exento": attr(percepciones,"#TotalExento")
+                @"total_deducciones": (attr(deducciones,"#TotalOtrasDeducciones") + attr(deducciones,"#TotalImpuestosRetenidos"))
+                @"otras_deducciones": attr(deducciones,"#TotalOtrasDeducciones")
+                @"isr_ret": cfdi.nomina.isrRetenido(nomina)
+                @"otros_pagos": cfdi.nomina.otrosPagos(nomina)
+                @"liquido": cfdi.nomina.liquido(comprobante)
+                @"sub_para_empleo": cfdi.nomina.subParaEmpleo(nomina)
+                @"sub_al_empleo": cfdi.nomina.subAlEmpleo(nomina)
+                @"cpercepcion*": cfdi.nomina.cpercepcion(nomina)
+                @"cdeduccion*": cfdi.nomina.cdeduccion(nomina)
+                @"cotrospagos*": cfdi.nomina.cotrospagos(nomina)
+            }
+
+            do list.add(container,data)
+        }
+
+        return container
+    }
+
+    /**
+    * @param string fecha1 : Cadena con formato de fecha [yyyy-MM-dd].
+    * @param string fecha2 : Cadena con formato de fecha [yyyy-MM-dd].
+    * @return int : Devuelve `1` si `fecha1` es mayor que `fecha2`, `0` si son iguales y `-1` si `fecha1` es menor que `fecha2`.
+    */
+    compararFecha::fecha1, fecha2
+    {
+        a = val(replace(fecha1,"-",""))
+        b = val(replace(fecha2,"-",""))
+
+        if a > b { return 1 }
+        if a == b { return 0 }
+        if a < b { return -1 }
+    }
+
+    /**
+    * Filtra los archivos proporcionados según el criterio de los parámetros.
+    * @param list archivos : Una lista con las rutas y nombres de los archivos xml.
+    * @param string rfcEmisor : RFC del Emisor.
+    * @param string rfcReceptor : RFC del Receptor.
+    * @param string fDesde : Cadena con formato de fecha [yyyy-MM-dd].
+    * @param string fHasta : Cadena con formato de fecha [yyyy-MM-dd].
+    * @return list : Devuelve una lista con las rutas y nombres de los archivos que cumplan con los criterios.
+    */
+    cfdi.filterCfdi::&archivos, rfcEmisor, rfcReceptor, fDesde, fHasta, tipoDoc
+    {
+        ref filteredFiles = list.create()
+        if trim(tipoDoc) == "" || trim(tipoDoc) == "*" { tipoDoc = "IETNP" }
+
+        go foreach.lstr(value:fullFileName) with(archivos)
+        {
+            ref comprobante = parse.xmlFile(fullFileName)
+            ref emisor = getElementByTagName(comprobante, "cfdi:Emisor")
+            ref receptor = getElementByTagName(comprobante, "cfdi:Receptor")
+
+            ref datetime = split(attr(comprobante,"Fecha"), "T")
+            _flag = @true
+
+            if not(contains(tolower(tipoDoc), tolower(attr(comprobante,"TipoDeComprobante")))) { _flag = @false }
+            
+            if not(rfcEmisor == "*") && _flag == @true {
+                _flag = (toupper(attr(emisor,"Rfc")) == toupper(rfcEmisor))
+            }
+            if not(rfcReceptor == "*") && _flag == @true {
+                _flag = (toupper(attr(receptor,"Rfc")) == toupper(rfcReceptor))
+            }
+            if not(rfcEmisor == "*") && rfcEmisor == rfcReceptor && contains(tolower(tipoDoc), tolower(attr(comprobante,"TipoDeComprobante"))) {
+                _flag = (toupper(attr(emisor,"Rfc")) == toupper(rfcEmisor) || toupper(attr(receptor,"Rfc")) == toupper(rfcEmisor))
+            }
+            if not(fDesde == "*") && _flag == @true {
+                _flag = (compararFecha(list.str(datetime,0),fDesde) >= 0)
+            }
+            if not(fHasta == "*") && _flag == @true {
+                _flag = (compararFecha(list.str(datetime,0),fHasta) <= 0)
+            }
+
+            if _flag { do list.add(filteredFiles,fullFileName) }
+        }
+
+        return filteredFiles
+    }
+
+    recursive::&archivos, ubicacion
+    {
+        if isnull(archivos) { do rise_error(1,"Se esperaba una lista de archivos.") }
+        if not(dir.exists(ubicacion)) { do rise_error(2, "No se encontro la ubicación proporcionada") }
+
+        ref carpetas = list.dirs(ubicacion)
+        go foreach.lstr(value:carpeta) with(carpetas) 
+        {
+            ref otros_archivos = list.files(carpeta, "*.xml")
+            for i = 0; i < list.count(otros_archivos); i+1
+            {
+                do list.add(archivos, list.str(otros_archivos,i))
+            }
+
+            do recursive(archivos,carpeta)
+        }
+    }
+
+    cfdi.read::ubicacion, rfcEmisor, rfcReceptor, fDesde, fHasta
+    {
+        if trim(str(ubicacion)) == "" { do rise_error(1, "Debe indicar una ubicación.") }
+        if not(dir.exists(ubicacion)) { do rise_error(2, "No se encontro la ubicación proporcionada.") }
+        if trim(str(rfcEmisor)) == "" { rfcEmisor = "*" }
+        if trim(str(rfcReceptor)) == "" { rfcReceptor = "*" }
+        if trim(str(fDesde)) == "" { fDesde = "*" }
+        if trim(str(fHasta)) == "" { fHasta = "*" }
+
+        ref archivos = list.files(ubicacion,"*.xml")
+        if @lectura_recursiva { do recursive(archivos,ubicacion) }
+        if list.count(archivos) < 1 { return list.create() }
+
+        ref filtrados = cfdi.filterCfdi(archivos, rfcEmisor, rfcReceptor, fDesde, fHasta, "IE")
+        ref result = cfdi.extractInfo(filtrados)
+        
+        return result
+    }
+
+    cfdi.pagos.read::ubicacion, rfcEmisor, rfcReceptor, fDesde, fHasta
+    {
+        if trim(str(ubicacion)) == "" { do rise_error(1, "Debe indicar una ubicación.") }
+        if not(dir.exists(ubicacion)) { do rise_error(2, "No se encontro la ubicación proporcionada.") }
+        if trim(str(rfcEmisor)) == "" { rfcEmisor = "*" }
+        if trim(str(rfcReceptor)) == "" { rfcReceptor = "*" }
+        if trim(str(fDesde)) == "" { fDesde = "*" }
+        if trim(str(fHasta)) == "" { fHasta = "*" }
+
+        ref archivos = list.files(ubicacion,"*.xml")
+        if @lectura_recursiva { do recursive(archivos,ubicacion) }
+        if list.count(archivos) < 1 { return list.create() }
+
+        ref filtrados = cfdi.filterCfdi(archivos, rfcEmisor, rfcReceptor, fDesde, fHasta, "P")
+        ref result = cfdi.pagos.extractInfo(filtrados)
+
+        return result
+    }
+
+    cfdi.nomina.read::ubicacion, rfcEmisor, rfcReceptor, fDesde, fHasta
+    {
+        if trim(str(ubicacion)) == "" { do rise_error(1, "Debe indicar una ubicación.") }
+        if not(dir.exists(ubicacion)) { do rise_error(2, "No se encontro la ubicación proporcionada.") }
+        if trim(str(rfcEmisor)) == "" { rfcEmisor = "*" }
+        if trim(str(rfcReceptor)) == "" { rfcReceptor = "*" }
+        if trim(str(fDesde)) == "" { fDesde = "*" }
+        if trim(str(fHasta)) == "" { fHasta = "*" }
+
+        ref archivos = list.files(ubicacion,"*.xml")
+        if @lectura_recursiva { do recursive(archivos,ubicacion) }
+        if list.count(archivos) < 1 { return list.create() }
+
+        ref filtrados = cfdi.filterCfdi(archivos, rfcEmisor, rfcReceptor, fDesde, fHasta, "N")
+        ref result = cfdi.nomina.extractInfo(filtrados)
+
+        return result
+    }
+
+    cfdi.calcularIVA::&cfdis, &pagos, contribuyente, ejercicio, desde, hasta, afavor, retenido
+    {
+        // Validar parámetros
+        if isnull(cfdis) && isnull(pagos) { do rise_error(1,"No se indico ningún cfdi o pago.") }
+        if contribuyente == "" { do rise_error(2,"Es necesario indicar el RFC del contribuyente.") }
+        if length(contribuyente) < 12 || length(contribuyente) > 13 { do rise_error(3,"El RFC del contribuyente no tiene la longitud correcta.") }
+        if val(ejercicio) <= 0 || val(ejercicio) > val(date_str(now(),"yyyy")) { do rise_error(4,"Parámetro incorrecto (ejercicio).") }
+        if val(desde) <= 0 || val(desde) > 12 { do rise_error(5,"Parámetro incorrecto (de).") }
+        if val(hasta) <= 0 || val(hasta) > 12 { do rise_error(6,"Parámetro incorrecto (al).") }
+        // Preparar parámetros
+        ref cfdis = if(isnull(cfdis), list.create(), cfdis)
+        ref pagos = if(isnull(pagos), list.create(), pagos)
+        contribuyente = toupper(contribuyente)
+        ejercicio = val(ejercicio)
+        desde = val(desde)
+        hasta = val(hasta)
+        afavor = val(afavor)
+        retenido = val(retenido)
+
+        esMoral = (length(contribuyente) == 12)
+        esFisica = (length(contribuyente) == 13)
+
+        // Iniciar proceso
+        ref lstObj = list.create()
+        ref result = list.create()
+
+        go foreach.lobj(value:obj) with(cfdis)
+        {
+            if contains("IEP",@@(obj,"tipo")) && (contribuyente == @@(obj,"rfc_emisor") || contribuyente == @@(obj,"rfc_receptor")) { do list.add(lstObj,obj) }
+        }
+        go foreach.lobj(value:obj) with(pagos)
+        {
+            if contains("IEP",@@(obj,"tipo")) && (contribuyente == @@(obj,"rfc_emisor") || contribuyente == @@(obj,"rfc_receptor")) { do list.add(lstObj,obj) }
+        }
+
+        ivaAFavor = afavor
+        ivaRetenido = retenido
+        for periodo = 1; periodo <= 12; periodo+1
+        {
+            strFecha = str(ejercicio) + "-" + padleft(str(periodo),2,"0") + "-" + "01"
+            totalIvaCobrado = 0
+            totalIvaPagado = 0
+            ivaAPagar = 0
+            devoluciones = 0
+            cfdiEncontrado = @false
+
+            new data
+            {
+                @"ejercicio": ejercicio
+                @"periodo": periodo
+                @"mes": date_str(str2dt(strFecha), "MMMM")
+                @"contribuyente": contribuyente
+                @"iva_cobrado_tasa16": 0
+                @"iva_cobrado_tasa8": 0
+                @"menos_devoluciones": 0
+                @"iva_pagado_tasa16": 0
+                @"iva_pagado_tasa8": 0
+                @"mas_devoluciones": 0
+                @"dev_ivaret_emit": 0
+                @"dev_ivaret_reci": 0
+                @"iva_retenido": 0
+                @"iva_afavor": ivaAFavor
+                @"iva_apagar": 0
+
+                new member "ingresos"
+                {
+                    @"tasa16_emit": 0
+                    @"tasa8_emit": 0
+                    @"tasa0_emit": 0
+                    @"exento_emit": 0
+                    @"imp_tasa16_emit": 0
+                    @"imp_tasa8_emit": 0
+                    @"tasa16_reci": 0
+                    @"tasa8_reci": 0
+                    @"tasa0_reci": 0
+                    @"exento_reci": 0
+                    @"imp_tasa16_reci": 0
+                    @"imp_tasa8_reci": 0
+                }
+
+                new member "egresos"
+                {
+                    @"tasa16_emit": 0
+                    @"tasa8_emit": 0
+                    @"tasa0_emit": 0
+                    @"exento_emit": 0
+                    @"imp_tasa16_emit": 0
+                    @"imp_tasa8_emit": 0
+                    @"tasa16_reci": 0
+                    @"tasa8_reci": 0
+                    @"tasa0_reci": 0
+                    @"exento_reci": 0
+                    @"imp_tasa16_reci": 0
+                    @"imp_tasa8_reci": 0
+                }
+            }
+
+            if periodo >= desde && periodo <= hasta
+            {
+                go foreach.lobj(value:cfdi) with(lstObj)
+                {
+                    f_emision = list.str(split(@@(cfdi,"emision"),"T"),0)
+                    cfdiFecha = cut(f_emision,8) + "01"
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"$tipo") == "I" && @@(cfdi,"$mpago") == "PUE"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor")
+                        {
+                            data<"iva_cobrado_tasa16"> : (@@(data,"#iva_cobrado_tasa16") + @@(cfdi,"#iva_tras_16"))
+                            data<"iva_cobrado_tasa8"> : (@@(data,"#iva_cobrado_tasa8") + @@(cfdi,"#iva_tras_8"))
+                            
+                            data<"ingresos/tasa16_emit"> : (@@(data,"#ingresos/tasa16_emit") + @@(cfdi,"#base_tasa_16"))
+                            data<"ingresos/tasa8_emit"> : (@@(data,"#ingresos/tasa8_emit") + @@(cfdi,"#base_tasa_8"))
+                            data<"ingresos/tasa0_emit"> : (@@(data,"#ingresos/tasa0_emit") + @@(cfdi,"#base_tasa_0"))
+                            data<"ingresos/exento_emit"> : (@@(data,"#ingresos/exento_emit") + @@(cfdi,"#base_tasa_exento"))
+
+                            data<"ingresos/imp_tasa16_emit"> : (@@(data,"#ingresos/imp_tasa16_emit") + @@(cfdi,"#iva_tras_16"))
+                            data<"ingresos/imp_tasa8_emit"> : (@@(data,"#ingresos/imp_tasa8_emit") + @@(cfdi,"#iva_tras_8"))
+                            
+                            totalIvaCobrado = (totalIvaCobrado + @@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                        }
+                        else 
+                        {
+                            data<"iva_pagado_tasa16"> : (@@(data,"#iva_pagado_tasa16") + @@(cfdi,"#iva_tras_16"))
+                            data<"iva_pagado_tasa8"> : (@@(data,"#iva_pagado_tasa8") + @@(cfdi,"#iva_tras_8"))
+
+                            data<"ingresos/tasa16_reci"> : (@@(data,"#ingresos/tasa16_reci") + @@(cfdi,"#base_tasa_16"))
+                            data<"ingresos/tasa8_reci"> : (@@(data,"#ingresos/tasa8_reci") + @@(cfdi,"#base_tasa_8"))
+                            data<"ingresos/tasa0_reci"> : (@@(data,"#ingresos/tasa0_reci") + @@(cfdi,"#base_tasa_0"))
+                            data<"ingresos/exento_reci"> : (@@(data,"#ingresos/exento_reci") + @@(cfdi,"#base_tasa_exento"))
+
+                            data<"ingresos/imp_tasa16_reci"> : (@@(data,"#ingresos/imp_tasa16_reci") + @@(cfdi,"#iva_tras_16"))
+                            data<"ingresos/imp_tasa8_reci"> : (@@(data,"#ingresos/imp_tasa8_reci") + @@(cfdi,"#iva_tras_8"))
+
+                            totalIvaPagado = (totalIvaPagado + @@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                        }
+
+                        data<"iva_retenido"> : (@@(data,"#iva_retenido") + @@(cfdi,"#iva_ret"))
+                    }
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"$tipo") == "E" && @@(cfdi,"$mpago") == "PUE"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor")
+                        {
+                            devoluciones = devoluciones - (@@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                            data<"menos_devoluciones"> : @@(data,"#menos_devoluciones") + (@@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                            data<"dev_ivaret_emit"> : (@@(data,"#dev_ivaret_emit") + @@(cfdi,"#iva_ret"))
+                            data<"iva_retenido"> : (@@(data,"#iva_retenido") - @@(cfdi,"#iva_ret"))
+
+                            data<"egresos/tasa16_emit"> : (@@(data,"#egresos/tasa16_emit") + @@(cfdi,"#base_tasa_16"))
+                            data<"egresos/tasa8_emit"> : (@@(data,"#egresos/tasa8_emit") + @@(cfdi,"#base_tasa_8"))
+                            data<"egresos/tasa0_emit"> : (@@(data,"#egresos/tasa0_emit") + @@(cfdi,"#base_tasa_0"))
+                            data<"egresos/exento_emit"> : (@@(data,"#egresos/exento_emit") + @@(cfdi,"#base_tasa_exento"))
+
+                            data<"egresos/imp_tasa16_emit"> : (@@(data,"#egresos/imp_tasa16_emit") + @@(cfdi,"#iva_tras_16"))
+                            data<"egresos/imp_tasa8_emit"> : (@@(data,"#egresos/imp_tasa8_emit") + @@(cfdi,"#iva_tras_8"))
+                        }
+                        else 
+                        {
+                            devoluciones = devoluciones + (@@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                            data<"mas_devoluciones"> : @@(data,"#mas_devoluciones") + (@@(cfdi,"#iva_tras_16") + @@(cfdi,"#iva_tras_8"))
+                            data<"dev_ivaret_reci"> : (@@(data,"#dev_ivaret_reci") + @@(cfdi,"#iva_ret"))
+                            data<"iva_retenido"> : (@@(data,"#iva_retenido") + @@(cfdi,"#iva_ret"))
+
+                            data<"egresos/tasa16_reci"> : (@@(data,"#egresos/tasa16_reci") + @@(cfdi,"#base_tasa_16"))
+                            data<"egresos/tasa8_reci"> : (@@(data,"#egresos/tasa8_reci") + @@(cfdi,"#base_tasa_8"))
+                            data<"egresos/tasa0_reci"> : (@@(data,"#egresos/tasa0_reci") + @@(cfdi,"#base_tasa_0"))
+                            data<"egresos/exento_reci"> : (@@(data,"#egresos/exento_reci") + @@(cfdi,"#base_tasa_exento"))
+
+                            data<"egresos/imp_tasa16_reci"> : (@@(data,"#egresos/imp_tasa16_reci") + @@(cfdi,"#iva_tras_16"))
+                            data<"egresos/imp_tasa8_reci"> : (@@(data,"#egresos/imp_tasa8_reci") + @@(cfdi,"#iva_tras_8"))
+                        }
+                    }
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"$tipo") == "P"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor")
+                        {
+                            data<"iva_cobrado_tasa16"> : (@@(data,"#iva_cobrado_tasa16") + @@(cfdi,"#iva_tras_16_dr"))
+                            data<"iva_cobrado_tasa8"> : (@@(data,"#iva_cobrado_tasa8") + @@(cfdi,"#iva_tras_8_dr"))
+                            
+                            totalIvaCobrado = (totalIvaCobrado + @@(cfdi,"#iva_tras_16_dr") + @@(cfdi,"#iva_tras_8_dr"))
+                        }
+                        else 
+                        {
+                            data<"iva_pagado_tasa16"> : (@@(data,"#iva_pagado_tasa16") + @@(cfdi,"#iva_tras_16_dr"))
+                            data<"iva_pagado_tasa8"> : (@@(data,"#iva_pagado_tasa8") + @@(cfdi,"#iva_tras_8_dr"))
+
+                            totalIvaPagado = (totalIvaPagado + @@(cfdi,"#iva_tras_16_dr") + @@(cfdi,"#iva_tras_8_dr"))
+                        }
+
+                        data<"iva_retenido"> : (@@(data,"#iva_retenido") + @@(cfdi,"#iva_ret_dr"))
+                    }
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 { cfdiEncontrado = @true }
+                }
+            }
+
+            if periodo == 1 { data<"iva_retenido"> : (@@(data,"#iva_retenido") + ivaRetenido) }
+
+            diferencia = (totalIvaCobrado - totalIvaPagado) + devoluciones
+            if diferencia < 0 { ivaAFavor = (ivaAFavor + abs(diferencia)) } 
+            if diferencia > 0 { ivaAPagar = (ivaAPagar + diferencia) }
+            if esFisica { ivaAFavor = (ivaAFavor + @@(data,"#iva_retenido")) }
+            if esMoral { ivaAPagar = (ivaAPagar + @@(data,"#iva_retenido")) }
+
+            ivaAPagar = (ivaAPagar - ivaAFavor)
+
+            if ivaAPagar < 0 {
+                ivaAFavor = abs(ivaAPagar)
+                data<"iva_apagar"> : 0
+            } else {
+                ivaAFavor = 0
+                data<"iva_apagar"> : ivaAPagar
+            }
+
+            if cfdiEncontrado { data<"iva_afavor"> : ivaAFavor }
+            else { data<"iva_afavor"> : 0 }
+
+            do list.add(result,data)
+        }
+
+        return result
+    }
+
+    cfdi.calcularISR::&cfdis, &nominas, contribuyente, ejercicio, desde, hasta, cociente
+    {
+        // Validar parámetros
+        if isnull(cfdis) && isnull(nominas) { do rise_error(1,"No se indico ningún cfdi o nomina.") }
+        if contribuyente == "" { do rise_error(2,"Es necesario indicar el RFC del contribuyente.") }
+        if length(contribuyente) < 12 || length(contribuyente) > 13 { do rise_error(3,"El RFC del contribuyente no tiene la longitud correcta.") }
+        if val(ejercicio) <= 0 || val(ejercicio) > val(date_str(now(),"yyyy")) { do rise_error(4,"Parámetro incorrecto (ejercicio).") }
+        if val(desde) <= 0 || val(desde) > 12 { do rise_error(5,"Parámetro incorrecto (de).") }
+        if val(hasta) <= 0 || val(hasta) > 12 { do rise_error(6,"Parámetro incorrecto (al).") }
+        // Preparar parámetros
+        ref cfdis = if(isnull(cfdis), list.create(), cfdis)
+        ref nominas = if(isnull(nominas), list.create(), nominas)
+        contribuyente = toupper(contribuyente)
+        ejercicio = val(ejercicio)
+        desde = val(desde)
+        hasta = val(hasta)
+        cociente = val(cociente)
+
+        esMoral = (length(contribuyente) == 12)
+        esFisica = (length(contribuyente) == 13)
+
+        // Iniciar proceso
+        ref lstObj = list.create()
+        ref result = list.create()
+
+        go foreach.lobj(value:obj) with(cfdis)
+        {
+            if contains("IEN",@@(obj,"tipo")) && (contribuyente == @@(obj,"rfc_emisor") || contribuyente == @@(obj,"rfc_receptor")) { do list.add(lstObj,obj) }
+        }
+        go foreach.lobj(value:obj) with(nominas)
+        {
+            if contains("IEN",@@(obj,"tipo")) && (contribuyente == @@(obj,"rfc_emisor") || contribuyente == @@(obj,"rfc_receptor")) { do list.add(lstObj,obj) }
+        }
+
+        for periodo = 1; periodo <= 12; periodo+1
+        {
+            strFecha = str(ejercicio) + "-" + padleft(str(periodo),2,"0") + "-" + "01"
+
+            new data
+            {
+                @"ejercicio": ejercicio
+                @"periodo": periodo
+                @"mes": date_str(str2dt(strFecha), "MMMM")
+                @"contribuyente": contribuyente
+                @"ingresos_pue": 0
+                @"ingresos_ppd": 0
+                @"dev_emit_pue": 0
+                @"dev_emit_ppd": 0
+                @"dev_reci_pue": 0
+                @"dev_reci_ppd": 0
+                @"cociente": cociente
+                @"isr_ret_nominas": 0
+                @"subsidio_empleo": 0
+                @"isr_ret_pfisica": 0
+                @"recibidos*": list.create()
+                @"devoluciones*": list.create()
+            }
+
+            ref arr_recibidos = record.create()
+            ref arr_devoluciones = record.create()
+
+            if periodo >= desde && periodo <= hasta
+            {
+                go foreach.lobj(value:cfdi) with(lstObj)
+                {
+                    f_emision = list.str(split(@@(cfdi,"emision"),"T"),0)
+                    cfdiFecha = cut(f_emision,8) + "01"
+                    uso_cfdi = @@(cfdi,"uso_cfdi")
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"tipo") == "I"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PUE"
+                        {
+                            data<"ingresos_pue"> : (@@(data,"#ingresos_pue") + @@(cfdi,"#total"))
+                        }
+                        else if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PPD"
+                        {
+                            data<"ingresos_ppd"> : (@@(data,"#ingresos_ppd") + @@(cfdi,"#total"))
+                        }
+
+                        if contribuyente == @@(cfdi,"rfc_receptor")
+                        {
+                            if not(field.exist(arr_recibidos,uso_cfdi)) {
+                                arr_recibidos<uso_cfdi+"*"> : record.create()
+
+                                arr_recibidos<uso_cfdi+"/clave"> : uso_cfdi
+                                arr_recibidos<uso_cfdi+"/pue"> : 0
+                                arr_recibidos<uso_cfdi+"/ppd"> : 0
+                            }
+                            if @@(cfdi,"mpago") == "PUE" { arr_recibidos<uso_cfdi+"/pue"> : (@@(arr_recibidos,"#"+uso_cfdi+"/pue") + @@(cfdi,"#total")) }
+                            if @@(cfdi,"mpago") == "PPD" { arr_recibidos<uso_cfdi+"/ppd"> : (@@(arr_recibidos,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#total")) }
+                        }
+                    }
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"tipo") == "E"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PUE"
+                        {
+                            data<"dev_emit_pue"> : (@@(data,"#dev_emit_pue") + @@(cfdi,"#total"))
+                        }
+                        else if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PPD"
+                        {
+                            data<"dev_emit_ppd"> : (@@(data,"#dev_emit_ppd") + @@(cfdi,"#total"))
+                        }
+                        else if contribuyente == @@(cfdi,"rfc_receptor") && @@(cfdi,"mpago") == "PUE"
+                        {
+                            data<"dev_reci_pue"> : (@@(data,"#dev_reci_pue") + @@(cfdi,"#total"))
+                        }
+                        else if contribuyente == @@(cfdi,"rfc_receptor") && @@(cfdi,"mpago") == "PPD"
+                        {
+                            data<"dev_reci_ppd"> : (@@(data,"#dev_reci_ppd") + @@(cfdi,"#total"))
+                        }
+
+                        if contribuyente == @@(cfdi,"rfc_receptor")
+                        {
+                            if not(field.exist(arr_devoluciones,uso_cfdi)) {
+                                arr_devoluciones<uso_cfdi+"*"> : record.create()
+
+                                arr_devoluciones<uso_cfdi+"/clave"> : uso_cfdi
+                                arr_devoluciones<uso_cfdi+"/pue"> : 0
+                                arr_devoluciones<uso_cfdi+"/ppd"> : 0
+                            }
+                            if @@(cfdi,"mpago") == "PUE" { arr_devoluciones<uso_cfdi+"/pue"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/pue") + @@(cfdi,"#total")) }
+                            if @@(cfdi,"mpago") == "PPD" { arr_devoluciones<uso_cfdi+"/ppd"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#total")) }
+                        }
+                    }
+
+                    if compararFecha(strFecha,cfdiFecha) == 0 && @@(cfdi,"tipo") == "N"
+                    {
+                        if contribuyente == @@(cfdi,"rfc_emisor")
+                        {
+                            data<"isr_ret_nominas"> : (@@(data,"#isr_ret_nominas") + @@(cfdi,"#isr_ret"))
+                            data<"subsidio_empleo"> : (@@(data,"#subsidio_empleo") + @@(cfdi,"#sub_al_empleo"))
+                        }
+                        else if contribuyente == @@(cfdi,"rfc_receptor") && esMoral && length(@@(cfdi,"rfc_emisor")) == 13
+                        {
+                            data<"isr_ret_pfisica"> : (@@(data,"#isr_ret_pfisica") + @@(cfdi,"#isr_ret"))
+                        }
+                    }
+                }
+            }
+
+            go foreach.fobj(value:recibido) with(arr_recibidos)
+            {
+                do list.add(@@(data,"&recibidos"), recibido)
+            }
+            go foreach.fobj(value:devuelto) with(arr_devoluciones)
+            {
+                do list.add(@@(data,"&devoluciones"), devuelto)
+            }
+
+            do list.add(result,data)
+        }
+
+        return result
+    }
+}
