@@ -1,0 +1,263 @@
+#include "dkli.dkh"
+#set "meta-xml-declaration" "<!DOCTYPE html>\r\n"
+#!
+module "isr-report"
+{
+    #include "functions.dkh"
+    #include "serialize.dkh"
+
+    ref datos = @datos
+    format = "$ #,#.00"
+
+    #$
+    module "body"
+    {
+        h1{$"Determinación ISR"}
+
+        table(class="w100" border="1")
+        {
+            caption{$"EJERCICIO: #<@@(list.obj(datos,0),'ejercicio')>"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$"Periodo"}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital" colspan="3"){$"#<@@(obj,'mes')>"} }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #!
+                    repeat 12
+                    {
+                        #$
+                        th{"PUE"}
+                        th{"PPD"}
+                        th{"TOTAL"}
+                    }
+                }
+            }
+            tbody
+            {
+                tr
+                {
+                    th(class=""){$"Ingresos"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        total = (@@(obj,"#ingresos_pue") + @@(obj,"#ingresos_ppd"))
+                        #$
+                        td(class="txt-right"){$"#<format(@@(obj,'#ingresos_pue'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(obj,'#ingresos_ppd'),format)>"}
+                        td(class="txt-right"){$"#<format(total,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones (-)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        total = (@@(obj,"#dev_emit_pue") + @@(obj,"#dev_emit_ppd"))
+                        #$
+                        td(class="txt-right"){$"#<format(@@(obj,'#dev_emit_pue'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(obj,'#dev_emit_ppd'),format)>"}
+                        td(class="txt-right"){$"#<format(total,format)>"}
+                    }
+                }
+                tr
+                {
+                    th{""}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        pue = (@@(obj,"#ingresos_pue") - @@(obj,"#dev_emit_pue"))
+                        ppd = (@@(obj,"#ingresos_ppd") + @@(obj,"#dev_emit_ppd"))
+                        ttl = (@@(obj,"#ingresos_pue") + @@(obj,"#ingresos_ppd")) + (@@(obj,"#dev_emit_pue") + @@(obj,"#dev_emit_ppd"))
+                        #$
+                        td(class="txt-right"){$"#<format(pue,format)>"}
+                        td(class="txt-right"){$"#<format(ppd,format)>"}
+                        td(class="txt-right"){$"#<format(ttl,format)>"}
+                    }
+                }
+
+                tr
+                {
+                    th{$"PM ISR Provisional"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        pm_isr_prov = (@@(obj,"#ingresos_pue") - @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
+                        #$
+                        td(class="txt-right" colspan="3"){$"#<format(pm_isr_prov,format)>"}
+                    }
+                }
+                tr
+                {
+                    th{$"ISR Ret Nóminas"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right" colspan="3"){$"#<format(@@(obj,'#isr_ret_nominas'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th{$"Subsidio al empleo"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right" colspan="3"){$"#<format(@@(obj,'#subsidio_empleo'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th{$"ISR P.Físicas"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right" colspan="3"){$"#<format(@@(obj,'#isr_ret_pfisica'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th{$"ISR Pago Provisional"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        pm_isr_prov = (@@(obj,"#ingresos_pue") - @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
+                        isr_pago_provicional = (pm_isr_prov + @@(obj,"#isr_ret_nominas") - @@(obj,"#subsidio_empleo") + @@(obj,"#isr_ret_pfisica"))
+                        #$ 
+                        td(class="txt-right" colspan="3"){$"#<format(isr_pago_provicional,format)>"}
+                    }
+                }
+            }
+        }
+
+        table(class="w100" border="1")
+        {
+            caption{$"RECIBIDOS"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$"Periodo"}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital" colspan="3"){$"#<@@(obj,'mes')>"} }
+                }
+                tr
+                {
+                    th(class=""){$"Uso CFDI"}
+                    #!
+                    repeat 12
+                    {
+                        #$
+                        th{"PUE"}
+                        th{"PPD"}
+                        th{"TOTAL"}
+                    }
+                }
+            }
+            tbody
+            {
+                #! 
+                ref recibidos = record.create()
+
+                for a = 0; a < list.count(datos)
+                {
+                    mes = @@(list.obj(datos, a), "$periodo")
+                    ref lista = @@(list.obj(datos, a), "&recibidos")
+
+                    for b = 0; b < list.count(lista)
+                    {
+                        ref obj = list.obj(lista, b)
+                        clave = @@(obj,"clave")
+
+                        if not(field.exist(recibidos, clave)) { recibidos<clave+"*"> : record.create() }
+                        recibidos<clave+"/"+mes+"*"> : obj
+                    }
+                }
+
+                go foreach.fobj(key:clave, value:obj) with(recibidos)
+                {
+                    #$ 
+                    tr
+                    {
+                        th{$"#<str(clave)>"}
+                        #! 
+                        for periodo = 1; periodo <= 12; periodo + 1
+                        {
+                            ref itm = @@(obj,"&"+str(periodo))
+                            if not(isnull(itm)) {
+                                #$
+                                td{$"#<format(@@(itm,'#pue'),format)>"}
+                                td{$"#<format(@@(itm,'#ppd'),format)>"}
+                                td{$"#<format(@@(itm,'#pue') + @@(itm,'#ppd'),format)>"}
+                                #!
+                            } else { #$ td{""} td{""} td{""} }
+                        }
+                    }
+                }
+                #$
+            }
+        }
+
+        table(class="w100" border="1")
+        {
+            caption{$"DEVOLUCIONES"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$"Periodo"}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital" colspan="3"){$"#<@@(obj,'mes')>"} }
+                }
+                tr
+                {
+                    th(class=""){$"Uso CFDI"}
+                    #!
+                    repeat 12
+                    {
+                        #$
+                        th{"PUE"}
+                        th{"PPD"}
+                        th{"TOTAL"}
+                    }
+                }
+            }
+            tbody
+            {
+                #! 
+                ref devoluciones = record.create()
+
+                for a = 0; a < list.count(datos)
+                {
+                    mes = @@(list.obj(datos, a), "$periodo")
+                    ref lista = @@(list.obj(datos, a), "&devoluciones")
+
+                    for b = 0; b < list.count(lista)
+                    {
+                        ref obj = list.obj(lista, b)
+                        clave = @@(obj,"clave")
+
+                        if not(field.exist(devoluciones, clave)) { devoluciones<clave+"*"> : record.create() }
+                        devoluciones<clave+"/"+mes+"*"> : obj
+                    }
+                }
+
+                go foreach.fobj(key:clave, value:obj) with(devoluciones)
+                {
+                    #$ 
+                    tr
+                    {
+                        th{$"#<str(clave)>"}
+                        #! 
+                        for periodo = 1; periodo <= 12; periodo + 1
+                        {
+                            ref itm = @@(obj,"&"+str(periodo))
+                            if not(isnull(itm)) {
+                                #$
+                                td{$"#<format(@@(itm,'#pue'),format)>"}
+                                td{$"#<format(@@(itm,'#ppd'),format)>"}
+                                td{$"#<format(@@(itm,'#pue') + @@(itm,'#ppd'),format)>"}
+                                #!
+                            } else { #$ td{""} td{""} td{""} }
+                        }
+                    }
+                }
+                #$
+            }
+        }
+    }
+}

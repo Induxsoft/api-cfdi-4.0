@@ -1,0 +1,397 @@
+#include "dkli.dkh"
+#set "meta-xml-declaration" "<!DOCTYPE html>\r\n"
+#!
+module "iva-report"
+{
+    #include "functions.dkh"
+    #include "serialize.dkh"
+
+    ref datos = @datos
+    format = "$ #,#.00"
+
+    #$
+    module "body"
+    {
+        h1{$"Determinación IVA"}
+
+        table(class="w100" border="1")
+        {
+            caption{$"EJERCICIO: #<@@(list.obj(datos,0),'ejercicio')>"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$""}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital"){$"#<@@(obj,'mes')>"} }
+                }
+            }
+            tbody
+            {
+                tr
+                {
+                    th(class=""){$"IVA Cobrado"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        iva_cobrado = (@@(obj,'#iva_cobrado_tasa16') + @@(obj,'#iva_cobrado_tasa8'))
+                        #$ 
+                        td(class="txt-right"){$"#<format(iva_cobrado,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones (-)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#menos_devoluciones'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"IVA Pagado"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        iva_pagado = (@@(obj,'#iva_pagado_tasa16') + @@(obj,'#iva_pagado_tasa8'))
+                        #$
+                        td(class="txt-right"){$"#<format(iva_pagado,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones (+)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#mas_devoluciones'),format)>"} 
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Dev IVA Ret Emitido (+)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#dev_ivaret_emit'),format)>"} 
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Dev IVA Ret Recibido (-)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#dev_ivaret_reci'),format)>"} 
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"IVA Retenido (+)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#iva_retenido'),format)>"} 
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"IVA a favor (-)"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#iva_afavor'),format)>"} 
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"IVA a pagar"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        #$ td(class="txt-right"){$"#<format(@@(obj,'#iva_apagar'),format)>"} 
+                    }
+                }
+            }
+        }
+
+        table(class="w100" border="1")
+        {
+            caption{"INGRESOS"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$"Periodo"}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital" colspan="2"){$"#<@@(obj,'mes')>"} }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #!
+                    repeat 12
+                    {
+                        #$
+                        th{"Importe"}
+                        th{"Impuesto"}
+                    }
+                }
+            }
+            tbody
+            {
+                // Ingresos siendo emisor
+                tr
+                {
+                    th(class=""){$"Actos tasa 16%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa16_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#imp_tasa16_emit'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos tasa 8%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa8_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#imp_tasa8_emit'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos tasa 0%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa0_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos exentos"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#exento_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        total_base_emit = (@@(ingresos,"#tasa16_emit") + @@(ingresos,"#tasa8_emit") + @@(ingresos,"#tasa0_emit") + @@(ingresos,"#exento_emit"))
+                        total_imp_emit = (@@(ingresos,"#imp_tasa16_emit") + @@(ingresos,"#imp_tasa8_emit"))
+                        #$
+                        td(class="txt-right"){$"#<format(total_base_emit,format)>"}
+                        td(class="txt-right"){$"#<format(total_imp_emit,format)>"}
+                    }
+                }
+
+                // Egresos siendo emisor
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 16%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa16_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(egresos,'#imp_tasa16_emit'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 8%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa8_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(egresos,'#imp_tasa8_emit'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 0%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa0_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones exentas"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#exento_emit'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        total_base_emit = (@@(egresos,"#tasa16_emit") + @@(egresos,"#tasa8_emit") + @@(egresos,"#tasa0_emit") + @@(egresos,"#exento_emit"))
+                        total_imp_emit = (@@(egresos,"#imp_tasa16_emit") + @@(egresos,"#imp_tasa8_emit"))
+                        #$
+                        td(class="txt-right"){$"#<format(total_base_emit,format)>"}
+                        td(class="txt-right"){$"#<format(total_imp_emit,format)>"}
+                    }
+                }
+            }
+        }
+
+        table(class="w100" border="1")
+        {
+            caption{"EGRESOS"}
+            thead
+            {
+                tr
+                {
+                    th(class=""){$"Periodo"}
+                    #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital" colspan="2"){$"#<@@(obj,'mes')>"} }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #!
+                    repeat 12
+                    {
+                        #$
+                        th{"Importe"}
+                        th{"Impuesto"}
+                    }
+                }
+            }
+            tbody
+            {
+                // Ingresos siendo receptor
+                tr
+                {
+                    th(class=""){$"Actos tasa 16%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa16_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#imp_tasa16_reci'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos tasa 8%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa8_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#imp_tasa8_reci'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos tasa 0%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#tasa0_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Actos exentos"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(ingresos,'#exento_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref ingresos = @@(obj,"&ingresos")
+                        total_base_reci = (@@(ingresos,"#tasa16_reci") + @@(ingresos,"#tasa8_reci") + @@(ingresos,"#tasa0_reci") + @@(ingresos,"#exento_reci"))
+                        total_imp_reci = (@@(ingresos,"#imp_tasa16_reci") + @@(ingresos,"#imp_tasa8_reci"))
+                        #$
+                        td(class="txt-right"){$"#<format(total_base_reci,format)>"}
+                        td(class="txt-right"){$"#<format(total_imp_reci,format)>"}
+                    }
+                }
+
+                // Egresos siendo receptor
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 16%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa16_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(egresos,'#imp_tasa16_reci'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 8%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa8_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(@@(egresos,'#imp_tasa8_reci'),format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones tasa 0%"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#tasa0_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$"Devoluciones exentas"}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        #$
+                        td(class="txt-right"){$"#<format(@@(egresos,'#exento_reci'),format)>"}
+                        td(class="txt-right"){$"#<format(0.00,format)>"}
+                    }
+                }
+                tr
+                {
+                    th(class=""){$""}
+                    #! go foreach.lobj(value:obj) with(datos)
+                    {
+                        ref egresos = @@(obj,"&egresos")
+                        total_base_reci = (@@(egresos,"#tasa16_reci") + @@(egresos,"#tasa8_reci") + @@(egresos,"#tasa0_reci") + @@(egresos,"#exento_reci"))
+                        total_imp_reci = (@@(egresos,"#imp_tasa16_reci") + @@(egresos,"#imp_tasa8_reci"))
+                        #$
+                        td(class="txt-right"){$"#<format(total_base_reci,format)>"}
+                        td(class="txt-right"){$"#<format(total_imp_reci,format)>"}
+                    }
+                }
+            }
+        }
+    }
+}

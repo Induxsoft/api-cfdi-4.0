@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte</title>
+    <style>
+        table, th, td { border-collapse: collapse; }
+
+        .w100 { width:100%; }
+        .w75 { width:75%; }
+        .w50 { width:50%; }
+        .w25 { width:25%; }
+
+        .txt-capital { text-transform: capitalize; }
+        .txt-upper { text-transform: uppercase; }
+        .txt-lower { text-transform: lowercase; }
+        .txt-none { text-transform: none; }
+        .txt-fullw { text-transform: full-width; }
+        .txt-center { text-align: center; }
+        .txt-left { text-align: left; }
+        .txt-right { text-align: right; }
+        .txt-justify { text-align: justify; }
+        .arial-sans { font-family: arial, sans-serif; }
+        .bold { font-weight: bold; }
+
+        @media print
+        {    
+            .no-print, .no-print * { display: none !important; }
+        }
+    </style>
+</head>
+<body>
+    <button class="no-print" onclick="window.print();">Imprimir</button>
+    <button class="no-print" onclick="ExportTableToCSV(null,'report.csv')">Exportar</button>
+    <hr>
+
+    :body
+
+    <script>
+        function ExportTableToCSV(html, filename) {
+            var csv = [];
+            var rows = document.querySelectorAll("table tr");
+
+            for(var i = 0; i < rows.length; i++){
+                var row = [], cols = rows[i].querySelectorAll("td, th");
+                for(var j = 0; j < cols.length; j++){
+                    var cellValue = cols[j].innerText;
+                    // Si el valor contiene una coma, removerla y rodear con comillas dobles
+					if (cellValue.includes(",")) { cellValue = '"' + cellValue.replace(",", "") + '"'; }
+                    row.push(cellValue);
+                }
+                csv.push(row.join(","));
+            }
+            
+            // download csv file
+            DownloadCSV(csv.join("\n"), filename);
+        }
+
+        function DownloadCSV(csv, filename) {
+            var csvFile;
+            var downloadLink;
+
+            if (window.Blob == undefined || window.URL == undefined || window.URL.createObjectURL == undefined) {
+                alert("Tu navegador no soporta ficheros Blobs");
+                return;
+            }
+            
+            // csvFile = new Blob([csv], {type:"text/csv"});
+            csvFile = new Blob([new Uint8Array([0xEF, 0xBB, 0xBF]), csv], {type: "text/csv;charset=utf-8;"});
+            downloadLink = document.createElement("a");
+            downloadLink.download = filename;
+            downloadLink.href = window.URL.createObjectURL(csvFile);
+            downloadLink.style.display = "none";
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            downloadLink.remove();
+        }
+    </script>
+</body>
+</html>

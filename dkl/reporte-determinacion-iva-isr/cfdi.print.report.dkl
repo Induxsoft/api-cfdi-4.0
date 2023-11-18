@@ -1,0 +1,97 @@
+#include "dkli.dkh"
+#!
+program "print-report"
+{
+    #include "functions.dkh"
+    #include "serialize.dkh"
+
+    #include "cfdi.metadata.dkh"
+
+    // PREPARAR/VALIDAR PARÁMETROS
+
+    v10 = "C:\\ProgramData\\induxsoft\\machine\\winShell\\v10"
+    src_template = path.concat(v10, "cfdi.report.template.html")
+    iva_report = "cfdi.det.iva.report.dkl"
+    isr_report = "cfdi.det.isr.report.dkl"
+    html_name = "report.html"
+    json_name = "report.json"
+    src_report = ""
+
+    ref args = commandline("=")
+
+    @lectura_recursiva = field.parse.dbool(args, "recursivo", @false)
+    xejercicio = field.parse.dbool(args, "xejercicio", @false)
+    fmt_report = field.dstr(args, "fmt", "")
+
+    if trim(fmt_report) == "" { do rise_error(1, "No se indico el formato para el reporte (fmt).") }
+
+    ubicacion       = field.dstr(args, "ubicacion",     "") //input("Ingresa la ruta de tus cfdis [I,E,P]: ")
+    contribuyente   = field.dstr(args, "contribuyente", "") //input("RFC del contribuyente: ")
+    ejercicio       = field.dnum(args, "ejercicio",     date_str(now(),"yyyy")) //val(input("Año del ejercicio [yyyy]: "))
+    de              = field.dnum(args, "de",            1) //val(input("De [MM]: "))
+    al              = field.dnum(args, "al",            12) //val(input("Al [MM]: "))
+    afavor          = field.dnum(args, "afavor",        0) //val(input("IVA a favor: "))
+    retenido        = field.dnum(args, "retenido",      0) //val(input("IVA retenido: "))
+    cociente        = field.dnum(args, "cociente",      0) //val(input("Cociente de utilidad: "))
+
+    if ubicacion == "" { do rise_error(2, "No se indico la ubicación de los cfdis (ubicacion).") }
+    if contribuyente == "" { do rise_error(3, "No se indico el RFC del contribuyente (contribuyente).") }
+    if not(file.exists(src_template)) { do rise_error(4, "No se encontro la plantilla para los reportes.") }
+    if xejercicio {
+        de = 1
+        al = 12
+    }
+
+    desde = str(ejercicio) + "-" + padleft(str(de),2,"0") + "-" + "01"
+    hasta = str(ejercicio) + "-" + padleft(str(al),2,"0") + "-" + "31"
+
+    // OBTENER DATOS
+
+    if containsword(fmt_report, "cfdi.det.iva.report.dkl,det.iva.report,det.iva,iva.report")
+    {
+        fmt_report = "IVA"
+        src_report = path.concat(v10,iva_report)
+        if not(file.exists(src_report)) { do rise_error(5, "No se encontro el archivo para la determinación de iva.") }
+
+        ref cfdis = cfdi.read(ubicacion,contribuyente,contribuyente,desde,hasta)
+        ref pagos = cfdi.pagos.read(ubicacion,contribuyente,contribuyente,desde,hasta)
+        ref datos = cfdi.calcularIVA(cfdis,pagos,contribuyente,ejercicio,de,al,afavor,retenido)
+    }
+    else if containsword(fmt_report, "cfdi.det.isr.report.dkl,det.isr.report,det.isr,isr.report")
+    {
+        fmt_report = "ISR"
+        src_report = path.concat(v10,isr_report)
+        if not(file.exists(src_report)) { do rise_error(5, "No se encontro el archivo para la determinación de isr.") }
+
+        ref cfdis = cfdi.read(ubicacion,contribuyente,contribuyente,desde,hasta)
+        ref nominas = cfdi.nomina.read(ubicacion,contribuyente,contribuyente,desde,hasta)
+        ref datos = cfdi.calcularISR(cfdis,nominas,contribuyente,ejercicio,de,al,cociente)
+    }
+    else 
+    {
+        do rise_error(5, "No se encontro el formato del reporte indicado.")
+    }
+
+    // GENERAR REPORTES
+
+    report_name = contribuyente + "_" + fmt_report + "_" + str(ejercicio) + "_" + padleft(str(de),2,"0") + "_" + padleft(str(al),2,"0")
+    html_name = report_name + ".html"
+    json_name = report_name + ".json"
+
+    json_path = path.concat(field.dstr(args, "output", ubicacion), json_name)
+    do file.wtext(json_path, to.json(datos))
+
+    rpt_output = path.concat(field.dstr(args, "output", ubicacion), html_name)
+    rpt_body = runscript(src_report, "datos", datos)
+    rpt_template = file.rtext(src_template)
+    rpt_result = replace(rpt_template,":body",rpt_body)
+
+    do file.wtext(rpt_output, rpt_result)
+    do exec("cmd.exe", "/C " + '"' + rpt_output + '"', @false)
+    
+    exception 
+    {
+        do print("Exception: " + last_error())
+        // do input("Presione una tecla para continuar...")
+    }
+}
