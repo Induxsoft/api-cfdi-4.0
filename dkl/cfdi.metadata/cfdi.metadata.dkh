@@ -601,7 +601,10 @@ module "cfdi.metadata.dkh"
     {
         return cfdi.pagos.sumaImpuestoDR(docto,"pago20:RetencionesDR","001","*")
     }
-
+    cfdi.pagos.importe33::&docto
+    {
+        return attr(docto,"#ImpPagado")
+    }
     /**
     * @param list files : Una lista con las rutas y nombres de los archivos de complemento de pagos (xml).
     * @return list : Devuelve una lista con los datos extraidos (un obj por cada DoctoRelacionado) de cada complemento de pago.
@@ -701,6 +704,7 @@ module "cfdi.metadata.dkh"
                                 @"ieps_tras": cfdi.pagos.iepsTrasladado(pago)
                                 @"iva_ret": cfdi.pagos.ivaRetenido(pago)
                                 @"isr_ret": cfdi.pagos.isrRetenido(pago)
+                                @"importe33":cfdi.pagos.importe33(docto)
                             }
 
                             do list.add(container,data)
@@ -1195,7 +1199,6 @@ module "cfdi.metadata.dkh"
                 @"iva_retenido": 0
                 @"iva_afavor": ivaAFavor
                 @"iva_apagar": 0
-
                 new member "ingresos"
                 {
                     @"tasa16_emit": 0
@@ -1227,6 +1230,8 @@ module "cfdi.metadata.dkh"
                     @"imp_tasa16_reci": 0
                     @"imp_tasa8_reci": 0
                 }
+                new member "emitidos"{@"importe33":0}
+                new member "recibidos"{@"importe33":0}
             }
 
             if periodo >= desde && periodo <= hasta
@@ -1312,13 +1317,35 @@ module "cfdi.metadata.dkh"
                         {
                             data<"iva_cobrado_tasa16"> : (@@(data,"#iva_cobrado_tasa16") + @@(cfdi,"#iva_tras_16_dr"))
                             data<"iva_cobrado_tasa8"> : (@@(data,"#iva_cobrado_tasa8") + @@(cfdi,"#iva_tras_8_dr"))
-                            
+
+                            //****************************code new************************************
+                            data<"ingresos/tasa16_emit"> : (@@(data,"#ingresos/tasa16_emit") + @@(cfdi,"#base_tasa_16_dr"))
+                            data<"ingresos/tasa8_emit"> : (@@(data,"#ingresos/tasa8_emit") + @@(cfdi,"#base_tasa_8_dr"))
+                            data<"ingresos/tasa0_emit"> : (@@(data,"#ingresos/tasa0_emit") + @@(cfdi,"#base_tasa_0_dr"))
+                            data<"ingresos/exento_emit"> : (@@(data,"#ingresos/exento_emit") + @@(cfdi,"#base_tasa_exento_dr"))
+
+                            data<"ingresos/imp_tasa16_emit"> : (@@(data,"#ingresos/imp_tasa16_emit") + @@(cfdi,"#iva_tras_16_dr"))
+                            data<"ingresos/imp_tasa8_emit"> : (@@(data,"#ingresos/imp_tasa8_emit")  + @@(cfdi,"#iva_tras_8_dr"))
+
+                            if @@(cfdi,"$ver_complemento")=="1.0"{data<"emitidos/importe33">:@@(data,"#emitidos/importe33") + @@(cfdi,"#importe33")} 
+
                             totalIvaCobrado = (totalIvaCobrado + @@(cfdi,"#iva_tras_16_dr") + @@(cfdi,"#iva_tras_8_dr"))
                         }
                         else 
                         {
                             data<"iva_pagado_tasa16"> : (@@(data,"#iva_pagado_tasa16") + @@(cfdi,"#iva_tras_16_dr"))
                             data<"iva_pagado_tasa8"> : (@@(data,"#iva_pagado_tasa8") + @@(cfdi,"#iva_tras_8_dr"))
+                            
+                            //****************************code new************************************
+                            data<"ingresos/tasa16_reci"> : (@@(data,"#ingresos/tasa16_reci") + @@(cfdi,"#iva_tras_16_dr"))
+                            data<"ingresos/tasa8_reci"> : (@@(data,"#ingresos/tasa8_reci") + @@(cfdi,"#iva_tras_8_dr"))
+                            data<"ingresos/tasa0_reci"> : (@@(data,"#ingresos/tasa0_reci") + @@(cfdi,"#base_tasa_0_dr"))
+                            data<"ingresos/exento_reci"> : (@@(data,"#ingresos/exento_reci") + @@(cfdi,"#base_tasa_exento_dr"))
+
+                            data<"ingresos/imp_tasa16_reci"> : (@@(data,"#ingresos/imp_tasa16_reci") + @@(cfdi,"#iva_tras_16_dr"))
+                            data<"ingresos/imp_tasa8_reci"> : (@@(data,"#ingresos/imp_tasa8_reci")  + @@(cfdi,"#iva_tras_8_dr"))
+
+                            if @@(cfdi,"$ver_complemento")=="1.0"{data<"recibidos/importe33">:@@(data,"#recibidos/importe33") + @@(cfdi,"#importe33")} 
 
                             totalIvaPagado = (totalIvaPagado + @@(cfdi,"#iva_tras_16_dr") + @@(cfdi,"#iva_tras_8_dr"))
                         }

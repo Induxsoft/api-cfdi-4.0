@@ -393,5 +393,72 @@ module "iva-report"
                 }
             }
         }
+
+        //PAGOS 1.0 CFDI 3.3
+        #!
+        totalemitidos=0
+        totalrecibidos=0
+        #! go foreach.lobj(value:obj) with(datos)
+        {
+            ref emitidos=@@(obj,"&emitidos")
+            ref recibidos=@@(obj,"&recibidos")
+
+            totalemitidos=totalemitidos + @@(emitidos,'#importe33')
+            totalrecibidos=totalrecibidos + @@(recibidos,'#importe33')
+        }
+
+        if totalemitidos>0 || totalrecibidos>0
+        {
+            #$
+            table(class="w100" border="1")
+            {
+                caption{"COMPLEMENTO DE PAGO 1.0"}
+                thead
+                {
+                    tr
+                    {
+                        th(class=""){$"Periodo"}
+                        #! go foreach.lobj(value:obj) with(datos) {#$ th(class="txt-capital"){$"#<@@(obj,'mes')>"} }
+                    }
+                }
+                tbody
+                {
+                    // Emitidos
+                    tr
+                    {
+                        th(class=""){$"Emitidos"}
+                        #! go foreach.lobj(value:obj) with(datos)
+                        {
+                            ref emitidos=@@(obj,"&emitidos")
+                            #$
+                            td(class="txt-right"){$"#<format(@@(emitidos,'#importe33'),format)>"}
+                        }
+                    }
+                    //Recibidos
+                    tr
+                    {
+                        th(class=""){$"Recibidos"}
+                        #! go foreach.lobj(value:obj) with(datos)
+                        {
+                            ref recibidos=@@(obj,"&recibidos")
+                            #$
+                            td(class="txt-right"){$"#<format(@@(recibidos,'#importe33'),format)>"}
+                        }
+                    }
+                }
+                tfoot
+                {
+                    tr
+                    {
+                        th(scope="row" colspan="13"){$"Los complementos de pago versión 1.0 no incluyen el desgloce de impuestos por lo que no se han integrado al cálculo para determinar el IVA."}
+                    }
+                }
+            }
+            small
+            {
+                $"Se han considerado para la determinación de IVA automáticamente únicamente los complementos de pago versión 2.0. "
+            }
+        }
+        
     }
 }
