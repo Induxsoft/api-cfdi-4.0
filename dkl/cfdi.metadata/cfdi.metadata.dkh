@@ -3,6 +3,7 @@
 module "cfdi.metadata.dkh"
 {
     @lectura_recursiva = @true
+    @TIPOIMASPAGAO=@true
 
     tipoDocNum::tipo
     {
@@ -1346,7 +1347,7 @@ module "cfdi.metadata.dkh"
                             data<"ingresos/imp_tasa8_reci"> : (@@(data,"#ingresos/imp_tasa8_reci")  + @@(cfdi,"#iva_tras_8_dr"))
 
                             if @@(cfdi,"$ver_complemento")=="1.0"{data<"recibidos/importe33">:@@(data,"#recibidos/importe33") + @@(cfdi,"#importe33")} 
-
+                                
                             totalIvaPagado = (totalIvaPagado + @@(cfdi,"#iva_tras_16_dr") + @@(cfdi,"#iva_tras_8_dr"))
                         }
 
@@ -1457,11 +1458,11 @@ module "cfdi.metadata.dkh"
                     {
                         if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PUE"
                         {
-                            data<"ingresos_pue"> : (@@(data,"#ingresos_pue") + @@(cfdi,"#total"))
+                            data<"ingresos_pue"> : (@@(data,"#ingresos_pue") + @@(cfdi,"#subtotal") - @@(cfdi,"#descuento"))
                         }
                         else if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PPD"
                         {
-                            data<"ingresos_ppd"> : (@@(data,"#ingresos_ppd") + @@(cfdi,"#total"))
+                            data<"ingresos_ppd"> : (@@(data,"#ingresos_ppd") + @@(cfdi,"#subtotal") - @@(cfdi,"#descuento"))
                         }
 
                         if contribuyente == @@(cfdi,"rfc_receptor")
@@ -1473,8 +1474,8 @@ module "cfdi.metadata.dkh"
                                 arr_recibidos<uso_cfdi+"/pue"> : 0
                                 arr_recibidos<uso_cfdi+"/ppd"> : 0
                             }
-                            if @@(cfdi,"mpago") == "PUE" { arr_recibidos<uso_cfdi+"/pue"> : (@@(arr_recibidos,"#"+uso_cfdi+"/pue") + @@(cfdi,"#total")) }
-                            if @@(cfdi,"mpago") == "PPD" { arr_recibidos<uso_cfdi+"/ppd"> : (@@(arr_recibidos,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#total")) }
+                            if @@(cfdi,"mpago") == "PUE" { arr_recibidos<uso_cfdi+"/pue"> : (@@(arr_recibidos,"#"+uso_cfdi+"/pue") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento")) }
+                            if @@(cfdi,"mpago") == "PPD" { arr_recibidos<uso_cfdi+"/ppd"> : (@@(arr_recibidos,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento")) }
                         }
                     }
 
@@ -1482,19 +1483,19 @@ module "cfdi.metadata.dkh"
                     {
                         if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PUE"
                         {
-                            data<"dev_emit_pue"> : (@@(data,"#dev_emit_pue") + @@(cfdi,"#total"))
+                            data<"dev_emit_pue"> : (@@(data,"#dev_emit_pue") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento"))
                         }
                         else if contribuyente == @@(cfdi,"rfc_emisor") && @@(cfdi,"mpago") == "PPD"
                         {
-                            data<"dev_emit_ppd"> : (@@(data,"#dev_emit_ppd") + @@(cfdi,"#total"))
+                            data<"dev_emit_ppd"> : (@@(data,"#dev_emit_ppd") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento"))
                         }
                         else if contribuyente == @@(cfdi,"rfc_receptor") && @@(cfdi,"mpago") == "PUE"
                         {
-                            data<"dev_reci_pue"> : (@@(data,"#dev_reci_pue") + @@(cfdi,"#total"))
+                            data<"dev_reci_pue"> : (@@(data,"#dev_reci_pue") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento"))
                         }
                         else if contribuyente == @@(cfdi,"rfc_receptor") && @@(cfdi,"mpago") == "PPD"
                         {
-                            data<"dev_reci_ppd"> : (@@(data,"#dev_reci_ppd") + @@(cfdi,"#total"))
+                            data<"dev_reci_ppd"> : (@@(data,"#dev_reci_ppd") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento"))
                         }
 
                         if contribuyente == @@(cfdi,"rfc_receptor")
@@ -1506,8 +1507,8 @@ module "cfdi.metadata.dkh"
                                 arr_devoluciones<uso_cfdi+"/pue"> : 0
                                 arr_devoluciones<uso_cfdi+"/ppd"> : 0
                             }
-                            if @@(cfdi,"mpago") == "PUE" { arr_devoluciones<uso_cfdi+"/pue"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/pue") + @@(cfdi,"#total")) }
-                            if @@(cfdi,"mpago") == "PPD" { arr_devoluciones<uso_cfdi+"/ppd"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#total")) }
+                            if @@(cfdi,"mpago") == "PUE" { arr_devoluciones<uso_cfdi+"/pue"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/pue") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento")) }
+                            if @@(cfdi,"mpago") == "PPD" { arr_devoluciones<uso_cfdi+"/ppd"> : (@@(arr_devoluciones,"#"+uso_cfdi+"/ppd") + @@(cfdi,"#subtotal")- @@(cfdi,"#descuento")) }
                         }
                     }
 

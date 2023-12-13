@@ -17,6 +17,8 @@ module "isr-report"
         table(class="w100" border="1")
         {
             caption{$"EJERCICIO: #<@@(list.obj(datos,0),'ejercicio')>"}
+			caption{$"RFC: #<@@(list.obj(datos,0),'contribuyente')>"}
+			caption{$"COCIENTE DE UTILIDAD: #<@@(list.obj(datos,0),'cociente')>"}
             thead
             {
                 tr
@@ -83,7 +85,7 @@ module "isr-report"
                     th{$"PM ISR Provisional"}
                     #! go foreach.lobj(value:obj) with(datos)
                     {
-                        pm_isr_prov = (@@(obj,"#ingresos_pue") - @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
+                        pm_isr_prov = ((@@(obj,"#ingresos_pue") + @@(obj,"#ingresos_ppd"))- @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
                         #$
                         td(class="txt-right" colspan="3"){$"#<format(pm_isr_prov,format)>"}
                     }
@@ -117,7 +119,7 @@ module "isr-report"
                     th{$"ISR Pago Provisional"}
                     #! go foreach.lobj(value:obj) with(datos)
                     {
-                        pm_isr_prov = (@@(obj,"#ingresos_pue") - @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
+                        pm_isr_prov = ((@@(obj,"#ingresos_pue")+ @@(obj,"#ingresos_ppd"))- @@(obj,"#dev_emit_pue")) * @@(obj,"#cociente")
                         isr_pago_provicional = (pm_isr_prov + @@(obj,"#isr_ret_nominas") - @@(obj,"#subsidio_empleo") + @@(obj,"#isr_ret_pfisica"))
                         #$ 
                         td(class="txt-right" colspan="3"){$"#<format(isr_pago_provicional,format)>"}
@@ -125,10 +127,11 @@ module "isr-report"
                 }
             }
         }
-
+h2{$"Recibidos"}
+h3{$"Ingresos."}
         table(class="w100" border="1")
         {
-            caption{$"RECIBIDOS"}
+            //caption{$"RECIBIDOS"}
             thead
             {
                 tr
@@ -192,10 +195,10 @@ module "isr-report"
                 #$
             }
         }
-
+h3{$"Devoluciones."}
         table(class="w100" border="1")
         {
-            caption{$"DEVOLUCIONES"}
+            //caption{$"DEVOLUCIONES"}
             thead
             {
                 tr
